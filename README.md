@@ -22,24 +22,24 @@ peony
 完整构建步骤
 1. 清理并初始化项目
 Copy
-cd E:\明珠三国\明珠三国\明珠三国\sangobuild
+cd x:Sango\sangobuild
 ant clean
 2. 编译服务器端
 Copy
-cd E:\明珠三国\明珠三国\明珠三国\Sango1.0-Server
+cd x:\Sango\Sango1.0-Server
 ant -buildfile serverbuild.xml
 3. 构建客户端
 Copy
-cd E:\明珠三国\明珠三国\明珠三国\Sanguo1.0-Client
+cd x:\Sango\Sanguo1.0-Client
 # 构建 Android 版本
 ant -buildfile build-android-newui.xml
 4. 构建游戏数据
 Copy
-cd E:\明珠三国\明珠三国\明珠三国\Sanguo1.0-Data
+cd x:\Sango\Sanguo1.0-Data
 # 数据通常由编辑器生成
 5. 构建完整项目（使用主构建脚本）
 Copy
-cd E:\明珠三国\明珠三国\明珠三国\sangobuild
+cd x:\Sango\sangobuild
 ant build
 构建过程说明
 主构建脚本 (sangobuild/build.xml)
