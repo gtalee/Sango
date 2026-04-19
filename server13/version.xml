@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="GBK"?>
+<versions>
+	<group model="j2me">
+		<version id="0.0.1" status="current" maxlevel="100" description="内测版本">内测开始啦</version>
+		<version id="0.28" status="obsolete" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="0.29" status="obsolete" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="0.30" status="obsolete" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="0.31" status="obsolete" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="0.32" status="obsolete" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="0.33" status="obsolete" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="0.34" status="obsolete" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="0.35" status="obsolete" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="1.0" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="1.1" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="1.2" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="1.3" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="1.4" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="1.5" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="1.8" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="1.9" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="2.0" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="2.1" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+	</group>
+	<group model="S60v3" obsoleteurl="http://pipgame.cn/updatepackage/Sanguo_1.9_CCCCCPIP_UP_v3.sisx" canceledscript="ui_symbianupdate">
+    <version id="101.5" status="canceled" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="101.6" status="canceled" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="101.7" status="canceled" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="101.8" status="canceled" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="101.9" status="canceled" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="102.0" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="102.1" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+  </group>
+	<group model="S60v2" obsoleteurl="http://pipgame.cn/updatepackage/Sanguo_1.9_CCCCCPIP_UP_v2.sis" canceledscript="ui_symbianupdate">
+    <version id="201.9" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="202.0" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="202.1" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+  </group>
+	<group model="S60v5" obsoleteurl="http://pipgame.cn/updatepackage/Sanguo_1.9_CCCCCPIP_UP_v5.sisx" canceledscript="ui_symbianupdate">
+    <version id="501.9" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="502.0" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="502.1" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+  </group>
+	<group model="iPhone" obsoleteurl="http://pipgame.cn/updatepackage/Sanguo_1.9_CCCCCPIP_UP_iPhone.ipa" canceledscript="ui_symbianupdate">
+    <version id="601.9" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="602.0" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="602.1" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+  </group>
+	<group model="WindowMobile" obsoleteurl="http://pipgame.cn/updatepackage/Sanguo_1.9_CGWPIP99_WM.cab" canceledscript="ui_symbianupdate">
+    <version id="701.9" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="702.0" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="702.1" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+  </group>
+	<group model="PocketPC" obsoleteurl="http://pipgame.cn/updatepackage/Sanguo_1.9_CGWPIP99_PPC.zip" canceledscript="ui_symbianupdate">
+    <version id="801.9" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="802.0" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+    <version id="802.1" status="current" maxlevel="100" description="内测版本">您的版本需要更新,请手机访问3g.pipgame.cn</version>
+  </group>
+</versions>

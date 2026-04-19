@@ -1,0 +1,3466 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<models>
+  <config id="0" name="低性能" playercount="5" envanimation="1" network="1" textmode="3" chattransmode="2" minimaptransmode="1"/>
+  <config id="1" name="中性能" playercount="10" envanimation="0" network="1" textmode="1" chattransmode="2" minimaptransmode="2"/>
+  <config id="2" name="高性能" playercount="20" envanimation="0" network="0" textmode="0" chattransmode="0" minimaptransmode="0"/>
+  <model name="Nokia Series40 SmallScreen" pattern="Nokia1680.*,Nokia1681.*,Nokia2320.*,Nokia2330.*,Nokia2332.*,Nokia2600.*,Nokia2610.*,Nokia2626.*,Nokia2630.*,Nokia2660.*,Nokia2680.*,Nokia2760.*,Nokia3109.*,Nokia3110.*,Nokia3220.*,Nokia3500.*,Nokia5070.*,Nokia5140.*,Nokia5200.*,Nokia5208.*,Nokia6020.*,Nokia6021.*,Nokia6030.*,Nokia6060.*,Nokia6070.*,Nokia6080.*,Nokia6085.*,Nokia6101.*,Nokia6102.*,Nokia6103.*,Nokia6111.*,Nokia6125.*,Nokia6151.*,Nokia6170.*,Nokia6220.*,Nokia6230.*,Nokia6235.*,Nokia7070.*,Nokia7210.*,Nokia7212.*,Nokia7250.*,Nokia7260.*,Nokia7270.*,Nokia7360.*,Nokia7600.*,Nokia8800.*,Nokia3120.*" config="0">
+    <ua>Nokia3500c/07.00</ua>
+    <ua>Nokia3120classic/09.41</ua>
+    <ua>Nokia7210Supernova/07.2</ua>
+    <ua>Nokia5208/07.20</ua>
+    <ua>Nokia7212c/06.51</ua>
+    <ua>Nokia5208/07.00</ua>
+    <ua>Nokia5200/04.72</ua>
+    <ua>Nokia5200/04.71</ua>
+    <ua>Nokia3500c/07.21</ua>
+    <ua>Nokia3109c/06.20</ua>
+    <ua>Nokia6220c-1/机主张明升\05.15/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>Nokia6220c/.46/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia8800a/10.00</ua>
+    <ua>Nokia3109c/06.01</ua>
+    <ua>Nokia7210Supernova/06.5</ua>
+    <ua>Nokia2680s/06.17</ua>
+    <ua>Nokia7212c/07.23</ua>
+    <ua>Nokia6085/04.26</ua>
+    <ua>Nokia6085/04.22</ua>
+    <ua>Nokia6111/03.77</ua>
+    <ua>Nokia6111/03.70</ua>
+    <ua>Nokia7210c/05.20</ua>
+    <ua>Nokia6111/03.58</ua>
+    <ua>Nokia6111/03.59</ua>
+    <ua>Nokia7210c/05.60</ua>
+    <ua>Nokia6111/03.85</ua>
+    <ua>Nokia6111/03.82</ua>
+    <ua>Nokia5208/06.20</ua>
+    <ua>Nokia2332c/06.75</ua>
+    <ua>Nokia7212c/05.20</ua>
+    <ua>Nokia3500c/05.51</ua>
+    <ua>Nokia6125/03.71</ua>
+    <ua>Nokia7212c/05.60</ua>
+    <ua>Nokia6125/03.51</ua>
+    <ua>Nokia2320c/06.75</ua>
+    <ua>Nokia3110c/06.02</ua>
+    <ua>Nokia3110c/06.01</ua>
+    <ua>Nokia3110c/06.60</ua>
+    <ua>Nokia5200/03.70</ua>
+    <ua>Nokia7210Supernova/05.2</ua>
+    <ua>Nokia7210Supernova/05.6</ua>
+    <ua>Nokia5200/03.92</ua>
+    <ua>Nokia5200/03.93</ua>
+    <ua>Nokia6085/06.00</ua>
+    <ua>Nokia2680s/04.56</ua>
+    <ua>Nokia2330c/06.75</ua>
+    <ua>Nokia6220c/.13/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia6220c-1/05.15/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>Nokia6085/03.52</ua>
+    <ua>Nokia7210Supernova/04.8</ua>
+    <ua>Nokia6085/03.71</ua>
+    <ua>Nokia6085/03.70</ua>
+    <ua>Nokia6151/04.10</ua>
+    <ua>Nokia8800a/09.45</ua>
+    <ua>Nokia2320c/09.55</ua>
+    <ua>Nokia6220c/.06.2/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia2680s/04.91</ua>
+    <ua>Nokia2680s/05.42</ua>
+    <ua>Nokia7250/1.0</ua>
+    <ua>Nokia6125/05.43</ua>
+    <ua>Nokia3120classic/10.00</ua>
+    <ua>Nokia5200/07.00</ua>
+    <ua>Nokia2680s-2/04.91</ua>
+    <ua>Nokia5200/07.20</ua>
+    <ua>Nokia3110c/04.91</ua>
+    <ua>Nokia8800e-1/09.41</ua>
+    <ua>Nokia6151/03.56</ua>
+    <ua>Nokia3500c/06.60</ua>
+    <ua>Nokia6220c-1/.23/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia7210c/06.51</ua>
+    <ua>Nokia2680s/05.28</ua>
+    <ua>Nokia5200/06.20</ua>
+    <ua>Nokia5200/05.50</ua>
+    <ua>Nokia5200/05.51</ua>
+    <ua>Nokia5200/05.53</ua>
+    <ua>Nokia8800e-1/07.10</ua>
+    <ua>Nokia3500c/06.01</ua>
+    <ua>Nokia6220c-1/.46/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia3109c/07.00</ua>
+    <ua>Nokia5200/05.00</ua>
+    <ua>Nokia3110c/07.30</ua>
+    <ua>Nokia3110c/07.21</ua>
+    <ua>Nokia8800a/07.30</ua>
+    <ua>Nokia3110c/05.01</ua>
+    <ua>Nokia3110c/05.00</ua>
+    <ua>Nokia6125/04.20</ua>
+    <ua>Nokia6220c-1/.06/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia3110c/07.01</ua>
+    <ua>Nokia7210c/07.23</ua>
+    <ua>Nokia6220c/05.15.1/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>Nokia6230/2.0</ua>
+    <ua>Nokia8800e-1/05.22</ua>
+    <ua>Nokia3120classic/07.16</ua>
+    <ua>Nokia2330c/08.20</ua>
+    <ua>Nokia2330c-2/08.20</ua>
+    <ua>Nokia6085/05.02</ua>
+    <ua>Nokia6085/05.03</ua>
+    <ua>Nokia6220c-1/.13/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia7210c/04.86</ua>
+    <ua>Nokia3120classic/06.20</ua>
+    <ua>Nokia8800e-1/06.40</ua>
+    <ua>Nokia3110c/05.50</ua>
+  </model>
+  <model name="Nokia Series40 BigScreen" pattern="Nokia3610.*,Nokia5000.*,Nokia5130.*,Nokia5220.*,Nokia5300.*,Nokia5310.*,Nokia5610.*,Nokia5611.*,Nokia6131.*,Nokia6133.*,Nokia6208.*,Nokia6212.*,Nokia6233.*,Nokia6234.*,Nokia6267.*,Nokia6270.*,Nokia6280.*,Nokia6288.*,Nokia6300.*,Nokia6303.*,Nokia6500.*,Nokia6555.*,Nokia6700.*,Nokia7100.*,Nokia7310.*,Nokia7370.*,Nokia7373.*,Nokia7390.*,Nokia7500.*,Nokia7510.*,Nokia7900.*,Nokia8600.*,Nokia7230.*,Nokia6202.*,Nokia2700.*,Nokia2730.*" config="1">
+    <ua>Nokia5220/04.86</ua>
+    <ua>Nokia5000/03.50</ua>
+    <ua>Nokia6233/03.70</ua>
+    <ua>Nokia6500s/10.00</ua>
+    <ua>Nokia6700s/032.008/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia5611/09.70</ua>
+    <ua>Nokia2730c-1/10.40</ua>
+    <ua>Nokia7370/03.53</ua>
+    <ua>Nokia7370/03.52</ua>
+    <ua>Nokia7370/03.56</ua>
+    <ua>Nokia7370/03.51</ua>
+    <ua>Nokia6202c/04.50</ua>
+    <ua>Nokia6202c/04.51</ua>
+    <ua>Nokia6202c/04.52</ua>
+    <ua>Nokia2700c-2/07.80</ua>
+    <ua>Nokia5310/05.81</ua>
+    <ua>Nokia5310/05.83</ua>
+    <ua>Nokia6500c/08.20</ua>
+    <ua>Nokia5310XpressMusic/10</ua>
+    <ua>Nokia6500c/08.30</ua>
+    <ua>Nokia5310XpressMusic/05</ua>
+    <ua>Nokia5310XpressMusic/07</ua>
+    <ua>Nokia5310XpressMusic/09</ua>
+    <ua>Nokia5310XpressMusic/08</ua>
+    <ua>Nokia7310c/08.20</ua>
+    <ua>Nokia5310XpressMusic/03</ua>
+    <ua>Nokia6233/04.91</ua>
+    <ua>Nokia6700c-1/10.60</ua>
+    <ua>Nokia6700c-1/10.50</ua>
+    <ua>Nokia2700c-2/07.15</ua>
+    <ua>Nokia6288/04.43</ua>
+    <ua>Nokia6700c-1/07.60</ua>
+    <ua>Nokia5130c-2/05.80</ua>
+    <ua>Nokia5310/05.91</ua>
+    <ua>Nokia7370/04.13</ua>
+    <ua>Nokia2730c/07.70</ua>
+    <ua>Nokia7370/04.05</ua>
+    <ua>Nokia5300/07.20</ua>
+    <ua>Nokia2730c/07.60</ua>
+    <ua>Nokia6208c/04.51</ua>
+    <ua>Nokia6208c/04.52</ua>
+    <ua>Nokia6208c/04.50</ua>
+    <ua>Nokia7370/04.51</ua>
+    <ua>Nokia5130/06.65</ua>
+    <ua>Nokia6303classic/10.12</ua>
+    <ua>Nokia6500s-1/06.60</ua>
+    <ua>Nokia6303classic/10.10</ua>
+    <ua>Nokia6500c/03.21</ua>
+    <ua>Nokia6500c/03.20</ua>
+    <ua>Nokia7390/05.04</ua>
+    <ua>Nokia7230/05.71</ua>
+    <ua>Nokia7373/03.90</ua>
+    <ua>Nokia7373/03.93</ua>
+    <ua>Nokia5130/06.93</ua>
+    <ua>Nokia5130/06.94</ua>
+    <ua>Nokia2700c/07.80</ua>
+    <ua>Nokia5610/08.20</ua>
+    <ua>Nokia5000d-2/05.45</ua>
+    <ua>Nokia6500s-1/09.60</ua>
+    <ua>Nokia2700c/07.15</ua>
+    <ua>Nokia7230-1c/05.71</ua>
+    <ua>Nokia5130c-2/06.65</ua>
+    <ua>Nokia6500s-1/09.40</ua>
+    <ua>Nokia6303ci/07.10</ua>
+    <ua>Nokia5130c-2/06.93</ua>
+    <ua>Nokia5130c-2/06.94</ua>
+    <ua>Nokia5130c-2/06.90</ua>
+    <ua>Nokia5610d-1/06.60</ua>
+    <ua>Nokia5000/04.60</ua>
+    <ua>Nokia6700c/07.60</ua>
+    <ua>Nokia5610d-1/10.00</ua>
+    <ua>Nokia3610a/03.56</ua>
+    <ua>Nokia3610a/03.53</ua>
+    <ua>Nokia5610d-1/08.30</ua>
+    <ua>Nokia5300/07.00</ua>
+    <ua>Nokia5000d-2/03.50</ua>
+    <ua>Nokia5000d-2/05.27</ua>
+    <ua>Nokia6700c/07.90</ua>
+    <ua>Nokia7310c/09.40</ua>
+    <ua>Nokia6303classic/08.90</ua>
+    <ua>Nokia5000/04.88</ua>
+    <ua>Nokia5000/04.89</ua>
+    <ua>Nokia7510a/03.80</ua>
+    <ua>Nokia5300/03.92</ua>
+    <ua>Nokia5300/03.93</ua>
+    <ua>Nokia6303c/06.40</ua>
+    <ua>Nokia6131i/05.11</ua>
+    <ua>Nokia7310c/07.00</ua>
+    <ua>Nokia6500s-1/03.80</ua>
+    <ua>Nokia5300/03.50</ua>
+    <ua>Nokia6233/05.10</ua>
+    <ua>Nokia5300/03.51</ua>
+    <ua>Nokia2730c/09.35</ua>
+    <ua>Nokia5220XpressMusic/04</ua>
+    <ua>Nokia5220XpressMusic/05</ua>
+    <ua>Nokia5220XpressMusic/06</ua>
+    <ua>Nokia5220XpressMusic/07</ua>
+    <ua>Nokia2730c/09.41</ua>
+    <ua>Nokia6500c/09.48</ua>
+    <ua>Nokia6500c/09.45</ua>
+    <ua>Nokia6303c/06.21</ua>
+    <ua>Nokia6500s/05.41</ua>
+    <ua>Nokia5220/05.20</ua>
+    <ua>Nokia5310/03.63</ua>
+    <ua>Nokia5310/03.60</ua>
+    <ua>Nokia7310c/07.51</ua>
+    <ua>Nokia6500s-1/07.12</ua>
+    <ua>Nokia5220/05.63</ua>
+    <ua>Nokia6280/06.43</ua>
+    <ua>Nokia2700c-2/cmy7.11</ua>
+    <ua>Nokia6280/06.10</ua>
+    <ua>Nokia6500s-1/04.81</ua>
+    <ua>Nokia6500s-1/04.84</ua>
+    <ua>Nokia7500/05.21</ua>
+    <ua>Nokia7500/05.20</ua>
+    <ua>Nokia6700s/033.014/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia2700c/09.80</ua>
+    <ua>Nokia5300/05.50</ua>
+    <ua>Nokia5300/05.51</ua>
+    <ua>Nokia6500c/04.92</ua>
+    <ua>Nokia6500c/04.84</ua>
+    <ua>Nokia6500c/04.80</ua>
+    <ua>Nokia5000/06.31</ua>
+    <ua>Nokia5000/06.32</ua>
+    <ua>Nokia5130/05.80</ua>
+    <ua>Nokia2700c/09.95</ua>
+    <ua>Nokia7900/04.80</ua>
+    <ua>Nokia6700c-1/07.90</ua>
+    <ua>Nokia5300/05.02</ua>
+    <ua>Nokia5300/05.00</ua>
+    <ua>Nokia7310/08.20</ua>
+    <ua>Nokia5310/10.10</ua>
+    <ua>Nokia5220/07.23</ua>
+    <ua>Nokia6300/07.21</ua>
+    <ua>Nokia7100s/06.31</ua>
+    <ua>Nokia7100s/06.32</ua>
+    <ua>Nokia7373/05.00</ua>
+    <ua>Nokia6300/07.30</ua>
+    <ua>Nokia6233/05.43</ua>
+    <ua>Nokia7373/05.50</ua>
+    <ua>Nokia6500s-1/08.30</ua>
+    <ua>Nokia6233/05.60</ua>
+    <ua>Nokia6131/03.72</ua>
+    <ua>Nokia6131/03.73</ua>
+    <ua>Nokia6131/03.70</ua>
+    <ua>Nokia6303c/09.10</ua>
+    <ua>Nokia6303classic/06.40</ua>
+    <ua>Nokia6300/05.00</ua>
+    <ua>Nokia6300/05.50</ua>
+    <ua>Nokia6300/07.00</ua>
+    <ua>Nokia7510a/06.65</ua>
+    <ua>Nokia6267/05.20</ua>
+    <ua>Nokia6300i/03.60</ua>
+    <ua>Nokia5130/07.95</ua>
+    <ua>Nokia5130/07.90</ua>
+    <ua>Nokia5130/07.91</ua>
+    <ua>Nokia5610/05.82</ua>
+    <ua>Nokia5000d-2/06.31</ua>
+    <ua>Nokia6133/06.10</ua>
+    <ua>Nokia5220/06.51</ua>
+    <ua>Nokia5310/06.62</ua>
+    <ua>Nokia7310/07.00</ua>
+    <ua>Nokia6288/05.96</ua>
+    <ua>Nokia6288/05.92</ua>
+    <ua>Nokia6288/05.94</ua>
+    <ua>Nokia5310/09.42</ua>
+    <ua>Nokia7373/04.71</ua>
+    <ua>Nokia7373/04.70</ua>
+    <ua>Nokia6303classic/09.10</ua>
+    <ua>Nokia7500/03.42</ua>
+    <ua>Nokia6208c/03.80</ua>
+    <ua>Nokia6208c/03.60</ua>
+    <ua>Nokia5610/09.40</ua>
+    <ua>Nokia2700c-2/09.95</ua>
+    <ua>Nokia5300/04.71</ua>
+    <ua>Nokia2700c-2/09.80</ua>
+    <ua>Nokia5300/04.70</ua>
+    <ua>Nokia7100s-2/06.31</ua>
+    <ua>Nokia7100s-2/06.32</ua>
+    <ua>Nokia7310/09.40</ua>
+    <ua>Nokia5300/04.51</ua>
+    <ua>Nokia6500s/09.40</ua>
+    <ua>Nokia5130c-2/07.95</ua>
+    <ua>Nokia5610d-1/07.12</ua>
+    <ua>Nokia2730c-1/09.41</ua>
+    <ua>Nokia5130c-2/07.90</ua>
+    <ua>Nokia5130c-2/07.91</ua>
+    <ua>Nokia5610/09.70</ua>
+    <ua>Nokia8600 Luna/03.70</ua>
+    <ua>Nokia8600 Luna/03.52</ua>
+    <ua>Nokia8600 Luna/03.52.01</ua>
+    <ua>Nokia6700s/032.005/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia6700c/10.50</ua>
+    <ua>Nokia7230/06.90</ua>
+    <ua>Nokia6288/06.10</ua>
+    <ua>Nokia6288/06.43</ua>
+    <ua>Nokia6280/03.70</ua>
+    <ua>Nokia6280/03.81</ua>
+    <ua>Nokia6288/03.61</ua>
+    <ua>Nokia6280/03.60</ua>
+    <ua>Nokia6280/03.65</ua>
+    <ua>Nokia7100s/05.41</ua>
+    <ua>Nokia5610d-1/09.40</ua>
+    <ua>Nokia7100s/05.22</ua>
+    <ua>Nokia6303iclassic/06.61</ua>
+    <ua>Nokia6280/05.94</ua>
+    <ua>Nokia6280/05.92</ua>
+    <ua>Nokia7390/04.51</ua>
+    <ua>Nokia5310/07.01</ua>
+    <ua>Nokia6500s-1/10.00</ua>
+    <ua>Nokia7100s-2/05.22</ua>
+    <ua>Nokia6131/06.60</ua>
+    <ua>Nokia6500s-1/10.30</ua>
+    <ua>Nokia7370</ua>
+    <ua>Nokia7100s-2/05.41</ua>
+    <ua>Nokia6500c/06.61</ua>
+    <ua>Nokia6303ci/06.61</ua>
+    <ua>Nokia6500c/06.74</ua>
+    <ua>Nokia5610 XpressMusic/0</ua>
+    <ua>Nokia5610 XpressMusic/1</ua>
+    <ua>Nokia6300/04.71</ua>
+    <ua>Nokia6300/04.70</ua>
+    <ua>Nokia6131/06.10</ua>
+    <ua>Nokia2730c-1/07.60</ua>
+    <ua>Nokia6303c/10.10</ua>
+    <ua>Nokia2730c-1/07.70</ua>
+    <ua>Nokia5000/05.27</ua>
+    <ua>Nokia6300/04.20</ua>
+    <ua>Nokia6303c/08.90</ua>
+    <ua>Nokia5000/05.45</ua>
+    <ua>Nokia6234/05.60</ua>
+    <ua>Nokia6270/03.69</ua>
+    <ua>Nokia6270/03.66</ua>
+    <ua>Nokia6270/03.65</ua>
+    <ua>Nokia6300/06.01</ua>
+    <ua>Nokia6270/03.53</ua>
+    <ua>Nokia6303c/08.55</ua>
+    <ua>Nokia5000d-2/04.89</ua>
+    <ua>Nokia6270/03.90</ua>
+    <ua>Nokia6270/03.81</ua>
+    <ua>Nokia6270/03.85</ua>
+    <ua>Nokia7500/04.62</ua>
+    <ua>Nokia7390/03.84</ua>
+    <ua>Nokia6300/06.60</ua>
+    <ua>Nokia6202c/03.60</ua>
+    <ua>Nokia5310/08.32</ua>
+    <ua>Nokia5610d-1/04.81</ua>
+    <ua>Nokia2730c/10.40</ua>
+    <ua>Nokia6500s/06.61</ua>
+    <ua>Nokia5610d-1/04.20</ua>
+    <ua>Nokia8600 Luna/04.04</ua>
+    <ua>Nokia8600 Luna/04.00</ua>
+    <ua>Nokia6131/05.50</ua>
+    <ua>Nokia5220/04.00</ua>
+    <ua>Nokia6233/04.52</ua>
+    <ua>Nokia6233/04.54</ua>
+  </model>
+  <model name="Nokia Series60-1" pattern="Nokia3600.*,Nokia3602.*,Nokia3650.*,Nokia3660.*,NokiaN-Gage.*" config="0">
+    <ua>Nokia3602s/07.23</ua>
+    <ua>Nokia3600slide/05.20</ua>
+    <ua>Nokia3600s/05.64</ua>
+    <ua>Nokia3600s/07.23</ua>
+    <ua>Nokia3600s/05.20</ua>
+    <ua>Nokia3600slide/07.23</ua>
+    <ua>Nokia3602s/05.64</ua>
+    <ua>Nokia3602s/05.10</ua>
+    <ua>Nokia3602s/05.20</ua>
+    <ua>Nokia3600slide/04.86</ua>
+    <ua>Nokia3600s/04.86</ua>
+    <ua>Nokia3600s/04.11</ua>
+    <ua>Nokia3600slide/04.11</ua>
+    <ua>Nokia3600s/06.26</ua>
+  </model>
+  <model name="Nokia Series60-2 Init" pattern="Nokia6600.*,Nokia7610.*,Nokia7612.*" config="0">
+    <ua>Nokia6600f/04.65</ua>
+    <ua>Nokia7610/6.0525.0ch</ua>
+    <ua>Nokia7610/4.0445.0ch</ua>
+    <ua>Nokia6600s/04.90</ua>
+    <ua>Nokia6600s/04.81</ua>
+    <ua>Nokia7610s/05.20</ua>
+    <ua>Nokia7612s/05.20</ua>
+    <ua>Nokia7610/4.0437.4</ua>
+    <ua>Nokia6600/5.53.0</ua>
+    <ua>Nokia7610/4.0441.0</ua>
+    <ua>Nokia7610s/05.72</ua>
+    <ua>Nokia7610/6.0522.0</ua>
+    <ua>Nokia6600/4.09.1</ua>
+    <ua>Nokia7610Supernova/07.2</ua>
+    <ua>Nokia7610s/07.23</ua>
+    <ua>Nokia6600</ua>
+    <ua>Nokia7610Supernova/06.5</ua>
+    <ua>Nokia6600/5.27.0</ua>
+    <ua>Nokia7610s/06.51</ua>
+    <ua>Nokia6600s/06.38</ua>
+    <ua>Nokia6600s/06.39</ua>
+    <ua>Nokia6600s/06.14</ua>
+    <ua>Nokia6600s/06.55</ua>
+    <ua>Nokia7610/4.0421.4ch</ua>
+    <ua>Nokia7610/5.0509.0</ua>
+    <ua>Nokia7610Supernova/05.7</ua>
+    <ua>Nokia7610Supernova/05.2</ua>
+    <ua>Nokia7610s/04.70</ua>
+    <ua>Nokia7610s/04.82</ua>
+    <ua>Nokia7610</ua>
+    <ua>Nokia7610/7.0642.0</ua>
+    <ua>Nokia7610Supernova/04.8</ua>
+    <ua>Nokia7610/4.0437.4ch</ua>
+    <ua>Nokia6600i-1c/36.60</ua>
+    <ua>Nokia6600s/05.60</ua>
+    <ua>Nokia7610/4.0441.0ch</ua>
+    <ua>Nokia6600f/06.20</ua>
+    <ua>Nokia6600i-1c/36.15</ua>
+    <ua>Nokia6600i-1c/36.16</ua>
+    <ua>Nokia6600i-1c/36.14</ua>
+    <ua>Nokia6600f/06.18</ua>
+    <ua>Nokia6600/5.24.1</ua>
+    <ua>Nokia6600s/05.23</ua>
+    <ua>Nokia7610/5.0509.0ch</ua>
+    <ua>Nokia6600/3.48.0</ua>
+    <ua>Nokia7610/7.0642.0ch</ua>
+    <ua>Nokia6600f/05.60</ua>
+    <ua>Nokia7610/4.0424.4ch</ua>
+  </model>
+  <model name="Nokia Series60-2 FP1-2" pattern="Nokia3230.*,Nokia6260.*,Nokia6630.*,Nokia6670.*,Nokia6680.*,Nokia6681.*,Nokia6620.*" config="0">
+    <ua>Nokia3230/4.0526.0ch</ua>
+    <ua>Nokia6681/3.20.3</ua>
+    <ua>Nokia3230/3.0510.0ch</ua>
+    <ua>Nokia6630/4.03.38</ua>
+    <ua>Nokia6680/4.04.07</ua>
+    <ua>Nokia3230/5.0717.0ch</ua>
+    <ua>Nokia3230/5.0717.0</ua>
+    <ua>Nokia6681/6.32.00</ua>
+    <ua>Nokia6260/3.0452.0ch</ua>
+    <ua>Nokia6680/5.04.40</ua>
+    <ua>Nokia6260/3.0452.0prc</ua>
+    <ua>Nokia6680/3.04.12</ua>
+    <ua>Nokia6681/6.09.00</ua>
+    <ua>Nokia6680/3.04.37</ua>
+    <ua>Nokia6680/5.04.07</ua>
+    <ua>Nokia6260s-1/07.20</ua>
+    <ua>Nokia6260s-1/07.27</ua>
+    <ua>Nokia6680/2.04.15</ua>
+    <ua>Nokia6630/6.03.08</ua>
+    <ua>Nokia6630/6.03.40</ua>
+    <ua>Nokia3230/5.0625.0ch</ua>
+    <ua>Nokia6260/5.0536.1prc</ua>
+    <ua>Nokia6630/5.03.08</ua>
+    <ua>Nokia6670/4.0445.0ch</ua>
+    <ua>Nokia3230/5.0614.0ch</ua>
+    <ua>Nokia6260/3.0436.5ch</ua>
+    <ua>Nokia6681/5.37.01</ua>
+    <ua>Nokia6670/7.0642.0ch</ua>
+    <ua>Nokia6630/1.0</ua>
+    <ua>Nokia6670/5.0509.0</ua>
+    <ua>Nokia3230/5.0604.0ch</ua>
+    <ua>Nokia3230/3.0515.0ch</ua>
+    <ua>Nokia3230/3.0512.0ch</ua>
+    <ua>Nokia6670/4.0441.0ch</ua>
+    <ua>Nokia6681/4.00.15</ua>
+    <ua>Nokia6670/5.0509.0ch</ua>
+    <ua>Nokia3230/4.0526.2ch</ua>
+    <ua>Nokia3230/5.0604.0</ua>
+    <ua>Nokia6260s-1/04.32</ua>
+    <ua>Nokia3230/4.0537.0ch</ua>
+    <ua>Nokia6260/3.0508.0ch</ua>
+    <ua>Nokia6681/7.11.00</ua>
+    <ua>Nokia6670/6.0525.0ch</ua>
+    <ua>Nokia6630/3.45.111</ua>
+    <ua>Nokia6630/3.45.113</ua>
+    <ua>Nokia6680/1.0</ua>
+  </model>
+  <model name="Nokia Series60-2 FP3" pattern="NokiaN70.*,NokiaN72.*,NokiaN90.*" config="1">
+    <ua>NokiaN72/5.0819.4.0.1</ua>
+    <ua>NokiaN90-1/5.0607.7.3</ua>
+    <ua>NokiaN70-1/2.0539.1.2</ua>
+    <ua>NokiaN70-1/5.0609.2.0.1</ua>
+    <ua>NokiaN70-1/5.0705.3.0.1</ua>
+    <ua>NokiaN70/5.0717.2.5.1</ua>
+    <ua>NokiaN70/5.0706.4.0.1</ua>
+    <ua>NokiaN70/5.0741.4.0.1</ua>
+    <ua>NokiaN72/2.0617.1.0.3</ua>
+    <ua>NokiaN72/2.0634.2.0.1</ua>
+    <ua>NokiaN70-1/2.0536.0.2</ua>
+    <ua>NokiaN70-1/3.0546.2.3</ua>
+    <ua>NokiaN70-1/5.0626.3.0.2</ua>
+    <ua>NokiaN72/5.0706.4.0.1</ua>
+    <ua>NokiaN70/3.0544.5.1</ua>
+    <ua>NokiaN70/3.0544.5.2</ua>
+    <ua>NokiaN70/5.0734.4.0.1</ua>
+    <ua>NokiaN70-1/5.0616.2.0.3</ua>
+    <ua>NokiaN70/5.0819.2.5.1</ua>
+    <ua>NokiaN72/2.0625.2.0.2</ua>
+    <ua>NokiaN72/2.0635.3.0.2</ua>
+    <ua>NokiaN72/5.0734.4.0.1</ua>
+    <ua>NokiaN70/5.0819.4.0.1</ua>
+    <ua>NokiaN70/5.0610.2.5.1</ua>
+    <ua>NokiaN70/5.0635.2.5.3</ua>
+    <ua>NokiaN70-1/5.0737.3.0.1</ua>
+    <ua>NokiaN72/5.0741.4.0.1</ua>
+    <ua>NokiaN70-1/5.0717.3.0.1</ua>
+    <ua>NokiaN70-1/5.0638.3.0.1</ua>
+  </model>
+  <model name="Nokia Series60-3 Init" pattern="Nokia5500.*,Nokia3250.*,NokiaE50.*,NokiaE60.*,NokiaE61.*,NokiaE62.*,NokiaE65.*,NokiaE70.*,NokiaN71.*,NokiaN73.*,NokiaN75.*,NokiaN77.*,NokiaN80.*,NokiaN91.*,NokiaN92.*,NokiaN93.*" config="1">
+    <ua>NokiaN73-5/4.0747.31.4.2</ua>
+    <ua>NokiaN77-1/2.0720.1.0.1</ua>
+    <ua>NokiaE62</ua>
+    <ua>NokiaN73-2/4.0734.2.1.2</ua>
+    <ua>NokiaN91/2.00.052</ua>
+    <ua>NokiaN73-1/4.0812.4.3.1</ua>
+    <ua>NokiaN73-1/4.0747.31.4.2</ua>
+    <ua>NokiaN73-2/4.0823.4.4.1</ua>
+    <ua>NokiaN73-1/3.0638.0.0.1</ua>
+    <ua>NokiaN73-1/3.0638.0.0.2</ua>
+    <ua>NokiaE61i-1/0633.65.01</ua>
+    <ua>NokiaN73-1/3.0638.0.0.30</ua>
+    <ua>NokiaN93i/30.1.013</ua>
+    <ua>NokiaN73-1/4.0735.3.0.2</ua>
+    <ua>NokiaN73-1/3.0638.0.0.44</ua>
+    <ua>NokiaN73-1/3.0638.0.0.43</ua>
+    <ua>NokiaN75-3/20.1.172</ua>
+    <ua>NokiaE50-1/06.28.3.0</ua>
+    <ua>NokiaN93i/20.1.084</ua>
+    <ua>NokiaN73</ua>
+    <ua>NokiaN93/10.1.025</ua>
+    <ua>Nokia5500d/04.60</ua>
+    <ua>NokiaN91-1/2.20.008</ua>
+    <ua>NokiaN73-2/3.0713.1.1.2</ua>
+    <ua>Nokia5500d/04.40</ua>
+    <ua>NokiaE65-1/0633.65.01</ua>
+    <ua>NokiaN91-1/2.10.013</ua>
+    <ua>NokiaN73-2/4.0839.42.4.1</ua>
+    <ua>NokiaN91/2.00.52</ua>
+    <ua>NokiaN73-1/4.0736.3.2.1</ua>
+    <ua>NokiaE61-1/0610.04.04</ua>
+    <ua>NokiaN73-1/3.0713.1.0.2</ua>
+    <ua>NokiaN91/2.10.013</ua>
+    <ua>NokiaN73-2/3.0638.0.0.44</ua>
+    <ua>NokiaN73-5/3.0628.0.0.6</ua>
+    <ua>NokiaN91-1/1.00.028.13</ua>
+    <ua>NokiaN91-1/1.00.028.11</ua>
+    <ua>Nokia5500d/04.03</ua>
+    <ua>NokiaN91/1.10.031</ua>
+    <ua>NokiaN91/1.10.030</ua>
+    <ua>NokiaN77-1/3.0838.22.0.1</ua>
+    <ua>Nokia3250/S60_3_1_200634</ua>
+    <ua>NokiaN80-1/3.0617.0.6</ua>
+    <ua>NokiaN73-2/4.0723.2.1.1</ua>
+    <ua>NokiaE50-1/07.36.0.0</ua>
+    <ua>NokiaN93/11.1.034</ua>
+    <ua>Nokia3250/3.18</ua>
+    <ua>Nokia3250/04.60</ua>
+    <ua>Nokia3250/04.40</ua>
+    <ua>Nokia3250/3.23</ua>
+    <ua>Nokia3250/3.21</ua>
+    <ua>NokiaN73-1/3.0705.1.0.31</ua>
+    <ua>NokiaN71-1/4.0642.5.05</ua>
+    <ua>Nokia3250/04.21</ua>
+    <ua>NokiaN73-1/4.0750.31.2.1</ua>
+    <ua>NokiaN93-1/20.0.058</ua>
+    <ua>NokiaN91-2/3.10.023</ua>
+    <ua>NokiaE65-1/0633.74.00</ua>
+    <ua>NokiaN73-2/4.0736.3.4.1</ua>
+    <ua>NokiaN93/20.1.058</ua>
+    <ua>NokiaN93-1/20.0.041</ua>
+    <ua>NokiaE61i-1/0633.69.00</ua>
+    <ua>NokiaE62-1/0618.06.17</ua>
+    <ua>Nokia3250/S60_5_0_200834/sw_platform=S60;sw_platform_version=5.0;java_build_version=000</ua>
+    <ua>NokiaN73-1/4.0850.43.0.1</ua>
+    <ua>NokiaE62/0618.06.32</ua>
+    <ua>NokiaE62/0618.06.31</ua>
+    <ua>NokiaN91-1/2.00.052</ua>
+    <ua>NokiaE65-1/0633.18.01</ua>
+    <ua>NokiaE65-1/0633.18.02</ua>
+    <ua>NokiaE61i-1/0633.22.05</ua>
+    <ua>NokiaN75-3/10.1.125</ua>
+    <ua>NokiaN91-2/3.00.060</ua>
+    <ua>NokiaN93i-1/20.0.084</ua>
+    <ua>NokiaE50-2/07.05.0.0</ua>
+    <ua>NokiaN75-3/10.2.055</ua>
+    <ua>NokiaN93-1/10.0.025</ua>
+    <ua>NokiaN93-1/11.0.034</ua>
+    <ua>Nokia3250/04.14</ua>
+    <ua>NokiaN91/3.01.007</ua>
+    <ua>NokiaN73-1/4.0850.43.1.1</ua>
+    <ua>NokiaE65-1/0633.69.00</ua>
+    <ua>NokiaN71-1/3.0620.5.25</ua>
+    <ua>NokiaE70-1/0633.09.04</ua>
+    <ua>NokiaN91/3.10.023</ua>
+    <ua>NokiaN73-2/3.0717.1.4.1</ua>
+    <ua>NokiaN73-2/3.0638.0.0.1</ua>
+    <ua>NokiaN73-2/3.0638.0.0.2</ua>
+    <ua>NokiaN73-1/4.0727.2.3.1</ua>
+    <ua>NokiaN80-1/4.0623.0.41</ua>
+    <ua>NokiaN93i-1/11.0.009</ua>
+    <ua>NokiaN92-1/2.0708.1.0.16</ua>
+    <ua>NokiaN73-1/4.0839.42.3.1</ua>
+    <ua>NokiaN71-1/2.0613.1.12.1</ua>
+    <ua>NokiaN73-2/4.0850.43.1.1</ua>
+    <ua>NokiaN73-2/4.0839.42.1.1</ua>
+    <ua>NokiaN75-3/11.1.066</ua>
+    <ua>NokiaE50-1/07.13.0.0</ua>
+    <ua>NokiaN73-1/4.0747.31.0.1</ua>
+    <ua>NokiaN75-3/20.1.172-02.03</ua>
+    <ua>NokiaN73-1/4.0727.2.2.1</ua>
+    <ua>NokiaN73-1/4.0808.4.3.1</ua>
+    <ua>NokiaN80-1/4.0707.0.7</ua>
+    <ua>NokiaN91/2.20.008</ua>
+    <ua>NokiaN80-1/3.0614.0.1</ua>
+    <ua>NokiaN80-1/3.0614.0.3</ua>
+    <ua>NokiaE61i-1/0633.18.01</ua>
+    <ua>NokiaN73-1/4.0812.4.0.1</ua>
+    <ua>NokiaE60-1/0618.06.05</ua>
+    <ua>NokiaN73-2/4.0847.43.4.1</ua>
+    <ua>NokiaN73-1/4.0839.42.2.1</ua>
+    <ua>NokiaN73-1/3.0649.0.0.31</ua>
+    <ua>NokiaE61-1/0618.06.05</ua>
+    <ua>NokiaN73-1/4.0734.2.0.2</ua>
+    <ua>NokiaN93i-1/10.0.025</ua>
+    <ua>NokiaN73-2/4.0747.31.4.2</ua>
+    <ua>NokiaN77-1/3.0816.21.0.1</ua>
+    <ua>NokiaN73-1/2.0628.0.0.1</ua>
+    <ua>NokiaN73-1/2.0628.0.0.3</ua>
+    <ua>NokiaE70-1/0610.05.07</ua>
+    <ua>NokiaN73-2/4.0727.2.4.1</ua>
+    <ua>NokiaN93i-1/30.0.013</ua>
+    <ua>NokiaN73-1/4.0808.4.2.2</ua>
+    <ua>NokiaN92-2/5.0748.2.0.4</ua>
+    <ua>NokiaN73-1/3.0717.1.4.1</ua>
+    <ua>NokiaN93i/10.1.025</ua>
+    <ua>NokiaN93i/11.1.009</ua>
+    <ua>NokiaN73-1/4.0748.31.3.1</ua>
+    <ua>NokiaN73-1/4.0726.2.0.1</ua>
+    <ua>NokiaE61-1/0633.09.04</ua>
+    <ua>Nokia5500d/03.55</ua>
+    <ua>Nokia5500d/03.51</ua>
+    <ua>Nokia5500d/03.18</ua>
+    <ua>Nokia5500d/03.14</ua>
+    <ua>NokiaN71-1/4.0642.1.05</ua>
+    <ua>NokiaN80-1/4.0632.0.38</ua>
+    <ua>NokiaN73-1/3.0704.1.0.1</ua>
+    <ua>NokiaN80-1/5.0719.0.2</ua>
+    <ua>NokiaN73-1/4.0727.2.4.1</ua>
+    <ua>NokiaE60-1/0610.02.15</ua>
+    <ua>NokiaN73-1/3.0636.0.0.6</ua>
+    <ua>NokiaN73-1/4.0839.42.0.1</ua>
+    <ua>NokiaN73-1/4.0812.4.2.1</ua>
+    <ua>NokiaN73-1/4.0723.2.0.1</ua>
+    <ua>NokiaE50-1/06.27.1.0</ua>
+    <ua>NokiaN80-1/5.0725.0.1</ua>
+    <ua>Nokia3250/03.24</ua>
+    <ua>NokiaE50-1/06.41.3.0</ua>
+    <ua>NokiaE70-1/0618.07.10</ua>
+    <ua>NokiaN73-1/3.0649.0.0.1</ua>
+    <ua>NokiaN91-1/1.11.003</ua>
+    <ua>NokiaN73-1/4.0734.2.2.1</ua>
+    <ua>NokiaN91-1/1.10.030</ua>
+    <ua>NokiaN71-1/3.0620.1.25</ua>
+    <ua>NokiaE65-1/0633.62.03</ua>
+    <ua>NokiaN73-1/4.0747.31.1.1</ua>
+    <ua>NokiaE50-2/06.27.1.0</ua>
+  </model>
+  <model name="Nokia Series60-3 FP1-2" pattern="Nokia5320.*,Nokia5630.*,Nokia5700.*,Nokia5730.*,Nokia6110.*,Nokia6120.*,Nokia6121.*,Nokia6122.*,Nokia6124.*,Nokia6210.*,Nokia6290.*,Nokia6650.*,NokiaE51.*,NokiaE63.*,NokiaE66.*,NokiaE71.*,NokiaE72.*,NokiaE75.*,NokiaE90.*,NokiaN76.*,NokiaN78.*,NokiaN79.*,NokiaN81.*,NokiaN82.*,NokiaN85.*,NokiaN86.*,NokiaN95.*,NokiaN96.*,Nokia6730.*,Nokia6710.*,Nokia6720.*,NokiaE52.*" config="2">
+    <ua>NokiaN82/31.0.016</ua>
+    <ua>NokiaE72/023.002.2/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia6110Navigator/03.58</ua>
+    <ua>Nokia6110Navigator/03.51</ua>
+    <ua>Nokia5730s-1/100.48.122/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>NokiaN79-1/32.001 DIY Beta10/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>NokiaN85-1/30.201/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>NokiaN96/20.050/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>Nokia5320d-1/.08/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia6650d-1c/.09/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaE63-2/0.21.110</ua>
+    <ua>NokiaN79-1/.049/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia5630d-1/011.016/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia6122c_CMCC/04.34</ua>
+    <ua>Nokia6122c_CMCC/04.33</ua>
+    <ua>Nokia6122c_CMCC/04.31</ua>
+    <ua>NokiaN86-1/20.115/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN86-1/21.006/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN85-3/30.019/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>Nokia6210Navigator/.10/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia5320/05.16.2/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>Nokia6710s/031.022/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN95_8GB/30.0.018</ua>
+    <ua>NokiaN95/20.0.015</ua>
+    <ua>NokiaE72-1/031.023/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia5630d-1/011.020/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN95-5/16.1.001</ua>
+    <ua>NokiaN95/10.1.009</ua>
+    <ua>Nokia5320d-1/.12/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaN95/35.0.002</ua>
+    <ua>NokiaN78-3/.052/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaN81-1/10.0.058</ua>
+    <ua>NokiaN81-1/10.0.053</ua>
+    <ua>Nokia5700/06.01</ua>
+    <ua>NokiaN96-1/20.050/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>NokiaN78-5/.046/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia5320_CMCC/.08.3/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia6730c/031.023/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN86/v30 by 阿布/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia5320d-1/.13/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia6210Navigator/.08/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia5700/03.28.1</ua>
+    <ua>Nokia5730s-1/Sweety尐甜/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia6122c_CMCC/05.21</ua>
+    <ua>Nokia5320d-1/手机我做主/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaE75-1/200.12.51/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN85-1/.045/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaN76-1/31.0.014</ua>
+    <ua>NokiaN81-3/10.0.035</ua>
+    <ua>NokiaN81-3/10.0.032</ua>
+    <ua>NokiaN85/1.007/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia6110Navigator/05.11.1</ua>
+    <ua>Nokia6120c/03.70</ua>
+    <ua>Nokia5700/05.11</ua>
+    <ua>Nokia6120c/03.83</ua>
+    <ua>Nokia6120c/专用V 06.5.1</ua>
+    <ua>NokiaE66-1/0.07.126</ua>
+    <ua>NokiaE52-1/033.003/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia6110Navigator/03.58.1</ua>
+    <ua>Nokia5630d-1/012.020/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia6730c/023.010/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN79/32.001/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>NokiaN78-1/30.011 305100621diy /sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>Nokia6730c/031.022/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN82/30.0.019</ua>
+    <ua>NokiaE51-1/0.34.011</ua>
+    <ua>NokiaN86/21.006/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaE63-1/0.21.110</ua>
+    <ua>NokiaE51-1/0.34.001</ua>
+    <ua>NokiaN79/.025/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaN95-3/20.2.011</ua>
+    <ua>NokiaN76-1/10.0.035</ua>
+    <ua>NokiaN76-1/10.0.032</ua>
+    <ua>NokiaN79-1/.045/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia6120c/04.21</ua>
+    <ua>NokiaN86-1/11.043/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia5320d-1/05.401/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>NokiaN79/.046/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaN95_8GB/31.0.015</ua>
+    <ua>NokiaN86/宝执子之手与子偕老/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaE52-1/031.010/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia6650fold/.18/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaN85/30.019/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>NokiaN79-1/30.019/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>Nokia6730c/022.001/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia5630_CMCC/011.023/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaE90-1/07.24.0.3</ua>
+    <ua>NokiaN81-3/22.0.002</ua>
+    <ua>NokiaN85/20.175/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>NokiaE75-1/110.48.125/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>Nokia6210Navigator/.13.08/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaE71-1/0.07.127</ua>
+    <ua>NokiaN78-1/.046/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaE63-1/0.21.006</ua>
+    <ua>NokiaE63-1/0.21.007</ua>
+    <ua>NokiaE63-1/0.21.009</ua>
+    <ua>NokiaE63-1/0.21.005</ua>
+    <ua>NokiaN78-1/.052/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaE63-1/0.21.013</ua>
+    <ua>NokiaE63-1/0.21.012</ua>
+    <ua>NokiaE63-1/0.21.010</ua>
+    <ua>NokiaN95-5/20.1.001</ua>
+    <ua>Nokia6720c/013.009/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia5320/.08.1/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia5700/ 03.83.1</ua>
+    <ua>NokiaN82/少专用N82</ua>
+    <ua>NokiaN95-5/21.1.002</ua>
+    <ua>Nokia6121c/04.09</ua>
+    <ua>NokiaE52-1/034.001/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN85-1/31.002/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>NokiaN95/11.1.010</ua>
+    <ua>NokiaN95_8GB/20.0.016</ua>
+    <ua>NokiaE52-1/022.009/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN81-3/11.0.023</ua>
+    <ua>NokiaN85-1/30.101/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>Nokia6210Navigator/.13/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaE75-1/201.12.01/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN95-3/10.2.006</ua>
+    <ua>Nokia5700/03.27</ua>
+    <ua>NokiaE51-1/0.34.56</ua>
+    <ua>Nokia6210s/05.16/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>Nokia6710s/021.013/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia5320_CMCC/05.16.2/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>NokiaN86-1/510OPDACoolV2/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaN81-3/11.0.045</ua>
+    <ua>NokiaN86/30.009/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia6720c/012.008/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaE51-1/0.34.37</ua>
+    <ua>NokiaE51-1/0.34.36</ua>
+    <ua>NokiaN96-1/30.101/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>Nokia5320d-1/06.103/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>Nokia6110Navigator/05.12</ua>
+    <ua>Nokia6110Navigator/05.11</ua>
+    <ua>NokiaE75-1/203.12.01/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN78-1/.136/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaE51-1/0.34.20</ua>
+    <ua>NokiaN95-5/14.1.001</ua>
+    <ua>Nokia5630_CMCC/013.008.1/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaE72-1/023.002/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN79/31.002/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>NokiaE71-2/0.07.76</ua>
+    <ua>NokiaN95/21.0.016</ua>
+    <ua>NokiaN81-3/20.0.056</ua>
+    <ua>NokiaN81-3/20.0.057</ua>
+    <ua>NokiaN81-1/21.0.010</ua>
+    <ua>NokiaE72-1/022.007/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia6110Navigator/06.01</ua>
+    <ua>NokiaN86/11.043/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN81-1/21.0.008</ua>
+    <ua>NokiaN79-1/20.175/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>Nokia6210Navigator/05.304/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>NokiaE75-1/100.48.78/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>Nokia6120c/07.10</ua>
+    <ua>Nokia6730c/021.008/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN95_8GB/35.0.001</ua>
+    <ua>NokiaN79-1/32.001 Optimization/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>NokiaN86-1/10.086/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN96/.043/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaN79-1/31.002/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>NokiaN95_8GB-3/32.2.001</ua>
+    <ua>NokiaN82/35.0.002</ua>
+    <ua>Nokia6210Navigator/05.401/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>NokiaN95_8GB/15.0.015</ua>
+    <ua>Nokia5630_CMCC/012.008/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN78-1/30.011 Ye 制作v1.0/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>Nokia6210s/.09.2/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia6210Navigator/.09/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia5630d-1/012.008/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaE66-1/0.21.007</ua>
+    <ua>NokiaN85-1/20.175/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>NokiaE66-1/0.21.010</ua>
+    <ua>NokiaE66-1/0.21.013</ua>
+    <ua>NokiaE66-1/0.21.012</ua>
+    <ua>NokiaN96-1/.065/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaN95_8GB/11.0.026</ua>
+    <ua>NokiaN82/模拟系统</ua>
+    <ua>Nokia5730s-1/101.48.128/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>NokiaE75-1/210.12.15/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia5730s-1/200.12.87/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN85/.045/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaN96-1/.043/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia6120c/06.01</ua>
+    <ua>Nokia6710s/022.013/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN79/20.175/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>NokiaE90-1/0.34.75</ua>
+    <ua>NokiaE90-1/0.34.73</ua>
+    <ua>NokiaN78-1/by VanessA.r/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>Nokia6120c/06.51</ua>
+    <ua>Nokia6120c/07.02.1</ua>
+    <ua>NokiaN95/31.0.017</ua>
+    <ua>NokiaN95/31.0.014</ua>
+    <ua>NokiaN78-1/30.014/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>NokiaN86/20.115/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaE71-1/0.21.009</ua>
+    <ua>NokiaE71-1/0.21.006</ua>
+    <ua>NokiaN79-1/32.001Bate6.16/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>Nokia6290/04.21</ua>
+    <ua>Nokia6120ci/07.02</ua>
+    <ua>NokiaE71-1/0.21.012</ua>
+    <ua>NokiaE71-1/0.21.013</ua>
+    <ua>NokiaE71-1/0.21.010</ua>
+    <ua>Nokia5320d-1/05.16/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>Nokia6120ci/07.10</ua>
+    <ua>Nokia6210s/.13/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia6290/03.06</ua>
+    <ua>Nokia6290/03.04</ua>
+    <ua>Nokia5320/06.103/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>NokiaE75-1/211.12.01/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaE66-1/0.07.78</ua>
+    <ua>NokiaE52-1/031.012/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia5320di/06.103/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>NokiaN79-1/32.001/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>NokiaN96/30.033/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>NokiaN78-3/.043/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia5320di/06.203/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>NokiaE71-1/0.21.118</ua>
+    <ua>NokiaN85-1/30.019/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>NokiaN78-3/用银包的是好男人/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>NokiaN81-3/24.0.002</ua>
+    <ua>NokiaN78-5/.136/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia6210Navigator/05.16/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>NokiaN81-3/21.0.010</ua>
+    <ua>NokiaE66-1/0.21.118</ua>
+    <ua>NokiaN78-3/.046/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaE90-1/07.40.1.2</ua>
+    <ua>Nokia6124c/04.34</ua>
+    <ua>NokiaN95_8GB-3/31.2.007</ua>
+    <ua>NokiaN95_8GB-3/31.2.008</ua>
+    <ua>NokiaE90-1/0.34.93</ua>
+    <ua>NokiaN81-3/21.0.008</ua>
+    <ua>Nokia6124c/04.61</ua>
+    <ua>NokiaE66-1/0.21.108</ua>
+    <ua>NokiaE90-1/0.34.84</ua>
+    <ua>NokiaN96-1/30.033/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>NokiaN78-5/21.002/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>NokiaN82/10.0.046</ua>
+    <ua>Nokia5700/05.11.1</ua>
+    <ua>NokiaN95/12.0.013</ua>
+    <ua>NokiaN95/12.0.014</ua>
+    <ua>NokiaN96/.065/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia6120c/05.11.1</ua>
+    <ua>NokiaN78-3/21.002/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>NokiaN95/11.0.026</ua>
+    <ua>NokiaN96/.018/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia5630d-1/013.009/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia5700/04.21</ua>
+    <ua>NokiaN76-1/30.0.015</ua>
+    <ua>NokiaN79/.049/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaN79/30.019/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>NokiaN76-1/20.0.041</ua>
+    <ua>NokiaN95/30.0.015</ua>
+    <ua>NokiaE66-1/2.07.81</ua>
+    <ua>NokiaN96-3/30.033/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>NokiaN82/11.0.117</ua>
+    <ua>NokiaE51-2/1.34.38</ua>
+    <ua>NokiaN96-1/.018/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaN78-3/.003/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaE72-1/021.024/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia6120c/03.83.2</ua>
+    <ua>NokiaN76/10.1.048</ua>
+    <ua>NokiaN76/10.1.044</ua>
+    <ua>NokiaN95_8GB-3/20.2.005</ua>
+    <ua>NokiaE72/021.024/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN81-1/11.0.045</ua>
+    <ua>NokiaN86-1/30.009/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia5320di/05.302/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>NokiaN79-1/32.001 DIY Final/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>NokiaN96/.101/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaE75-1/202.12.01/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia5320_CMCC/.13/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaN86-1/版权所有 翻版必究/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN85-1/.047/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaN78-1/21.002/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>Nokia6110Navigator/04.24</ua>
+    <ua>Nokia6110Navigator/04.22</ua>
+    <ua>Nokia5320di/05.04.1/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>NokiaN95/10.0.018</ua>
+    <ua>Nokia5700/03.83.1</ua>
+    <ua>Nokia5320d-1/.26/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaN81-1/20.0.056</ua>
+    <ua>NokiaE72/021.023/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia5320_CMCC/06.103/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>Nokia5320/05.16.1/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>NokiaN78-3/30.014/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>Nokia6120c/05.11</ua>
+    <ua>NokiaN82/20.0.062</ua>
+    <ua>NokiaN79-1/此用户被通缉/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>NokiaE90-1/07.38.0.2</ua>
+    <ua>NokiaE52-1/033.002/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN78-1/30.011/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>Nokia5320/.13/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaE72/031.023/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia6121c/05.11</ua>
+    <ua>NokiaN79/.045/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Nokia6210si/05.302/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>NokiaN95_8GB/10.0.021</ua>
+    <ua>NokiaN85/.048/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaN78-3/30.016/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>NokiaN95_8GB/堅專用機? ?V51.0.026</ua>
+    <ua>Nokia6210Navigator/.25/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaN95-5/22.1.002</ua>
+    <ua>NokiaE52-1/021.013/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaN95-5/12.1.007</ua>
+    <ua>NokiaE71-1/0.07.76</ua>
+    <ua>NokiaN85/31.002/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>NokiaN78-1/.043/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>NokiaN79-1/.046/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+  </model>
+  <model name="Nokia Series60-5" pattern="Nokia5800.*,Nokia5802.*,NokiaN97.*,Nokia5530.*,Nokia5230.*" config="2">
+    <ua>Nokia5530c-2/20.0.101/sw_platform=S60;sw_platform_version=5.0;java_build_version=2.1.18</ua>
+    <ua>Nokia5800d-1/10.4.101/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>NokiaN97-4/11.0.102/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97-1/21.2.045/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5800d-1/31.2.008/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>NokiaN97/12.1.024/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.11</ua>
+    <ua>NokiaN97/21.1.107/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5230/21.1.004/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.43</ua>
+    <ua>Nokia5530c-2/ 小布专版/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5530c-2/30.0.009/sw_platform=S60;sw_platform_version=5.0;java_build_version=2.1.18</ua>
+    <ua>NokiaN97-4/10.2.020/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5800d-1/31.0.101/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>Nokia5800d-1/40.0.005/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.31</ua>
+    <ua>Nokia5800d-1/10.0.010/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.1.2</ua>
+    <ua>Nokia5230/11.0.079/sw_platform=S60;sw_platform_version=5.0;java_build_version=2.1.18</ua>
+    <ua>NokiaN97-1/1.0.105 Final version/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97-4/10.0.020/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97-1/12.0.026/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.11</ua>
+    <ua>Nokia5530/20.0.080/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5530c-2/ynasty depon V30/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.43</ua>
+    <ua>Nokia5802_CMCC/21.0.025.6/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>NokiaN97-1/21.0.102/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5230-c/12.2.082/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.41</ua>
+    <ua>Nokia5800d-1/40.2.005/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.31</ua>
+    <ua>Nokia5802_CMCC/30.0.011.5/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>NokiaN97-4/11.0.045/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5800w/50.0.005/sw_platform=S60;sw_platform_version=5.0;java_build_version=2.1.18</ua>
+    <ua>Nokia5530c-2/30.0.009/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.43</ua>
+    <ua>NokiaN97/22.1.112/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97mini/11.0.106/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5530c-2/20.0.080/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5230/.0.005/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.43</ua>
+    <ua>Nokia5530/20.0.080/sw_platform=S60;sw_platform_version=5.0;java_build_version=2.1.18</ua>
+    <ua>Nokia5800d-1b/21.2.025/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>Nokia5800</ua>
+    <ua>Nokia5800/20.0.011/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>NokiaN97/20.1.021/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5530c-2/ 皇爵专版/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5530/20.0.101/sw_platform=S60;sw_platform_version=5.0;java_build_version=0.0.0</ua>
+    <ua>Nokia5800d-1/21.0.101/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>NokiaN97-1/1.0.105 冰魂/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97-1/.0.110/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5800d-1b/10.3.007/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>NokiaN97-1/22.0.110/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97-4/sces订制版V12.0.110.C01.01/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97-1/21.0.106/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5800d-1/20.0.012/sw_platform=S60;sw_platform_version=5.0;java_build_version=2.1.18</ua>
+    <ua>Nokia5530c-2/11.0.054/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.26</ua>
+    <ua>NokiaN97mini/11.0.045/sw_platform=S60;sw_platform_version=5.0;java_build_version=2.1.18</ua>
+    <ua>NokiaN97i/20.0.019/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5800d-1/21.2.025/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>NokiaN97i/22.0.110/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97-4/11.2.045/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97-1/1.0.106 /sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5800/30.0.011.1/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>Nokia5530/20.0.101/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97-1/11.2.021/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.11</ua>
+    <ua>Nokia5800d-1/50.0.005/sw_platform=S60;sw_platform_version=5.0;java_build_version=2.1.18</ua>
+    <ua>Nokia5800d-1/11.0.008/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.1.2</ua>
+    <ua>Nokia5230/20.0.005/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.43</ua>
+    <ua>Nokia5530c-2/11.0.053/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.26</ua>
+    <ua>Nokia5230/21.0.004/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.43</ua>
+    <ua>Nokia5800d-1/30.0.011/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>Nokia5530/30.0.009/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.43</ua>
+    <ua>NokiaN97-1/11.0.021/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.11</ua>
+    <ua>NokiaN97-4/11.0.104/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97-4/10.0.020/sw_platform=S60;sw_platform_version=5.0;java_build_version=2.1.18</ua>
+    <ua>NokiaN97mini/12.0.110/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5530c-2/20.0.080/sw_platform=S60;sw_platform_version=5.0;java_build_version=2.1.18</ua>
+    <ua>NokiaN97-1/20.0.027/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5530c-2/聪聪.diy.木马/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97-1/20.0.019/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97-1/20.2.019/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97mini/10.0.020/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97-1/12.0.024/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.11</ua>
+    <ua>NokiaN97-4/11.0.104/sw_platform=S60;sw_platform_version=5.0;java_build_version=2.1.18</ua>
+    <ua>Nokia5530c-2/亦真精简版/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97/11.1.021/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.11</ua>
+    <ua>NokiaN97i/21.0.045/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97mini/11.0.045/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97-1/12.2.024/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.11</ua>
+    <ua>NokiaN97-1/21.0.105/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5230/11.0.079/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5800d-1/11.0.009/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.1.2</ua>
+    <ua>Nokia5530/11.0.054/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.26</ua>
+    <ua>NokiaN97-4/1.0.105/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5800d-1/50.0.005/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.43</ua>
+    <ua>Nokia5230/20.6.007/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.43</ua>
+    <ua>Nokia5800d-1/20.2.014/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>NokiaN97-1/21.2.102/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5800w/40.0.005/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.31</ua>
+    <ua>NokiaN97-1/eeZe.v 21.0.105/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97mini/10.2.020/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97-1/10.0.012/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.11</ua>
+    <ua>NokiaN97-1/定制21.0.045/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5230/10.0.071/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5800d-1/20.0.012/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>Nokia5800d-1/21.0.025/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>NokiaN97-4/11.0.106/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97-1/10.2.012/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.11</ua>
+    <ua>NokiaN97-1/21.0.045/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5230/10.2.071/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97-1/22.2.110/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5230/12.0.089/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.38</ua>
+    <ua>NokiaN97/12.1.026/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.11</ua>
+    <ua>Nokia5530c-2/nasty布版/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.43</ua>
+    <ua>Nokia5230/10.0.067/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5802_CMCC/21.0.025.6/sw_platform=S60;sw_platform_version=5.0;java_build_version=2.00(0)</ua>
+    <ua>NokiaN97-4/12.0.110/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5800d-1b/11.3.001/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>NokiaN97-4/sces订制版v11.0.105/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5530c-2/20.0.101/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>NokiaN97-1/.21.0.105/sw_platform=S60;sw_platform_version=5.0;java_build_version=0.0.0</ua>
+    <ua>NokiaN97/10.1.012/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.11</ua>
+    <ua>NokiaN97-4/11.0.105/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5800d-1b/10.3.007/sw_platform=S60;sw_platform_version=5.0;java_build_version=2.00(0)</ua>
+    <ua>Nokia5800/21.0.025.1/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>NokiaN97i/21.0.106/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+    <ua>Nokia5530c-2/20.0.101/sw_platform=S60;sw_platform_version=5.0;java_build_version=0.0.0</ua>
+    <ua>Nokia5800d-1/30.2.011/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>Nokia5800w/50.0.005/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.43</ua>
+    <ua>Nokia5800d-1/31.0.008/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>Nokia5230/12.0.089/sw_platform=S60;sw_platform_version=5.0;java_build_version=2.1.18</ua>
+    <ua>Nokia5530c-2/10.0.050/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.17</ua>
+    <ua>Nokia5530/亦真精简版/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.30</ua>
+  </model>
+  <model name="Nokia Unknown" pattern="Nokia.*" config="2">
+    <ua>NokiaE55-1/022.009/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>NokiaC3-00/03.35</ua>
+    <ua>NokiaX3-00/08.40</ua>
+    <ua>NokiaX6-00m/12.1.091/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.38</ua>
+    <ua>Nokia5132/07.91</ua>
+    <ua>Nokia7020/05.20</ua>
+    <ua>Nokia6760s-1/V 03.46/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>Nokia6788/11.018/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>Nokia 7610</ua>
+    <ua>Nokia5235/.6.007.25.01 Beta1/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.43</ua>
+    <ua>Nokia2710c/06.21</ua>
+    <ua>Nokia_3510_3595</ua>
+    <ua>Nokia6760s-1/V 03.38/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>Nokia2322c/06.75</ua>
+    <ua>NokiaX6-00/20.2.005/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.43</ua>
+    <ua>Nokia5232/12.1.091/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.38</ua>
+    <ua>Nokia6788i/19.013/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>NokiaX6-00/12.0.088/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.38</ua>
+    <ua>Nokia6760s-1/V 20.007/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>Nokia 8801</ua>
+    <ua>NokiaC5-00/031.022/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.5</ua>
+    <ua>Nokia_7650</ua>
+    <ua>Nokia2690/09.65</ua>
+    <ua>Nokia2690/09.70</ua>
+    <ua>Nokia6760s-1/V 03.45/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>NokiaX3-00/04.11</ua>
+    <ua>Nokia5235/20.6.007/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.43</ua>
+    <ua>Nokia6788i/20.018/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>Nokia/05.302/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.2</ua>
+    <ua>NokiaX6-00/20.0.005/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.43</ua>
+    <ua>Nokia_6610i_6030_6230_7250</ua>
+    <ua>Nokia3208c/10.50</ua>
+    <ua>NokiaX6-00/12.2.091/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.38</ua>
+    <ua>Nokia_SERIES40</ua>
+    <ua>Nokia_SERIES60</ua>
+    <ua>Nokia2710c-2/06.13</ua>
+    <ua>Nokia9300/05.22(07)</ua>
+    <ua>NokiaX3-00/03.60</ua>
+    <ua>Nokia 6030</ua>
+    <ua>Nokia5330/06.80</ua>
+    <ua>Nokia/ 3.09</ua>
+    <ua>Nokia6788/12.018/sw_platform=S60;sw_platform_version=3.2;java_build_version=1.0.4</ua>
+    <ua>Nokia 6670</ua>
+    <ua>NokiaX2-00/04.25</ua>
+    <ua>NokiaX2-00/04.21</ua>
+    <ua>Nokia 6630</ua>
+    <ua>Nokia 6102i</ua>
+    <ua>Nokia2220s/09.55</ua>
+    <ua>NokiaX6-00/21.0.004/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.43</ua>
+    <ua>Nokia5233/20.0.005/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.38</ua>
+    <ua>Nokia N71</ua>
+    <ua>Nokia 6101</ua>
+    <ua>Nokia2690/10.10</ua>
+    <ua>Nokia_6270_6280</ua>
+    <ua>Nokia 6230</ua>
+    <ua>Nokia2323c/08.20</ua>
+    <ua>Nokia3710fold/04.30</ua>
+    <ua>Nokia5233/21.1.004/sw_platform=S60;sw_platform_version=5.0;java_build_version=2.1.18</ua>
+    <ua>Nokia 6282</ua>
+    <ua>Nokia5233/21.1.004/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.43</ua>
+    <ua>Nokia3208c/09.25</ua>
+    <ua>Nokia5233/12.1.092/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.38</ua>
+    <ua>Nokia2322c/08.20</ua>
+    <ua>NokiaC6-00/10.0.021/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.48</ua>
+    <ua>Nokia9300/05.50(00)</ua>
+    <ua>NokiaX6-00/12.0.091/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.38</ua>
+    <ua>Nokia7710/ 04.58.0</ua>
+    <ua>Nokia5233/12.1.089/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.4.38</ua>
+  </model>
+  <model name="SonyEricsson Platform1-6" pattern="SonyEricssonA100.*,SonyEricssonC123c.*,SonyEricssonC510.*,SonyEricssonD750.*,SonyEricssonF305.*,SonyEricssonJ300.*,SonyEricssonK300.*,SonyEricssonK310.*,SonyEricssonK320.*,SonyEricssonK500.*,SonyEricssonK506.*,SonyEricssonK508.*,SonyEricssonK510.*,SonyEricssonK600.*,SonyEricssonK608.*,SonyEricssonK700.*,SonyEricssonK750.*,SonyEricssonK758.*,SonyEricssonR306.*,SonyEricssonS700.*,SonyEricssonT303.*,SonyEricssonT610.*,SonyEricssonT628.*,SonyEricssonV600.*,SonyEricssonV800.*,SonyEricssonV802.*,SonyEricssonW200.*,SonyEricssonW300.*,SonyEricssonW508.*,SonyEricssonW550.*,SonyEricssonW600.*,SonyEricssonW700.*,SonyEricssonW705.*,SonyEricssonW800.*,SonyEricssonW810.*,SonyEricssonW900.*,SonyEricssonZ1010.*,SonyEricssonZ500.*,SonyEricssonZ520.*,SonyEricssonZ525.*,SonyEricssonZ530.*,SonyEricssonZ550.*,SonyEricssonZ800.*,SonyEricssonk608.*,SonyEricssonw810.*,SonyEricssonS312.*" config="0">
+    <ua>SonyEricssonW800c/R1BA013</ua>
+    <ua>SonyEricssonK500i/R2AE033</ua>
+    <ua>SonyEricssonS700</ua>
+    <ua>SonyEricssonW550i/R4CA004</ua>
+    <ua>SonyEricssonC510c/R1DA014</ua>
+    <ua>SonyEricssonK758c/R1N035</ua>
+    <ua>SonyEricssonK700i/R2Y005</ua>
+    <ua>SonyEricssonK750c/R1J002</ua>
+    <ua>SonyEricssonW550i/R7B049</ua>
+    <ua>SonyEricssonC510a/R1FA035</ua>
+    <ua>SonyEricssonK750i/R1N035</ua>
+    <ua>SonyEricssonW810i/R4CE012</ua>
+    <ua>SonyEricssonK750c/R1BA013</ua>
+    <ua>SonyEricssonW900i/R5BB001</ua>
+    <ua>SonyEricssonK700</ua>
+    <ua>SonyEricssonK500c/R2AA003</ua>
+    <ua>SonyEricssonW300i/R9A035</ua>
+    <ua>SonyEricssonW300i/R9A036</ua>
+    <ua>SonyEricssonJ300c/R2BD001</ua>
+    <ua>SonyEricssonK750i/R1CA021</ua>
+    <ua>SonyEricssonZ520c/R3J017</ua>
+    <ua>SonyEricssonW508/R1GA026</ua>
+    <ua>SonyEricssonW700c/R1CA021</ua>
+    <ua>SonyEricssonD750c/R1BC002</ua>
+    <ua>SonyEricssonK320i/R4GC012</ua>
+    <ua>SonyEricssonW508/R1FA035</ua>
+    <ua>SonyEricssonW800c/R1L002</ua>
+    <ua>SonyEricssonW300c/R9A036</ua>
+    <ua>SonyEricssonK700i</ua>
+    <ua>SonyEricssonK700c/R2L001</ua>
+    <ua>SonyEricssonW810c/R4CK003</ua>
+    <ua>SonyEricssonC510a/R1EA030</ua>
+    <ua>SonyEricssonC510a/R1EA034</ua>
+    <ua>SonyEricssonK750/JAVASDK</ua>
+    <ua>SonyEricssonS700/JAVASDK</ua>
+    <ua>SonyEricssonW810i/R4CF002</ua>
+    <ua>SonyEricssonZ520c/R3C035</ua>
+    <ua>SonyEricssonW700i/R1DB001</ua>
+    <ua>SonyEricssonW508/R1GA032</ua>
+    <ua>SonyEricssonW900i/R5AG001</ua>
+    <ua>SonyEricssonF305/1207912</ua>
+    <ua>SonyEricssonW800c/R1CA021</ua>
+    <ua>SonyEricssonK750c/R1BC002</ua>
+    <ua>SonyEricssonW705/R1DA029</ua>
+    <ua>SonyEricssonK750i/R1AA008</ua>
+    <ua>SonyEricssonW200c/R4GB001</ua>
+    <ua>SonyEricssonW300i/R4EA031</ua>
+    <ua>SonyEricssonJ300c/R2AT003</ua>
+    <ua>SonyEricssonC510/R1HA035</ua>
+    <ua>SonyEricssonZ1010/R1H015</ua>
+    <ua>SonyEricssonK320i/R4EA031</ua>
+    <ua>SonyEricssonW600c/R7B049</ua>
+    <ua>SonyEricssonW705/R1DA034</ua>
+    <ua>SonyEricssonD750i/R1BC002</ua>
+    <ua>SonyEricssonK500i/R2Y005</ua>
+    <ua>SonyEricssonZ530c/R6BA030</ua>
+    <ua>SonyEricssonW800c/R1N035</ua>
+    <ua>SonyEricssonK510c/R4CH003</ua>
+    <ua>SonyEricssonK750c/R1AA008</ua>
+    <ua>SonyEricssonK750c/R1L002</ua>
+    <ua>SonyEricssonK750c/R1L001</ua>
+    <ua>SonyEricssonK700c/R2CA001</ua>
+    <ua>SonyEricssonW800i/R1BA013</ua>
+    <ua>SonyEricssonZ550c/R6CA009</ua>
+    <ua>SonyEricssonZ520i/R3J017</ua>
+    <ua>SonyEricssonK750i/R1BA013</ua>
+    <ua>SonyEricssonK750c/R1C004</ua>
+    <ua>SonyEricssonV800/R1AB014</ua>
+    <ua>SonyEricssonC510a/R1DA036</ua>
+    <ua>SonyEricssonW200i/R4GC012</ua>
+    <ua>SonyEricssonC510a/R1DA032</ua>
+    <ua>SonyEricssonK700/R6BC002</ua>
+    <ua>SonyEricssonW810c/R4CE012</ua>
+    <ua>SonyEricssonW800c/R1BC002</ua>
+    <ua>SonyEricssonW550i/R4BA041</ua>
+    <ua>SonyEricssonW508/R1FB002</ua>
+    <ua>SonyEricssonS700c/R3F008</ua>
+    <ua>SonyEricssonZ800/R1Y005</ua>
+    <ua>SonyEricssonW550c/R4BA041</ua>
+    <ua>SonyEricssonS700i</ua>
+    <ua>SonyEricssonS700i/R3B032</ua>
+    <ua>SonyEricssonK700i/R2AY004</ua>
+    <ua>SonyEricssonK500c/R2AT003</ua>
+    <ua>SonyEricssonW810i/R4CK003</ua>
+    <ua>SonyEricssonZ550i/R6CA009</ua>
+    <ua>SonyEricssonW200c/R4GC012</ua>
+    <ua>SonyEricssonK510c/R4EA031</ua>
+    <ua>SonyEricssonZ800i/R1Y005</ua>
+    <ua>SonyEricssonW800i/R1BC002</ua>
+    <ua>SonyEricssonW800c/R1K001</ua>
+    <ua>SonyEricssonK608i/R2K005</ua>
+    <ua>SonyEricssonK700i/R2CA001</ua>
+    <ua>SonyEricssonW550c/R7B049</ua>
+    <ua>SonyEricssonW700c/R1DB001</ua>
+    <ua>SonyEricssonK750i/R1J002</ua>
+    <ua>SonyEricssonK600i/R2T002</ua>
+    <ua>SonyEricssonS700c/R3M008</ua>
+    <ua>SonyEricssonK300c/R2BD001</ua>
+    <ua>SonyEricssonZ530i/R6AC001</ua>
+    <ua>SonyEricssonK750c/R1N035</ua>
+    <ua>SonyEricssonK508c/R2AT003</ua>
+    <ua>SonyEricssonS700c/R3H001</ua>
+    <ua>SonyEricssonZ550c/R6GA003</ua>
+    <ua>SonyEricssonW705a/R1EA030</ua>
+    <ua>SonyEricssonW705a/R1EA033</ua>
+    <ua>SonyEricssonW705a/R1EA034</ua>
+    <ua>SonyEricssonK700/R1JG001</ua>
+    <ua>SonyEricssonW900i/R5AE003</ua>
+    <ua>SonyEricssonW700c/R1BC002</ua>
+    <ua>SonyEricssonW900i/R5AH001</ua>
+    <ua>SonyEricssonD750i/R1N035</ua>
+    <ua>SonyEricssonW705/R1FA035</ua>
+    <ua>SonyEricssonK510i/R4CH003</ua>
+    <ua>SonyEricssonZ800/R1Z002</ua>
+    <ua>SonyEricssonK700i/R2AG</ua>
+    <ua>SonyEricssonW600</ua>
+    <ua>SonyEricssonW550i/R4AB048</ua>
+    <ua>SonyEricssonZ550c/R4GC010</ua>
+    <ua>SonyEricssonZ520c/R3F015</ua>
+    <ua>SonyEricssonW508/R1EA028</ua>
+    <ua>SonyEricssonK508c/R2AA003</ua>
+    <ua>SonyEricssonS700c/R3K004</ua>
+    <ua>SonyEricssonw810i/R1K001</ua>
+    <ua>SonyEricssonZ550i/R6BA033</ua>
+    <ua>SonyEricssonK700c/R2AY004</ua>
+    <ua>SonyEricssonF305/1207-91</ua>
+    <ua>SonyEricssonK700i/R2AE033</ua>
+    <ua>SonyEricssonZ800i/R1AB014</ua>
+    <ua>SonyEricssonJ300c/R2BA010</ua>
+    <ua>SonyEricssonW550c/R4CB020</ua>
+    <ua>SonyEricssonW800c/R1NA005</ua>
+    <ua>SonyEricssonC510/R1GA026</ua>
+    <ua>SonyEricssonK700c/R2AE033</ua>
+    <ua>SonyEricssonS700c/R3B027</ua>
+    <ua>SonyEricssonS700c/R3B032</ua>
+    <ua>SonyEricssonS700i/R3F008</ua>
+    <ua>SonyEricssonK310i/R4DA044</ua>
+    <ua>SonyEricssonK310i/R4DA043</ua>
+    <ua>SonyEricssonJ300i</ua>
+    <ua>SonyEricssonW200i/R4HA014</ua>
+    <ua>SonyEricssonS700c/R3G001</ua>
+    <ua>SonyEricssonW550i/R4CB020</ua>
+    <ua>SonyEricssonK750i/R1L002</ua>
+    <ua>SonyEricssonK506c/R2AA003</ua>
+    <ua>SonyEricssonW900/JAVASDK</ua>
+    <ua>SonyEricssonK600c/R1K001</ua>
+    <ua>SonyEricssonZ520i/R3C035</ua>
+    <ua>SonyEricssonW200i/R4GB001</ua>
+    <ua>SonyEricssonK758c/R1AA008</ua>
+    <ua>SonyEricssonF305/R1BA018</ua>
+    <ua>SonyEricssonW705a/R1GA026</ua>
+    <ua>SonyEricssonW705a/R1GA030</ua>
+    <ua>SonyEricssonW800i/R1L</ua>
+    <ua>SonyEricssonW810c/R4EA031</ua>
+    <ua>SonyEricssonV800</ua>
+    <ua>SonyEricssonW800i/R1CA021</ua>
+    <ua>SonyEricssonC510a/R1HA035</ua>
+    <ua>SonyEricssonW900i</ua>
+    <ua>SonyEricssonW800i/R1DB001</ua>
+    <ua>SonyEricssonK510c/R4DF001</ua>
+    <ua>SonyEricssonK310c/R4EA031</ua>
+    <ua>SonyEricssonW508/R1EA033</ua>
+    <ua>SonyEricssonW550c/R4CA004</ua>
+    <ua>SonyEricssonW508/R1EA030</ua>
+    <ua>SonyEricssonW800i/R1L002</ua>
+    <ua>SonyEricssonZ525</ua>
+    <ua>SonyEricssonK750i/R1BC002</ua>
+    <ua>SonyEricssonC510/R1DA029</ua>
+    <ua>SonyEricssonS700i/R3K004</ua>
+    <ua>SonyEricssonW705/R1EA033</ua>
+    <ua>SonyEricssonK700c/R2AA003</ua>
+    <ua>SonyEricssonC510/R1DA032</ua>
+    <ua>SonyEricssonZ530c/R6DA001</ua>
+    <ua>SonyEricssonK750i/R1DB001</ua>
+    <ua>SonyEricssonZ530c/R6AC001</ua>
+    <ua>SonyEricssonK510i/R4EA031</ua>
+    <ua>SonyEricssonW800c/R1AA008</ua>
+    <ua>SonyEricssonW200c/R4HA014</ua>
+    <ua>SonyEricssonF305/R1CB008</ua>
+    <ua>SonyEricssonW800i/R1AA008</ua>
+    <ua>SonyEricssonK500c/R2L001</ua>
+    <ua>SonyEricssonW705a/R1FA035</ua>
+    <ua>SonyEricssonZ800/R1X019</ua>
+    <ua>SonyEricssonZ800/R1X016</ua>
+    <ua>SonyEricssonC510/R1EA034</ua>
+    <ua>SonyEricssonC510/R1EA030</ua>
+    <ua>SonyEricssonF305/R1CA022</ua>
+    <ua>SonyEricssonK508c/R2AE033</ua>
+    <ua>SonyEricssonK608i/R2BA019</ua>
+    <ua>SonyEricssonW810c/R4DB005</ua>
+    <ua>SonyEricssonJ300i/R2BD001</ua>
+    <ua>SonyEricssonK700c/R2E011</ua>
+    <ua>SonyEricssonW550c/R4AB048</ua>
+    <ua>SonyEricssonZ500a</ua>
+    <ua>SonyEricssonK700i/R2E011</ua>
+    <ua>SonyEricssonK300c/R2BA010</ua>
+    <ua>SonyEricssonW200c/R4JA011</ua>
+    <ua>SonyEricssonZ550c/R6BA033</ua>
+    <ua>SonyEricssonW705a/R1DA028</ua>
+    <ua>SonyEricssonS312/1217-54</ua>
+    <ua>SonyEricssonW705a/R1DA034</ua>
+    <ua>SonyEricssonW705a/R1DA031</ua>
+    <ua>SonyEricssonZ800/R1AB014</ua>
+    <ua>SonyEricssonZ800/R1AB013</ua>
+    <ua>SonyEricssonK600i/R2BA019</ua>
+    <ua>SonyEricssonD750i/R1BA013</ua>
+    <ua>SonyEricssonK310c/R4DA044</ua>
+    <ua>SonyEricssonK750c/R1CA021</ua>
+    <ua>SonyEricssonK750</ua>
+    <ua>SonyEricssonW900i/R5BC004</ua>
+    <ua>SonyEricssonW800i/R1K001</ua>
+    <ua>SonyEricssonW705/R1GA026</ua>
+    <ua>SonyEricssonW810i</ua>
+    <ua>SonyEricssonK750c/R1DB001</ua>
+    <ua>SonyEricssonW705/R1GA030</ua>
+    <ua>SonyEricssonW810i/R4DB005</ua>
+    <ua>SonyEricssonK700c/R2AL029</ua>
+    <ua>SonyEricssonW508a/R1GA026</ua>
+    <ua>SonyEricssonW600i/R7B049</ua>
+    <ua>SonyEricssonW800i/R1N035</ua>
+    <ua>SonyEricssonw810i/R1BC002</ua>
+    <ua>SonyEricssonC510/R1FA035</ua>
+    <ua>SonyEricssonK700/R3EA037</ua>
+    <ua>SonyEricssonW200i/R4JA011</ua>
+    <ua>SonyEricssonW700i/R1CA021</ua>
+    <ua>SonyEricssonW300c/R4EA031</ua>
+    <ua>SonyEricssonW700i/R1BC002</ua>
+    <ua>SonyEricssonK300c/R2AT003</ua>
+    <ua>SonyEricssonK700i/R2AL029</ua>
+    <ua>SonyEricssonW810i/R4EA031</ua>
+    <ua>SonyEricssonK310i/R4EA031</ua>
+  </model>
+  <model name="SonyEricsson UIQ Old" pattern="SonyEricssonM600.*,SonyEricssonM608.*,SonyEricssonP1.*,SonyEricssonP990.*,SonyEricssonW950.*,SonyEricssonW958.*,SonyEricssonW960.*" config="1">
+    <ua>SonyEricssonP990i/R5A17</ua>
+    <ua>SonyEricssonP1i/R6D23</ua>
+    <ua>SonyEricssonW958c/R6D22</ua>
+    <ua>SonyEricssonW950i/R4B02</ua>
+    <ua>SonyEricssonP990i/R2A04</ua>
+    <ua>SonyEricssonP990i/R2A05</ua>
+    <ua>SonyEricssonW950i/R4A11</ua>
+    <ua>SonyEricssonP1c/R6D27</ua>
+    <ua>SonyEricssonP1c/R6D23</ua>
+    <ua>SonyEricssonW958c/R6B01</ua>
+    <ua>SonyEricssonW958c/R4B02</ua>
+    <ua>SonyEricssonM608c/R3A08</ua>
+    <ua>SonyEricssonM608c/R3A03</ua>
+    <ua>SonyEricssonM608c/R5C01</ua>
+    <ua>SonyEricssonP1i/R6E30</ua>
+    <ua>SonyEricssonP990i/R4A13</ua>
+    <ua>SonyEricssonW958c/R6E28</ua>
+    <ua>SonyEricssonW958c/R6A04</ua>
+    <ua>SonyEricssonW958c/R4C01</ua>
+    <ua>SonyEricssonM600i/R4C01</ua>
+    <ua>SonyEricssonW960i/R6G04</ua>
+    <ua>SonyEricssonP990i/R6D23</ua>
+    <ua>SonyEricssonP990i/R4B03</ua>
+    <ua>SonyEricssonP1c/R6G05</ua>
+    <ua>SonyEricssonM600i/R3A06</ua>
+    <ua>SonyEricssonM608c/R6A16</ua>
+    <ua>SonyEricssonM608c/R6A06</ua>
+    <ua>SonyEricssonW960i/R6F41</ua>
+    <ua>SonyEricssonP990i/R6E28</ua>
+    <ua>SonyEricssonP1i/R6G04</ua>
+    <ua>SonyEricssonM600i/R5B02</ua>
+    <ua>SonyEricssonW958c/R1B02</ua>
+    <ua>SonyEricssonM608c/R4C01</ua>
+    <ua>SonyEricssonW950i/R6A16</ua>
+    <ua>SonyEricssonM600i/R6A16</ua>
+    <ua>SonyEricssonW950i/R6E28</ua>
+    <ua>SonyEricssonM608c/R6B01</ua>
+    <ua>SonyEricssonW950i/R1B01</ua>
+    <ua>SonyEricssonW950i/R6D22</ua>
+    <ua>SonyEricssonP990i/R3B01</ua>
+    <ua>SonyEricssonM608c/R5B02</ua>
+  </model>
+  <model name="SonyEricsson Platform7-8" pattern="SonyEricssonC702.*,SonyEricssonC902.*,SonyEricssonC905.*,SonyEricssonG502.*,SonyEricssonG700.*,SonyEricssonG705.*,SonyEricssonG900.*,SonyEricssonK330.*,SonyEricssonK530.*,SonyEricssonK550.*,SonyEricssonK610.*,SonyEricssonK618.*,SonyEricssonK630.*,SonyEricssonK660.*,SonyEricssonK770.*,SonyEricssonK790.*,SonyEricssonK800.*,SonyEricssonK810.*,SonyEricssonK818.*,SonyEricssonK850.*,SonyEricssonK858.*,SonyEricssonS500.*,SonyEricssonT650.*,SonyEricssonT658.*,SonyEricssonT700.*,SonyEricssonT707.*,SonyEricssonV630.*,SonyEricssonW350.*,SonyEricssonW380.*,SonyEricssonW395.*,SonyEricssonW580.*,SonyEricssonW595.*,SonyEricssonW610.*,SonyEricssonW660.*,SonyEricssonW710.*,SonyEricssonW715.*,SonyEricssonW750.*,SonyEricssonW760.*,SonyEricssonW830.*,SonyEricssonW850.*,SonyEricssonW880.*,SonyEricssonW888.*,SonyEricssonW890.*,SonyEricssonW898.*,SonyEricssonW902.*,SonyEricssonW908.*,SonyEricssonW910.*,SonyEricssonW980.*,SonyEricssonW995.*,SonyEricssonZ310.*,SonyEricssonZ555.*,SonyEricssonZ558.*,SonyEricssonZ610.*,SonyEricssonZ710.*,SonyEricssonZ750.*,SonyEricssonZ770.*,SonyEricssonZ780.*,SonyEricssonk530.*,SonyEricssonC901.*,SonyEricssonU100.*,SonyEricssonU10i.*,SonyEricssonJ105.*,SonyEricssonT715.*" config="2">
+    <ua>SonyEricssonC905/R1DA032</ua>
+    <ua>SonyEricssonW380c/R9BA023</ua>
+    <ua>SonyEricssonK800i/R1CB001</ua>
+    <ua>SonyEricssonW350i/R11AA011</ua>
+    <ua>SonyEricssonS500i/R6BA020</ua>
+    <ua>SonyEricssonZ770i/R1EA033</ua>
+    <ua>SonyEricssonW830c/R1JC002</ua>
+    <ua>SonyEricssonK790c/R1ED001</ua>
+    <ua>SonyEricssonK790i/R1CC003</ua>
+    <ua>SonyEricssonU100i/R1BA044</ua>
+    <ua>SonyEricssonU100i/R1BA049</ua>
+    <ua>SonyEricssonW660i/R6AD001</ua>
+    <ua>SonyEricssonU100i/R1BA053</ua>
+    <ua>SonyEricssonK858c/R1DA038</ua>
+    <ua>SonyEricssonW830_东方灵通 QQ:651760292/R1KG001</ua>
+    <ua>SonyEricssonT715/R1FA035</ua>
+    <ua>SonyEricssonK850i/R1FA035</ua>
+    <ua>SonyEricssonW380c/R10AA014</ua>
+    <ua>SonyEricssonW980/R3BF001</ua>
+    <ua>SonyEricssonK530i/R7AA012</ua>
+    <ua>SonyEricssonG705/R1BA038</ua>
+    <ua>SonyEricssonG700/R6J825</ua>
+    <ua>SonyEricssonW380c/R11CA002</ua>
+    <ua>SonyEricssonU100i/R7BA084</ua>
+    <ua>SonyEricssonW595/R3DA030</ua>
+    <ua>SonyEricssonW595/R3DA032</ua>
+    <ua>SonyEricssonW595/R3DA026</ua>
+    <ua>SonyEricssonW580i/R8BA024</ua>
+    <ua>SonyEricssonG705/R1DA032</ua>
+    <ua>SonyEricssonG705/R1DA034</ua>
+    <ua>SonyEricssonW830i/R1KG001</ua>
+    <ua>SonyEricssonK858c/R1FA035</ua>
+    <ua>SonyEricssonW595c/R3EG004</ua>
+    <ua>SonyEricssonK800c/R1KG001</ua>
+    <ua>SonyEricssonT707/R1FB002</ua>
+    <ua>SonyEricssonZ310i/R1JC002</ua>
+    <ua>SonyEricssonK550c/R1JD001</ua>
+    <ua>SonyEricssonZ770i/R1FA030</ua>
+    <ua>SonyEricssonK610c/R1JG001</ua>
+    <ua>SonyEricssonK770i/R8BC004</ua>
+    <ua>SonyEricssonW610i/R1JD001</ua>
+    <ua>SonyEricssonK610i/R1GB001</ua>
+    <ua>SonyEricssonG900/R6H815</ua>
+    <ua>SonyEricssonC905/R1BA038</ua>
+    <ua>SonyEricssonC905/R1BA034</ua>
+    <ua>SonyEricssonW710c/R1EE001</ua>
+    <ua>SonyEricssonK630i/R1EA030</ua>
+    <ua>SonyEricssonZ555c/R10BA015</ua>
+    <ua>SonyEricssonK810i/R1KG001</ua>
+    <ua>SonyEricssonK630i/R1EA033</ua>
+    <ua>SonyEricssonW910i/R1FA030</ua>
+    <ua>SonyEricssonW910i/R1FA035</ua>
+    <ua>SonyEricssonW910i/R1FA037</ua>
+    <ua>SonyEricssonK610i/R8BF003</ua>
+    <ua>SonyEricssonK858c/R1EA030</ua>
+    <ua>SonyEricssonW760c/R3CA038</ua>
+    <ua>SonyEricssonC905/R1BA042</ua>
+    <ua>SonyEricssonW760c/R3CA037</ua>
+    <ua>SonyEricssonK790i/R8BF003</ua>
+    <ua>SonyEricssonW888c/R8BA024</ua>
+    <ua>SonyEricssonW910i/R1EA033</ua>
+    <ua>SonyEricssonW830c/R1KG001</ua>
+    <ua>SonyEricssonW910i/R1EA030</ua>
+    <ua>SonyEricssonS500i/R8BE001</ua>
+    <ua>SonyEricssonC901/R1GA028</ua>
+    <ua>SonyEricssonW710i/R1GB001</ua>
+    <ua>SonyEricssonW610i/R1KC001</ua>
+    <ua>SonyEricssonC905c/R1GA025</ua>
+    <ua>SonyEricssonW908c/R1DA038</ua>
+    <ua>SonyEricssonT658c/R7AA024</ua>
+    <ua>SonyEricssonW880i/R6BC002</ua>
+    <ua>SonyEricssonK550i/R1KG001</ua>
+    <ua>SonyEricssonC902/R3DA026</ua>
+    <ua>SonyEricssonC902/R3DA028</ua>
+    <ua>SonyEricssonZ558c/R4FA013</ua>
+    <ua>SonyEricssonK858c</ua>
+    <ua>SonyEricssonW880i/R8BA024</ua>
+    <ua>SonyEricssonT707a/R1FA035</ua>
+    <ua>SonyEricssonW902/R3DA029</ua>
+    <ua>SonyEricssonW902/R3DA026</ua>
+    <ua>SonyEricssonC702c/R3EA036</ua>
+    <ua>SonyEricssonW902/R3DA032</ua>
+    <ua>SonyEricssonC702c/R3EA037</ua>
+    <ua>SonyEricssonW380c/R9BB001</ua>
+    <ua>SonyEricssonW350i/R10AB002</ua>
+    <ua>SonyEricssonW350i/R11CA002</ua>
+    <ua>SonyEricssonK610i/R1JE001</ua>
+    <ua>SonyEricssonK810c/R1KG001</ua>
+    <ua>SonyEricssonW350c/R11CA002</ua>
+    <ua>SonyEricssonK850i/R1EA037</ua>
+    <ua>SonyEricssonS500c/R8BA024</ua>
+    <ua>SonyEricssonK850i/R1EA031</ua>
+    <ua>SonyEricssonT650i/R8BC004</ua>
+    <ua>SonyEricssonW850i/R1JC002</ua>
+    <ua>SonyEricssonW850i/R1KG001</ua>
+    <ua>SonyEricssonW350i/R10BA015</ua>
+    <ua>SonyEricssonK790c/R1CG001</ua>
+    <ua>SonyEricssonZ310i/R6BC002</ua>
+    <ua>SonyEricssonG700/R6H815</ua>
+    <ua>SonyEricssonC902/R3BH002</ua>
+    <ua>SonyEricssonK800i/R8BF003</ua>
+    <ua>SonyEricssonK790c/R1KC001</ua>
+    <ua>SonyEricssonW710c/R1JC002</ua>
+    <ua>SonyEricssonK530i/R8BA024</ua>
+    <ua>SonyEricssonW830i/R1JC002</ua>
+    <ua>SonyEricssonT707/R1EA029</ua>
+    <ua>SonyEricssonT707/R1EA033</ua>
+    <ua>SonyEricssonT707/R1EA030</ua>
+    <ua>SonyEricssonW910i/R1CA037</ua>
+    <ua>SonyEricssonW910i/R1CA039</ua>
+    <ua>SonyEricssonW580c/R8BA024</ua>
+    <ua>SonyEricssonW910i/R1CA029</ua>
+    <ua>SonyEricssonW610i/R1KG001</ua>
+    <ua>SonyEricssonV630i/R1JG001</ua>
+    <ua>SonyEricssonG900/R6J825</ua>
+    <ua>SonyEricssonW890i/R1FA035</ua>
+    <ua>SonyEricssonW890i/R1FA030</ua>
+    <ua>SonyEricssonW830c/R1GB001</ua>
+    <ua>SonyEricssonZ710i/R1JC002</ua>
+    <ua>SonyEricssonK790i/R1JG001</ua>
+    <ua>SonyEricssonK810c/R6BC002</ua>
+    <ua>SonyEricssonV630i/R1GB001</ua>
+    <ua>SonyEricssonW830i/R1JG001</ua>
+    <ua>SonyEricssonK550i/R8BA024</ua>
+    <ua>SonyEricssonJ105i/R1HA035</ua>
+    <ua>SonyEricssonK618i/R1KG001</ua>
+    <ua>SonyEricssonK818i/R1JG001</ua>
+    <ua>SonyEricssonK800i/R8BA024</ua>
+    <ua>SonyEricssonK818c/R6BC002</ua>
+    <ua>SonyEricssonT658c/R8BA024</ua>
+    <ua>SonyEricssonZ750i/R1FA030</ua>
+    <ua>SonyEricssonK618i/R1ED001</ua>
+    <ua>SonyEricssonK610c/R1KG001</ua>
+    <ua>SonyEricssonW395/1217-55</ua>
+    <ua>SonyEricssonW660i/R6BC002</ua>
+    <ua>SonyEricssonZ610i/R1JG001</ua>
+    <ua>SonyEricssonW610c/R8BD002</ua>
+    <ua>SonyEricssonK660i/R1FA030</ua>
+    <ua>SonyEricssonK660i/R1FA032</ua>
+    <ua>SonyEricssonK660i/R1FA035</ua>
+    <ua>SonyEricssonZ610i/R1GB001</ua>
+    <ua>SonyEricssonW610c/R1KG001</ua>
+    <ua>SonyEricssonU10i/R7BA084</ua>
+    <ua>SonyEricssonZ710c/R1EF001</ua>
+    <ua>SonyEricssonZ610i/R1JC002</ua>
+    <ua>SonyEricssonK790i/R1ED001</ua>
+    <ua>SonyEricssonW830c/R1JG001</ua>
+    <ua>SonyEricssonW995/R1FA035</ua>
+    <ua>SonyEricssonT715/R1HA035</ua>
+    <ua>SonyEricssonZ310i/R8BA024</ua>
+    <ua>SonyEricssonW380i/R10CA001</ua>
+    <ua>SonyEricssonK790c/R1KG001</ua>
+    <ua>SonyEricssonT700/R3DA033</ua>
+    <ua>SonyEricssonT700/R3DA032</ua>
+    <ua>SonyEricssonT700/R3DA031</ua>
+    <ua>SonyEricssonT700/R3DA030</ua>
+    <ua>SonyEricssonK850i/R1CA037</ua>
+    <ua>SonyEricssonZ610i/R1EJ001</ua>
+    <ua>SonyEricssonW610i/R6BC002</ua>
+    <ua>SonyEricssonT700/R3DA020</ua>
+    <ua>SonyEricssonW995a/R1EA032</ua>
+    <ua>SonyEricssonT700/R3DA026</ua>
+    <ua>SonyEricssonK800i/R1KC001</ua>
+    <ua>SonyEricssonT700/R3DA028</ua>
+    <ua>SonyEricssonK618c/R1JG001</ua>
+    <ua>SonyEricssonT700/R3DA029</ua>
+    <ua>SonyEricssonW995a/R1EA028</ua>
+    <ua>SonyEricssonK850i/R1CA029</ua>
+    <ua>SonyEricssonJ105i/R1GA032</ua>
+    <ua>SonyEricssonJ105i/R1GA019</ua>
+    <ua>SonyEricssonK810i/R1KC001</ua>
+    <ua>SonyEricssonC702/R3DA029</ua>
+    <ua>SonyEricssonJ105i/R1GA020</ua>
+    <ua>SonyEricssonJ105i/R1GA026</ua>
+    <ua>SonyEricssonC702/R3DA032</ua>
+    <ua>SonyEricssonW580c/R6BC002</ua>
+    <ua>SonyEricssonC905c/R1EA033</ua>
+    <ua>SonyEricssonK800i/R1CF001</ua>
+    <ua>SonyEricssonK610i/R1ED001</ua>
+    <ua>SonyEricssonC902c/R3BA035</ua>
+    <ua>SonyEricssonG705/R1FA035</ua>
+    <ua>SonyEricssonT707/R1FA035</ua>
+    <ua>SonyEricssonW595/R3EA037</ua>
+    <ua>SonyEricssonW850c/R1ED001</ua>
+    <ua>SonyEricssonW595/R3EA036</ua>
+    <ua>SonyEricssonW595/R3EA031</ua>
+    <ua>SonyEricssonZ780i/R3DA028</ua>
+    <ua>SonyEricssonK850I/R1EA030</ua>
+    <ua>SonyEricssonW980/R3EG004</ua>
+    <ua>SonyEricssonK800i/R1JC002</ua>
+    <ua>SonyEricssonK800c/R1JC002</ua>
+    <ua>SonyEricssonT650i/R7AA024</ua>
+    <ua>SonyEricssonW395/1217556</ua>
+    <ua>SonyEricssonK550c/R1KC001</ua>
+    <ua>SonyEricssonK790i/R1KC001</ua>
+    <ua>SonyEricssonW610c/R1JD001</ua>
+    <ua>SonyEricssonW880i/R1KC001</ua>
+    <ua>SonyEricssonZ610i/R1KH001</ua>
+    <ua>SonyEricssonC902/R3BA035</ua>
+    <ua>SonyEricssonK610i/R1EJ001</ua>
+    <ua>SonyEricssonW380i/R10BA015</ua>
+    <ua>SonyEricssonW760i/R3BA035</ua>
+    <ua>SonyEricssonZ555i/R9BB001</ua>
+    <ua>SonyEricssonW610c/R6BC002</ua>
+    <ua>SonyEricssonK790c/R1JG001</ua>
+    <ua>SonyEricssonW850i/R1JG001</ua>
+    <ua>SonyEricssonK800i/R1EJ001</ua>
+    <ua>SonyEricssonW980c/R3CA012</ua>
+    <ua>SonyEricssonW980/R3DA030</ua>
+    <ua>SonyEricssonW980/R3DA032</ua>
+    <ua>SonyEricssonW908c/R1EA030</ua>
+    <ua>SonyEricssonW380i/R9BA023</ua>
+    <ua>SonyEricssonK530c/R8BB001</ua>
+    <ua>SonyEricssonK550i/R1JD001</ua>
+    <ua>SonyEricssonK800c/R1GA024</ua>
+    <ua>SonyEricssonW980/R3DA026</ua>
+    <ua>SonyEricssonW710i/R1JC002</ua>
+    <ua>SonyEricssonW980/R3DA028</ua>
+    <ua>SonyEricssonK790c/R8BA024</ua>
+    <ua>SonyEricssonK790i/R1GB001</ua>
+    <ua>SonyEricssonW710i/R1EE001</ua>
+    <ua>SonyEricssonZ780i/R3BA031</ua>
+    <ua>SonyEricssonT650i/R8BB001</ua>
+    <ua>SonyEricssonK630c/R1DA038</ua>
+    <ua>SonyEricssonK530c/R6BC002</ua>
+    <ua>SonyEricssonW715/R1GA032</ua>
+    <ua>SonyEricssonG502/R1FA031</ua>
+    <ua>SonyEricssonZ558c/R4GC012</ua>
+    <ua>SonyEricssonW715/R1GA030</ua>
+    <ua>SonyEricssonW715/R1GA026</ua>
+    <ua>SonyEricssonG705/R1EA030</ua>
+    <ua>SonyEricssonG705/R1EA033</ua>
+    <ua>SonyEricssonC905/R1EA033</ua>
+    <ua>SonyEricssonC905/R1EA034</ua>
+    <ua>SonyEricssonG700c/R6H815</ua>
+    <ua>SonyEricssonG502c/R1FA036</ua>
+    <ua>SonyEricssonG502c/R1FA037</ua>
+    <ua>SonyEricssonW760i/R3EK002</ua>
+    <ua>SonyEricssonK618i/R1GB001</ua>
+    <ua>SonyEricssonT707/R1GA032</ua>
+    <ua>SonyEricssonK630i/R1FA032</ua>
+    <ua>SonyEricssonT707/R1GA026</ua>
+    <ua>SonyEricssonK618i/R1JG001</ua>
+    <ua>SonyEricssonW710c/R1GB001</ua>
+    <ua>SonyEricssonK810i/R6BC002</ua>
+    <ua>SonyEricssonT715a/R1GA026</ua>
+    <ua>SonyEricssonC702c/R3DA029</ua>
+    <ua>SonyEricssonK550i/R1KC001</ua>
+    <ua>SonyEricssonC902c/R3DA028</ua>
+    <ua>SonyEricssonW595c/R3EA031</ua>
+    <ua>SonyEricssonW595c/R3EA037</ua>
+    <ua>SonyEricssonW880i/R1JC002</ua>
+    <ua>SonyEricssonW595c/R3EA036</ua>
+    <ua>SonyEricssonC702c/R3DA033</ua>
+    <ua>SonyEricssonW902/R3EA037</ua>
+    <ua>SonyEricssonC702/R3CA037</ua>
+    <ua>SonyEricssonK790i/R1KG001</ua>
+    <ua>SonyEricssonC902/R3CA038</ua>
+    <ua>SonyEricssonW850i/R1JE001</ua>
+    <ua>SonyEricssonC902/R3CA037</ua>
+    <ua>SonyEricssonC905c/R1CA020</ua>
+    <ua>SonyEricssonW715/R1FA035</ua>
+    <ua>SonyEricssonZ610i/R1ED001</ua>
+    <ua>SonyEricssonK800i/R1KG001</ua>
+    <ua>SonyEricssonC902c/R3CA038</ua>
+    <ua>SonyEricssonC902c/R3CA033</ua>
+    <ua>SonyEricssonW910i/R1ED001</ua>
+    <ua>SonyEricssonW760i/R3DA033</ua>
+    <ua>SonyEricssonW760i/R3DA032</ua>
+    <ua>SonyEricssonW760i/R3DA030</ua>
+    <ua>SonyEricssonK800c/R1ED001</ua>
+    <ua>SonyEricssonW380i/R9BB001</ua>
+    <ua>SonyEricssonK550c/R1KG001</ua>
+    <ua>SonyEricssonK818c/R8BA024</ua>
+    <ua>SonyEricssonK618i/R1CF001</ua>
+    <ua>SonyEricssonC702c/R3CA037</ua>
+    <ua>SonyEricssonC702/R3BA035</ua>
+    <ua>SonyEricssonC702/R3BA030</ua>
+    <ua>SonyEricssonG900/R6K842</ua>
+    <ua>SonyEricssonC905c/R1BA034</ua>
+    <ua>SonyEricssonW350c/R11AA011</ua>
+    <ua>SonyEricssonW760i/R3DA028</ua>
+    <ua>SonyEricssonZ710c/R1JC002</ua>
+    <ua>SonyEricssonW760c/R3BA035</ua>
+    <ua>SonyEricssonW580i/R6BC002</ua>
+    <ua>SonyEricssonC905c/R1BA042</ua>
+    <ua>SonyEricssonC901/R1EA030</ua>
+    <ua>SonyEricssonC901/R1EA033</ua>
+    <ua>SonyEricssonW850i/R1ED001</ua>
+    <ua>SonyEricssonW995/R1HA035</ua>
+    <ua>SonyEricssonW995/R1HA036</ua>
+    <ua>SonyEricssonK810i/R1KF001</ua>
+    <ua>SonyEricssonK800i/R1ED001</ua>
+    <ua>SonyEricssonW910i/R1ED003</ua>
+    <ua>SonyEricssonT700/R3EG004</ua>
+    <ua>SonyEricssonU100i/R7AA076</ua>
+    <ua>SonyEricssonW380c/R10CA001</ua>
+    <ua>SonyEricssonK810c/R1KC001</ua>
+    <ua>SonyEricssonK660i/R1EA030</ua>
+    <ua>SonyEricssonK660i/R1EA033</ua>
+    <ua>SonyEricssonK610i/R1CB001</ua>
+    <ua>SonyEricssonC905/R1FA035</ua>
+    <ua>SonyEricssonK800c/R8BF003</ua>
+    <ua>SonyEricssonW980/R3CA033</ua>
+    <ua>SonyEricssonW980/R3CA038</ua>
+    <ua>SonyEricssonS500i/R6BC002</ua>
+    <ua>SonyEricssonS500i/R8BA024</ua>
+    <ua>SonyEricssonK610i/R1KG001</ua>
+    <ua>SonyEricssonS500c/R6BC002</ua>
+    <ua>SonyEricssonW350c/R10BA015</ua>
+    <ua>SonyEricssonK770i/R8AA018</ua>
+    <ua>SonyEricssonK790c/R1JC002</ua>
+    <ua>SonyEricssonK800i/R1JG001</ua>
+    <ua>SonyEricssonW850i/R1GB001</ua>
+    <ua>SonyEricssonW395/R1CB008</ua>
+    <ua>SonyEricssonS500c/R8BE001</ua>
+    <ua>SonyEricssonT700/R3EA031</ua>
+    <ua>SonyEricssonT700/R3EA036</ua>
+    <ua>SonyEricssonT700/R3EA037</ua>
+    <ua>SonyEricssonW660c/R8BB001</ua>
+    <ua>SonyEricssonK800i/R1GB001</ua>
+    <ua>SonyEricssonk530c/R8BB001</ua>
+    <ua>SonyEricssonT707a/R1EA030</ua>
+    <ua>SonyEricssonT707a/R1EA034</ua>
+    <ua>SonyEricssonT707a/R1EA033</ua>
+    <ua>SonyEricssonW888c/R1JG001</ua>
+    <ua>SonyEricssonC702c/R3BA037</ua>
+    <ua>SonyEricssonW580i/R6BA020</ua>
+    <ua>SonyEricssonK530i/R6BC002</ua>
+    <ua>SonyEricssonC702c/R3BA035</ua>
+    <ua>SonyEricssonK800i德润专用/R8BA024</ua>
+    <ua>SonyEricssonK790c/R1CC003</ua>
+    <ua>SonyEricssonK550i/R6BC002</ua>
+    <ua>SonyEricssonK810a/R1KG001</ua>
+    <ua>SonyEricssonK770i/R8BA024</ua>
+    <ua>SonyEricssonW580c/R6BD001</ua>
+    <ua>SonyEricssonG700c/R6JB825</ua>
+    <ua>SonyEricssonC905c/R1DA032</ua>
+    <ua>SonyEricssonW760c/R3EK002</ua>
+    <ua>SonyEricssonC902/R3EA038</ua>
+    <ua>SonyEricssonW380i/R11CA002</ua>
+    <ua>SonyEricssonC902/R3EA037</ua>
+    <ua>SonyEricssonC702/R3EA037</ua>
+    <ua>SonyEricssonK800c/R1GB001</ua>
+    <ua>SonyEricssonK630i/R1CA029</ua>
+    <ua>SonyEricssonW908c/R1FA030</ua>
+    <ua>SonyEricssonW908c/R1FA035</ua>
+    <ua>SonyEricssonT715/R1GA032</ua>
+    <ua>SonyEricssonT715/R1GA026</ua>
+    <ua>SonyEricssonK790i/R1JC002</ua>
+    <ua>SonyEricssonK610c/R1ED001</ua>
+    <ua>SonyEricssonW888c/R1HA013</ua>
+    <ua>SonyEricssonU10i/R1BA049</ua>
+    <ua>SonyEricssonW850c/R1KG001</ua>
+    <ua>SonyEricssonZ558i/R4FA013</ua>
+    <ua>SonyEricssonC902/R3EG004</ua>
+    <ua>SonyEricssonW880i/R1KG001</ua>
+    <ua>SonyEricssonK530c/R8BA024</ua>
+    <ua>SonyEricssonW890i/R1EA020</ua>
+    <ua>SonyEricssonK530i/R8BB001</ua>
+    <ua>SonyEricssonK790c/R1EG001</ua>
+    <ua>SonyEricssonW850c/R1JG001</ua>
+    <ua>SonyEricssonW580c/R8BE001</ua>
+    <ua>SonyEricssonZ750i/R1EA038</ua>
+    <ua>SonyEricssonW890i/R1EA033</ua>
+    <ua>SonyEricssonZ750i/R1EA030</ua>
+    <ua>SonyEricssonW890i/R1EA030</ua>
+    <ua>SonyEricssonW995/R1EA028</ua>
+    <ua>SonyEricssonU10i/R7AA077</ua>
+    <ua>SonyEricssonU10i/R7AA071</ua>
+    <ua>SonyEricssonS500c/R6BA020</ua>
+    <ua>SonyEricssonW995/R1EA032</ua>
+    <ua>SonyEricssonW995/R1EA033</ua>
+    <ua>SonyEricssonG700/R6K842</ua>
+    <ua>SonyEricssonC901/R1FA035</ua>
+    <ua>SonyEricssonW715/R1EA033</ua>
+    <ua>SonyEricssonW715/R1EA030</ua>
+    <ua>SonyEricssonW760i/R3EA037</ua>
+    <ua>SonyEricssonW760i/R3EA036</ua>
+    <ua>SonyEricssonW380c/R10BA015</ua>
+    <ua>SonyEricssonC702/R3EK002</ua>
+    <ua>SonyEricssonK610i/R1JC002</ua>
+    <ua>SonyEricssonK610c/R1GB001</ua>
+    <ua>SonyEricssonW595/R3EG004</ua>
+    <ua>SonyEricssonW595c/R3DA031</ua>
+    <ua>SonyEricssonK790c/R8BF003</ua>
+    <ua>SonyEricssonW760c/R3DA028</ua>
+    <ua>SonyEricssonZ780i/R3CA033</ua>
+    <ua>SonyEricssonW660i/R8BB001</ua>
+    <ua>SonyEricssonW580i/R8BE001</ua>
+    <ua>SonyEricssonZ750i/R1CA029</ua>
+    <ua>SonyEricssonC902c/R3EG004</ua>
+    <ua>SonyEricssonW850c/R1GB001</ua>
+    <ua>SonyEricssonK810i/R8BA024</ua>
+    <ua>SonyEricssonK800c/R8BA024</ua>
+    <ua>SonyEricssonW850i/R1EJ001</ua>
+    <ua>SonyEricssonK630i/R1DA038</ua>
+    <ua>SonyEricssonK818i/R6BC002</ua>
+    <ua>SonyEricssonK800</ua>
+    <ua>SonyEricssonK850i/R1DA038</ua>
+    <ua>SonyEricssonW995/R1GA026</ua>
+    <ua>SonyEricssonC905c/R1FA035</ua>
+    <ua>SonyEricssonK610i/R1JG001</ua>
+    <ua>SonyEricssonW760c/R3EA037</ua>
+    <ua>SonyEricssonW760c/R3EA036</ua>
+    <ua>SonyEricssonK810i/R1KD002</ua>
+    <ua>SonyEricssonK790c/R1GB001</ua>
+    <ua>SonyEricssonZ750i/R1CA031</ua>
+    <ua>SonyEricssonW910i/R1DA038</ua>
+    <ua>SonyEricssonW760i/R3CA038</ua>
+    <ua>SonyEricssonW760i/R3CA037</ua>
+    <ua>SonyEricssonK550c/R6BC002</ua>
+    <ua>SonyEricssonK610i/R8BA024</ua>
+    <ua>SonyEricssonC702c/R3EK001</ua>
+    <ua>SonyEricssonC702c/R3EK002</ua>
+    <ua>SonyEricssonW888c/R1KG001</ua>
+    <ua>SonyEricssonW980/R3EA036</ua>
+    <ua>SonyEricssonW980/R3EA037</ua>
+  </model>
+  <model name="SonyEricsson Unknown" pattern="SonyEricsson.*" config="2">
+    <ua>SonyEricssonk850/R1EA030</ua>
+    <ua>SonyEricssonJ20/R7BA076</ua>
+    <ua>SonyEricssonk750c/R1BC002</ua>
+    <ua>SonyEricssonk850i/R1DA038</ua>
+    <ua>SonyEricssonU1i/18-9500_R1CB003/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SonyEricssonU5i/24-4699_R2AA029/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SonyEricssonC903a/R1EA034</ua>
+    <ua>SonyEricsson_JP8_240x320/JAVASDK</ua>
+    <ua>SonyEricssonU1i/18-9500_R1BB041/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SonyEricssonJ10i2/R7BA076</ua>
+    <ua>SonyEricssonJ10i2/R7BA081</ua>
+    <ua>SonyEricssonk800</ua>
+    <ua>SonyEricssonC903/R1FA035</ua>
+    <ua>SonyEricssonP220i/R1B826</ua>
+    <ua>SonyEricssonJ20i/R7BA081</ua>
+    <ua>SonyEricssonU5i/24-4699_R2CA024/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SonyEricssonJ20i/R7BA076</ua>
+    <ua>SonyEricssonU1i/18-9500_R2AK006/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SonyEricssonJ10/R7BA076</ua>
+    <ua>SonyEricssonW20/R7CA056</ua>
+    <ua>SonyEricssonU8i/32-0380_R2CA024/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SonyEricssonU1i/18-9500_R2AK007/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SonyEricssonU5i/24-4699_R2AK006/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SonyEricssonF100i/R1GA026</ua>
+    <ua>SonyEricssonM1i/R1AB041</ua>
+    <ua>SonyEricssonX2i/R1AA</ua>
+    <ua>SonyEricssonJ10i/R7BA076</ua>
+    <ua>SonyEricssonC903/R1EA032</ua>
+    <ua>SonyEricssonC903/R1EA033</ua>
+    <ua>SonyEricssonU1i/18-9500_R1CA037/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SonyEricssonC903/R1GA026</ua>
+    <ua>SonyEricssonC903/R1GA028</ua>
+    <ua>SonyEricssonU1i/18-9500_R1BC001/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SonyEricssonC903a/R1FA035</ua>
+    <ua>SonyEricssonU5i/24-4699_R2AK007/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+  </model>
+  <model name="Samsung Series60 Series" pattern=".*SamsungSGHi560.*,.*SamsungSGHi568.*,SAMSUNG-GT-I8510.*,SEC-SGHD720.*,Samsung/SGH-i550.*,Samsung/SGH-i458.*,Samsung/SGH-i450.*" config="2">
+    <ua>SAMSUNG-GT-I8510C/510COZXHH1/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>SAMSUNG-GT-I8510T/510ZXIC1/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>SAMSUNG-GT-I8510C/510CZXHK1/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Samsung/SGH-i458B/58ZTHC1</ua>
+    <ua>SAMSUNG-GT-I8510C/510ZXHJ2/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>SAMSUNG-GT-I8510H/510HZXHJ4/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>SEC-SGHD720/D720DZFA4</ua>
+    <ua>Samsung/SGH-i550/50DZHC1</ua>
+    <ua>Samsung/SGH-i450/50DZGL3</ua>
+    <ua>SAMSUNG-GT-I8510C/MSUNG Innov8/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>1.0/SamsungSGHi560/60XXHE1</ua>
+    <ua>Samsung/SGH-i450/50DZHC1</ua>
+    <ua>Samsung/SGH-i450/50DZHD1</ua>
+    <ua>Samsung/SGH-i450/50DZHF1</ua>
+    <ua>Samsung/SGH-i450/50DZHA1</ua>
+    <ua>SAMSUNG-GT-I8510C/510OPDACoolZ3.1/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>SAMSUNG-GT-I8510H/510HZXHK1/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Samsung/SGH-i458B/58ZHHE1</ua>
+    <ua>Samsung/SGH-i458B/58ZHHD1</ua>
+    <ua>SAMSUNG-GT-I8510T/510ZXIE1/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>SAMSUNG-GT-I8510C/510CZXHI7/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Samsung/SGH-i458B/58ZHHC1</ua>
+    <ua>Samsung/SGH-i458B/58ZHHB1</ua>
+    <ua>Samsung/SGH-i550/50DZGL3</ua>
+    <ua>1.0/SamsungSGHi568/68ZTHA1</ua>
+  </model>
+  <model name="Samsung Default" pattern="Samsung.*,SAMSUNG.*,SEC-SGH.*,SGH-.*" config="0">
+    <ua>SEC-SGHE958/ZCHH1</ua>
+    <ua>SAMSUNG-GT-S5628i/S5628iZCJD6</ua>
+    <ua>Samsung:GT-I5700:GT-I5700:spica/2.1-update1:ECLAIR:eng.chad.lee.20100220.140822/JBOAN_1.0.0.2924_2010-02-19T16:07:20+09:00</ua>
+    <ua>SAMSUNG SGH-D980</ua>
+    <ua>SEC-SGHE958/ZCHL1</ua>
+    <ua>Samsung/910ZXJB2/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SAMSUNG-GT-B7610/XXIE4/</ua>
+    <ua>SAMSUNG-B3210/ZCJC1</ua>
+    <ua>Samsung/510DJHI3/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>SAMSUNG SGH-F278i</ua>
+    <ua>SEC-SGHE950/DXGI2</ua>
+    <ua>SEC-SGHE950/DXGI4</ua>
+    <ua>SEC-SGHE950/DXGK3</ua>
+    <ua>Samsung/peruser:I8910ZXIG1/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SAMSUNG-GT-S5628i/S5628iZCJE1</ua>
+    <ua>Samsung/510DJIC2/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Samsung/10XXXC0/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>SAMSUNG SGH-F488E</ua>
+    <ua>SAMSUNG GT-M2710C</ua>
+    <ua>SAMSUNG GT-C6112C</ua>
+    <ua>SAMSUNG S3600H</ua>
+    <ua>SEC-SGHU308/ZAGK1</ua>
+    <ua>SAMSUNG-GT-S3653/S3653DXII2</ua>
+    <ua>SAMSUNG-GT-S3653/S3653DXII6</ua>
+    <ua>SEC-SGHU608/ZCGL1a</ua>
+    <ua>SAMSUNG M3510C</ua>
+    <ua>SGH-J758</ua>
+    <ua>SGH-J750</ua>
+    <ua>SEC-SGHJ618/ZMGL1</ua>
+    <ua>SEC-SGHJ618/ZMGK3</ua>
+    <ua>SAMSUNG-SGH-D728/D728ZMFE1</ua>
+    <ua>Samsung/910ZXII3/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SGH-L288</ua>
+    <ua>Samsung Elecs</ua>
+    <ua>SAMSUNG-GT-S8500/S8500DXJEA</ua>
+    <ua>SAMSUNG-S3500/IDXII2</ua>
+    <ua>SAMSUNG-GT-B7300C_CMCC/1.0</ua>
+    <ua>SAMSUNG-SGH-L878E/78EZCHI4/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Samsung-SCH-W589-J2ME</ua>
+    <ua>SAMSUNG SGH-U908E</ua>
+    <ua>Samsung_SGH-D600_SGH-D800</ua>
+    <ua>SAMSUNG-GT-S8500/S8500ZSJE7</ua>
+    <ua>Samsung-SCH-W799-J2ME</ua>
+    <ua>SAMSUNG GT-B5702C</ua>
+    <ua>SAMSUNG-GT-S5620/S5620DXJC3</ua>
+    <ua>SAMSUNG-SGH-i908/1.0 Release/03.07 Browser/IE6 Profile/MIDP-2.0 Configuration/CLDC-1.1</ua>
+    <ua>Samsung/910DXIH1/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SEC-SGHU608/在线</ua>
+    <ua>SAMSUNG GT-C3518</ua>
+    <ua>SEC-SGHU608/ZCG8</ua>
+    <ua>SAMSUNG-SGH-D728/D728ZMEL1</ua>
+    <ua>SAMSUNG-S3500/CZCID2</ua>
+    <ua>SEC-SGHU600/DXGD5</ua>
+    <ua>SEC-SGHU600/DXGC4</ua>
+    <ua>SEC-SGHU600/DXGE1</ua>
+    <ua>SEC-SGHU600/DXGH1</ua>
+    <ua>SEC-SGHU600/DXGG2</ua>
+    <ua>Samsung/510ZXHI3/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Samsung/910JB2-04-19/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>Samsung/510OPDACoolX1.2/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>SEC-SGHU608/sDOG</ua>
+    <ua>SAMSUNG-SGH-i908E_CMCC/1.0</ua>
+    <ua>Samsung/910HX-V6-XX/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SAMSUNG C3310C</ua>
+    <ua>SEC-SGHU108/ZMGK2</ua>
+    <ua>SAMSUNG-GT-C5130U/C5130UZCJB1</ua>
+    <ua>SGH-P318</ua>
+    <ua>SEC-SGHU108/ZMGG2</ua>
+    <ua>SEC-SGHU108/ZMGG3</ua>
+    <ua>Samsung/910ZXJC1/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SEC-SGHU108/ZMGF3</ua>
+    <ua>SAMSUNG-GT-S7070C/S7070CZCJB7</ua>
+    <ua>SAMSUNG-SGH-L878E/78EZCIC1/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>SAMSUNG-SGH-i900/1.0 Opera 9.5</ua>
+    <ua>SAMSUNG SGH-G608</ua>
+    <ua>SAMSUNG C3610C</ua>
+    <ua>SAMSUNG-GT-S7070C/S7070CZCJD1</ua>
+    <ua>SAMSUNG SGH-G600</ua>
+    <ua>SEC-SGHE848/ZCGH3b</ua>
+    <ua>SAMSUNG-GT-C5130U/C5130UZCIL3</ua>
+    <ua>SEC-SGHE848/ZCGH2a</ua>
+    <ua>SEC-SGHU600/DXGJ1</ua>
+    <ua>SAMSUNG-GT-S3650C/S3650CZCJD1</ua>
+    <ua>SGH-G508E/G508EZCHI7</ua>
+    <ua>SAMSUNG GT-B3410</ua>
+    <ua>SAMSUNG-GT-B5310U/B5310UZCJB4</ua>
+    <ua>SamsungSGH-I8000/1.0</ua>
+    <ua>SAMSUNG-GT-B5310U/B5310UZCJE1</ua>
+    <ua>Samsung/910UZCII4/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SGH-i900</ua>
+    <ua>SGH-i907</ua>
+    <ua>SGH-i908</ua>
+    <ua>Samsung-SCH-F619-J2ME</ua>
+    <ua>SAMSUNG GT-S5200C</ua>
+    <ua>SAMSUNG SGH-D880</ua>
+    <ua>Samsung-SCH-F539-J2ME</ua>
+    <ua>SAMSUNG GT-M3318C</ua>
+    <ua>SEC-SGHU608/GZCHL1</ua>
+    <ua>SAMSUNG M3510</ua>
+    <ua>SEC-SGHU608/GZCHH2</ua>
+    <ua>Samsung/910ZXIK1/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SAMSUNG-S3500/HZHID1</ua>
+    <ua>SAMSUNG-GT-S3650C/S3650CZCII6</ua>
+    <ua>SAMSUNG-GT-S3650C/S3650CZCII5</ua>
+    <ua>SAMSUNG SGH-U708E</ua>
+    <ua>SAMSUNG GT-B5722C</ua>
+    <ua>SAMSUNG-GT-S3650C/S3650CZCIL4</ua>
+    <ua>SGH-i200</ua>
+    <ua>Samsung/510DJLitei5-D11/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>SAMSUNG-GT-S8500/S8500ZCJE8</ua>
+    <ua>SAMSUNG-GT-S5628/S5628ZTJD1</ua>
+    <ua>SAMSUNG SGH-F258</ua>
+    <ua>Samsung/SGH-G810/10DZHE6</ua>
+    <ua>SAMSUNG SGH-F250</ua>
+    <ua>SAMSUNG SGH-F268</ua>
+    <ua>Samsung/SGH-G810/10DZHD4</ua>
+    <ua>SGH-i718+</ua>
+    <ua>SAMSUNG SGH-F278</ua>
+    <ua>Samsung/SGH-G810/10DZHG2</ua>
+    <ua>Samsung/SGH-G810/10DZHF2</ua>
+    <ua>Samsung/SGH-G810/10DZHF3</ua>
+    <ua>Samsung/SGH-G810/10DZHF1</ua>
+    <ua>SAMSUNG S3600</ua>
+    <ua>SAMSUNG-GT-C5130U/C5130UZNIL1</ua>
+    <ua>SGH-i728</ua>
+    <ua>SGH-i718</ua>
+    <ua>SEC-SGHU608/BZCHD1</ua>
+    <ua>Samsung SGH-E315</ua>
+    <ua>Samsung-SCH-F839-J2ME</ua>
+    <ua>SGH-i780</ua>
+    <ua>SGH-G508/G508ZHHH3</ua>
+    <ua>SEC-SGHU608/BZCHB2</ua>
+    <ua>SEC-SGHU608/BZCHB1</ua>
+    <ua>SAMSUNG SGH-J708</ua>
+    <ua>SGH-G508/G508ZHHI3</ua>
+    <ua>SGH-G508/G508ZHHL1</ua>
+    <ua>SAMSUNG-GT-S3650/S3650ZHII4</ua>
+    <ua>Samsung/MSUNG Innov8/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>SAMSUNG SGH-F118</ua>
+    <ua>SAMSUNG-GT-S5550U/S5550UZCJD1</ua>
+    <ua>SAMSUNG SGH-L708E</ua>
+    <ua>SAMSUNG-GT-S5550U/S5550UZCJB2</ua>
+    <ua>SAMSUNG-SGH-L878/78ZHHK3/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>SAMSUNG-GT-S5628/S5628ZCJD3</ua>
+    <ua>SAMSUNG-GT-S5628/S5628ZCJE1</ua>
+    <ua>SEC-SGHU608/ZCIH1</ua>
+    <ua>SAMSUNG-GT-S5628/S5628ZCJC5</ua>
+    <ua>SAMSUNG-GT-S5628/S5628ZCJC4</ua>
+    <ua>SAMSUNG-GT-S3650C/S3650CZHIL2</ua>
+    <ua>SamsungSGH-I8000/1.0/</ua>
+    <ua>SAMSUNG-GT-S3650C/S3650CZHIK2</ua>
+    <ua>SAMSUNG-GT-S3370/S3370ZCJE1</ua>
+    <ua>SAMSUNG-SGH-L878E/78EZCHK1/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>SAMSUNG-SGH-L878/78ZHHK2/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>SAMSUNG-SGH-F408</ua>
+    <ua>SAMSUNG-SGH-F400</ua>
+    <ua>SGH-i908E</ua>
+    <ua>SGH-G508E/G508EZCIG2</ua>
+    <ua>SGH-G508E/G508EZCII1</ua>
+    <ua>SAMSUNG-SGH-F488</ua>
+    <ua>SAMSUNG-GT-B5210U/210UZNIE3/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>SGH-G508E/G508EZCIK1</ua>
+    <ua>SAMSUNG-S3500/DXIC6</ua>
+    <ua>SAMSUNG-S3500/DXIC1</ua>
+    <ua>SEC-SGHU608/BZCGL1</ua>
+    <ua>SAMSUNG-GT-C5510U/C5510UZCJA1</ua>
+    <ua>SAMSUNG SGH-G808E</ua>
+    <ua>Samsung T709</ua>
+    <ua>Samsung/910UZCII3/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SAMSUNG-GT-C5510U/C5510UZCJD1</ua>
+    <ua>SEC-SGHU608/BZCGJ1</ua>
+    <ua>SEC-SGHU600/DXHC1</ua>
+    <ua>SGH-G508E/G508EZCIA1</ua>
+    <ua>SAMSUNG-SGH-i908/1.0 Opera 9.5</ua>
+    <ua>Samsung/910DXJC1/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>Samsung/910DXIG2/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SGH-G508E/G508EZCID1</ua>
+    <ua>SAMSUNG SGH-J808E</ua>
+    <ua>SAMSUNG-SGH-i908E_CMCC/1.0 Release/03.07 Browser/IE6 Profile/MIDP-2.0 Configuration/CLDC-1.1</ua>
+    <ua>SAMSUNG-GT-C5510U/C5510UZCII2</ua>
+    <ua>Samsung-SCH-F339-J2ME</ua>
+    <ua>Samsung/910YATAIJC1-11/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SAMSUNG-GT-S3650C/S3650CZHJC1</ua>
+    <ua>SEC-SGHE840/BDXGK1</ua>
+    <ua>SEC-SGHE840/BDXGK2</ua>
+    <ua>SAMSUNG-SGH-L878/78ZHIC1/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Samsung/510DJHI1/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>SAMSUNG SGH-U808E</ua>
+    <ua>SAMSUNG-S3500/CZCII1</ua>
+    <ua>SAMSUNG-S3500/CZCIH2</ua>
+    <ua>SAMSUNG-S3500/CZCIH3</ua>
+    <ua>SAMSUNG GT-S3600i</ua>
+    <ua>SAMSUNG GT-S3601C</ua>
+    <ua>SAMSUNG-S3500/CZCIF1</ua>
+    <ua>SAMSUNG GT-S3600C</ua>
+    <ua>SEC-SGHE840/DXGJ1</ua>
+    <ua>Samsung/910ZXIK2/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SAMSUNG S3110C</ua>
+    <ua>Samsung-SCH-M519-J2ME</ua>
+    <ua>SAMSUNG-SGH-D728/D728ZMFL1</ua>
+    <ua>SAMSUNG-GT-M5650U/M5650UZSJC6</ua>
+    <ua>SEC-SGHE840/DXGE8</ua>
+    <ua>Samsung/510DJHI4/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>SEC-SGHU600/BDXGK2</ua>
+    <ua>SAMSUNG-GT-M5650U/M5650UZCJ</ua>
+    <ua>SAMSUNG SGH-E848i</ua>
+    <ua>SAMSUNG SGH-E251C</ua>
+    <ua>SAMSUNG-SGH-U808</ua>
+    <ua>SEC-SGHE848/ZTGH3</ua>
+    <ua>SAMSUNG-SGH-U800</ua>
+    <ua>Samsung/910ZXIG4/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>Samsung/70XEHL1/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>Samsung:GT-I5700:GT-I5700:GT-I5700/2.1-update1:ECLAIR:eng.chad.lee.20100227.184410/JBOAN_1.0.0.2953_2010-02-24T14:58:22+09:00</ua>
+    <ua>SEC-SGHE848/ZCGC3</ua>
+    <ua>SEC-SGHU608/ZCGD8</ua>
+    <ua>SAMSUNG-SGH-U900</ua>
+    <ua>SEC-SGHU608/ZCGE2</ua>
+    <ua>SEC-SGHU608/ZCGE1</ua>
+    <ua>SAMSUNG-SGH-U908</ua>
+    <ua>SEC-SGHU608/ZCGF2</ua>
+    <ua>SEC-SGHU608/ZCGF1</ua>
+    <ua>SEC-SGHE848/ZCGE4</ua>
+    <ua>SEC-SGHE848/ZCGE3</ua>
+    <ua>SEC-SGHE848/ZCGG3</ua>
+    <ua>SEC-SGHE848/ZCGG2</ua>
+    <ua>SEC-SGHE848/ZCGF1</ua>
+    <ua>SEC-SGHE848/ZCGF3</ua>
+    <ua>SEC-SGHE848/ZCGH1</ua>
+    <ua>SEC-SGHE848/ZCGH2</ua>
+    <ua>SEC-SGHE848/ZCGH3</ua>
+    <ua>SGH-i600</ua>
+    <ua>SEC-SGHE848/ZCGK1</ua>
+    <ua>SGH-i607</ua>
+    <ua>SGH-i608</ua>
+    <ua>Samsung/910ZXIH1/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SEC-SGHE840/BDXHB1</ua>
+    <ua>SEC-SGHE958/ZCGI3</ua>
+    <ua>SEC-SGHU608/ZCGL1</ua>
+    <ua>SAMSUNG-GT-I8180C_CMCC/1.0/</ua>
+    <ua>SEC-SGHE958/ZCGJ1</ua>
+    <ua>SEC-SGHE958/ZCGJ5</ua>
+    <ua>SEC-SGHE848/ZCGL1</ua>
+    <ua>SEC-SGHU608/ZCGJ1</ua>
+    <ua>SEC-SGHU608/ZCGG2</ua>
+    <ua>SGH-i620</ua>
+    <ua>SEC-SGHU608/ZCGH2</ua>
+    <ua>SEC-SGHU608/ZCGH3</ua>
+    <ua>Samsung/910CLINC1/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>Samsung/910CLINC2/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>Samsung/910ZXIJ1/sw_platform=S60;sw_platform_version=5.0;java_build_version=1.3.4</ua>
+    <ua>SGH-i617</ua>
+    <ua>Samsung-GT-B7300/1.0</ua>
+    <ua>SEC-SGHE958/ZCHA1</ua>
+    <ua>SEC-SGHE958/ZCHD1</ua>
+    <ua>SEC-SGHU600/BDXHD1</ua>
+    <ua>SGH-F480/F480DXIB1</ua>
+    <ua>SAMSUNG-GT-B7300/1.0</ua>
+    <ua>SEC-SGHU600/BDXHF1</ua>
+    <ua>Samsung/510OPDACoolX1.3Beta4/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>SAMSUNG-Samsung S7330</ua>
+    <ua>SGH-J408</ua>
+    <ua>SAMSUNG-SGH-L878E/78EZCHK2/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+    <ua>SEC-SGHU600/BDXHL1</ua>
+    <ua>SEC-SGHE848/ZCHA1</ua>
+    <ua>Samsung/510DJIC1/sw_platform=S60;sw_platform_version=3.2;java_build_version=74701</ua>
+  </model>
+  <model name="LG Default" pattern="LG-.*,LG/.*" config="1">
+    <ua>LG-KF750/v10a Browser/Obigo-Q05A/3.11 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG-GB230/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG-GD350/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG-KP500 Teleca/WAP2.0 MIDP-2.0/CLDC-1.1</ua>
+    <ua>LG-KM900e_CMCC/07.02.00 Infineon/SGold3 Release/05.10.2007 Browser/Teleca Q7.1 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG-GX500/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG-KM555/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG-KM900/V100 Obigo/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1</ua>
+    <ua>LG-GC900/V100 Obigo/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1</ua>
+    <ua>LG-KM335</ua>
+    <ua>LG-GD330/V100 Obigo/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1</ua>
+    <ua>LG-GM750</ua>
+    <ua>LG-GT505/v10a</ua>
+    <ua>LG-KC560 Teleca/WAP2.0 MIDP-2.0/CLDC-1.1</ua>
+    <ua>LG-GC900/V10a Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG/KE990/v10a Browser/Obigo-Q05A/3.6 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1</ua>
+    <ua>LG-GS290 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG-GD330-CH/V100 Obigo/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1</ua>
+    <ua>LG-KF700/v10a Browser/Obigo-Q05A/3.12 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG-KF350 Teleca/WAP2.0 MIDP-2.0/CLDC-1.1</ua>
+    <ua>LG-KF310 Browser/Obigo-Q05A/3.12 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.0 Configuration/CLDC-1.1</ua>
+    <ua>LG-KF750-Orange/v10c Browser/Obigo-Q05A/3.12MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG-KP500-CH Teleca/WAP2.0 MIDP-2.0/CLDC-1.1</ua>
+    <ua>LG-KE998_CMCC/v10a QCT/ESM6271 Release/08.12.2007 Browser/Obigo-Q05A/3.6 Profile/MIDP-2.0 Configuration/CLDC-1.1</ua>
+    <ua>LG-KS660 Teleca/WAP2.0 MIDP-2.0/CLDC-1.1</ua>
+    <ua>LG-GW525 Teleca/WAP2.0 MIDP-2.0/CLDC-1.1</ua>
+    <ua>LG-KF600</ua>
+    <ua>LG/KF690/v10a Browser/Obigo-Q05A/3.12 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG-KU990/v10a Browser/Obigo-Q05A/3.6 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1</ua>
+    <ua>LG-KF390 Teleca/Q05A-3.12 Profile/MIDP-2.0 Configuration/CLDC-1.1</ua>
+    <ua>LG-KM900/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG-KM380_CMCC Obigo/WAP2.0 MIDP-2.0/CLDC-1.1</ua>
+    <ua>LG-GD900 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG-KF510_CMCC/07.02.00 Infineon/SGold3 Release/05.10.2007 Browser/Teleca Q05a Profile/MIDP-2.0 Configuration/CLDC-1.1</ua>
+    <ua>LG-KU380/v1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1</ua>
+    <ua>LG-GU230/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG-KS360 Teleca/WAP2.0 MIDP-2.0/CLDC-1.1</ua>
+    <ua>LG-KC550 Teleca/WAP2.0 MIDP-2.0/CLDC-1.1</ua>
+    <ua>LG-KF700/v10a Browser/Obigo-Q05A/3.12 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG-GS500/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG-KS660_CMCC Release/01.02.2009 Teleca/WAP2.0 MIDP-2.0/CLDC-1.1</ua>
+    <ua>LG-KF510 Obigo/WAP2.0 MIDP-2.0/CLDC-1.1</ua>
+    <ua>LG/GT505e/v10b</ua>
+    <ua>LG-GM210/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG-GD900/V100 Obigo/WAP2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1</ua>
+    <ua>LG/KC910/v1.0</ua>
+    <ua>LG/KC910e/V10c</ua>
+    <ua>LG-KP275 Teleca/WAP2.0 MIDP-2.0/CLDC-1.1</ua>
+    <ua>LG-GW300 Teleca/WAP2.0 MIDP-2.0/CLDC-1.1</ua>
+    <ua>LG/KF750/v10a Browser/Obigo-Q05A/3.12 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG-KF900 Teleca/WAP2.0 MIDP-2.0/CLDC-1.1</ua>
+    <ua>LG-KC910/V10a</ua>
+    <ua>LG-KC780 Teleca/WAP2.0 MIDP-2.0/CLDC-1.1</ua>
+    <ua>LG-KF750-v10a Browser/Obigo-Q05A/3.12 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG-GD310/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG-GD310_CMCC Release/9.25.2009 Browser/Teleca-Q05A Profile/MIDP-2.0 Configuration/CLDC-1.1</ua>
+    <ua>LG-GD510/V100 Teleca/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG/KF755/v1.0 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG/GT505/v10a</ua>
+    <ua>LG-KM380 Obigo/WAP2.0 MIDP-2.0/CLDC-1.1</ua>
+    <ua>LG-KT520/v10a Browser/Obigo-Q05A/3.11 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1</ua>
+    <ua>LG-KF350_CMCC Teleca/WAP2.0 MIDP-2.0/CLDC-1.1</ua>
+  </model>
+  <model name="Motorola Unknown" pattern="Moto.*,MOT-.*" config="0">
+    <ua>Motorola:MT710:SnapperTD:SnapperTD/1.5:CUPCAKE:eng.release.20100122.090630/JBOAN_1.0.0.2417_2009-12-10T16:29:38+08:00</ua>
+    <ua>MotorolaVE66/R6743_G_74.21.02RPL</ua>
+    <ua>MotoE2</ua>
+    <ua>MotorolaVE66/R6743_G_74.11.05RPL</ua>
+    <ua>MotorolaVE538/Brew/V3.1.5</ua>
+    <ua>MOT-L800t_CMCC/1.0 Release/5.8.2008 Browser/TMSS 1.0.0</ua>
+    <ua>MotorolaEM35/R6743_G_74.31.02ROX</ua>
+    <ua>MotorolaEM35/R6743_G_74.21.02ROX</ua>
+    <ua>MotorolaEM35/R6743_G_74.11.08ROX</ua>
+    <ua>Motorola A3000</ua>
+    <ua>Motorola:MT710:SnapperTD:SnapperTD/1.5:CUPCAKE:eng.svnadmin.20100114.115032/JBOAN_1.0.0.2417_2009-12-10T16:29:38+08:00</ua>
+    <ua>MotorolaW7/Brew/V3.1.5</ua>
+    <ua>Motorola V360_V3_PEBL</ua>
+    <ua>Motorola L6</ua>
+    <ua>MotorolaEM35/R6743_G_74.31.00ROX</ua>
+    <ua>Motorola VM Symbian 9.2 UIQ 3.2</ua>
+    <ua>Motorola A3100</ua>
+    <ua>MotorolaVE66/R6743_G_74.31.00RPL</ua>
+    <ua>MotoQ11</ua>
+    <ua>Motorola E1000</ua>
+    <ua>MotorolaVE66/R6743_G_74.11.08RPL</ua>
+    <ua>MotoQ</ua>
+    <ua>MotoQ Norman</ua>
+  </model>
+  <model name="Panasonic Series60 Series" pattern="Panasonic X700.*,Panasonic X800.*" config="0">
+    <ua>Panasonic X800/X800MA12030005</ua>
+  </model>
+  <model name="Dopod Series" pattern="dopod.*" config="2">
+    <ua>dopod T3333</ua>
+    <ua>dopod710</ua>
+    <ua>dopod T8588</ua>
+    <ua>dopod C750</ua>
+    <ua>dopod 595</ua>
+    <ua>dopodC730</ua>
+  </model>
+  <model name="Vodafone Series" pattern="Vodafone.*" config="2">
+    <ua>Vodafone/1.0/GT-I8320/I8320I3XV2 Java/VF-Java/1.0 profile/MIDP-2.1 configuration/CLDC-1.1</ua>
+    <ua>Vodafone/1.0/GT-I8320/I8320I3XV3 Java/VF-Java/1.0 profile/MIDP-2.1 configuration/CLDC-1.1</ua>
+    <ua>Vodafone/1.0/GT-I6410/I6410BUIK2 Java/VF-Java/1.0 profile/MIDP-2.1 configuration/CLDC-1.1</ua>
+    <ua>Vodafone/1.0/LG-KF750/V10a SP Java/ASVM/1.1 SP Profile/MIDP-2.1 SP Configuration/CLDC-1.1</ua>
+    <ua>Vodafone/1.0/GT-I8320/I8320I3XV4 Java/VF-Java/1.0 profile/MIDP-2.1 configuration/CLDC-1.1</ua>
+    <ua>Vodafone 830</ua>
+    <ua>Vodafone 715</ua>
+    <ua>Vodafone 710</ua>
+  </model>
+  <model name="Treo Series" pattern="Treo.*,Palm Treo.*" config="2">
+    <ua>Treo500-1.02</ua>
+    <ua>Palm Treo 850</ua>
+    <ua>Palm Treo 750</ua>
+  </model>
+  <model name="HTC Series" pattern="HTC.*" config="2">
+    <ua>HTC Touch Diamond2</ua>
+    <ua>HTC T8282</ua>
+    <ua>HTC_S730</ua>
+    <ua>HTC Touch HD T8282</ua>
+    <ua>HTC Touch Diamond P3700</ua>
+    <ua>HTC HD mini T5555</ua>
+    <ua>HTC_S620</ua>
+    <ua>HTC</ua>
+    <ua>HTC_P3700</ua>
+    <ua>HTC_P3702</ua>
+    <ua>HTC Touch 3G T3232</ua>
+    <ua>HTC Touch Pro T7272</ua>
+    <ua>HTC S740</ua>
+    <ua>HTC Star Trek</ua>
+    <ua>HTC Touch Diamond</ua>
+    <ua>HTC_Diamond_2/Windows CE 5.2,Pocket PC</ua>
+    <ua>HTC Magician</ua>
+    <ua>HTC_Diamond</ua>
+    <ua>HTC Touch Viva T2223</ua>
+    <ua>HTC Touch Pro2 T7373</ua>
+    <ua>HTC Touch2 T3333</ua>
+  </model>
+  <model name="Mozilla Series" pattern="Mozilla.*" config="1">
+    <ua>Mozilla/0.21.005</ua>
+    <ua>Mozilla/0.21.004</ua>
+    <ua>Mozilla/07.02</ua>
+    <ua>Mozilla/07.10</ua>
+    <ua>Mozilla/22.1.006</ua>
+    <ua>Mozilla/10.1.040</ua>
+    <ua>Mozilla/10.1.031</ua>
+    <ua>Mozilla/10.1.038</ua>
+    <ua>Mozilla/10.1.039</ua>
+    <ua>Mozilla/21.1.006</ua>
+    <ua>Mozilla/21.1.004</ua>
+    <ua>Mozilla/21.1.003</ua>
+    <ua>Mozilla/25.1.001</ua>
+    <ua>Mozilla/26.1.001</ua>
+    <ua>Mozilla/20.1.019</ua>
+    <ua>Mozilla/20.1.016</ua>
+    <ua>Mozilla/5.0</ua>
+    <ua>Mozilla/23.1.003</ua>
+  </model>
+  <model name="Series60 OEM" pattern="Series60.*" config="1">
+    <ua>Series60/i408ZMGL3</ua>
+    <ua>Series60/10DZHD1</ua>
+    <ua>Series60/58ZMIB2</ua>
+    <ua>Series60/18EZCIB1</ua>
+    <ua>Series60/18EZCIB2</ua>
+    <ua>Series60/58ZMHL1</ua>
+    <ua>Series60/2.21.001</ua>
+    <ua>Series60/58ZMHC1</ua>
+    <ua>Series60/58ZMHC4</ua>
+    <ua>Series60/58ZMHC7</ua>
+    <ua>Series60/58ZMHI1</ua>
+    <ua>Series60/58ZMHG1</ua>
+    <ua>Series60/58ZMHG2</ua>
+    <ua>Series60/I408ZMHJ1</ua>
+    <ua>Series60/1.21.101</ua>
+    <ua>Series60/18EZCHJ1</ua>
+    <ua>Series60/I408ZMHC2</ua>
+    <ua>Series60/0.21.108</ua>
+    <ua>Series60/18EZCHG3</ua>
+    <ua>Series60/58ZMGK5</ua>
+    <ua>Series60/I408ZMIB2</ua>
+    <ua>Series60/1.21.010</ua>
+    <ua>Series60/0.21.011</ua>
+    <ua>Series60/0.21.010</ua>
+    <ua>Series60/0.21.012</ua>
+    <ua>Series60/0.21.008</ua>
+    <ua>Series60/0.21.006</ua>
+    <ua>Series60/31.1.004</ua>
+  </model>
+  <model name="JBlend Series" pattern=".*JBlend.*,.*Jbed.*" config="1">
+    <ua>Jbed</ua>
+    <ua>Jbed-FastDAC</ua>
+    <ua>Aplix JBlend/</ua>
+    <ua>AplixJBlend/ver3_3_5</ua>
+    <ua>Aplix JBlend</ua>
+    <ua>Jbed-FastBCC</ua>
+    <ua>AplixJBlend/ver4_0_0</ua>
+  </model>
+  <model name="Emulator" pattern="j2me,generic,Symbian.*,Sun.*,Linux.*,MicroEmulator.*,MobileXP.*,Pocket PC Phone.*,RIM Wireless Handheld.*,WindowMobile.*,iPhone.*" config="2">
+    <ua>Symbian/Nokia 7610 or 6670</ua>
+    <ua>RIM Wireless Handheld</ua>
+    <ua>WindowMobile/Jade</ua>
+    <ua>Symbian/SGH-L878E</ua>
+    <ua>Symbian/NokiaN73</ua>
+    <ua>WindowMobile/GT-I8000U</ua>
+    <ua>WindowMobile/O2 Xda Atom Exec</ua>
+    <ua>WindowMobile/Touch_Pro</ua>
+    <ua>WindowMobile/Motorola A3000</ua>
+    <ua>WindowMobile/MBJ Corp.</ua>
+    <ua>WindowMobile/SGH-i718+</ua>
+    <ua>WindowMobile/LGE-GM750</ua>
+    <ua>WindowMobile/Polaris</ua>
+    <ua>iPhone/iPhone</ua>
+    <ua>WindowMobile/S700</ua>
+    <ua>WindowMobile/PH10B</ua>
+    <ua>WindowMobile/Intel MainstoneIII</ua>
+    <ua>WindowMobile/Texas Instruments Inc</ua>
+    <ua>WindowMobile/GT-B7300C</ua>
+    <ua>Symbian/6220c</ua>
+    <ua>WindowMobile/TITA100</ua>
+    <ua>Symbian/Nokia 6210s</ua>
+    <ua>WindowMobile/Ciphone</ua>
+    <ua>WindowMobile/Touch Diamond P3700</ua>
+    <ua>WindowMobile/moboDA</ua>
+    <ua>Symbian/Nokia N96</ua>
+    <ua>Symbian/Nokia N70</ua>
+    <ua>Symbian/5230</ua>
+    <ua>WindowMobile/XV6850</ua>
+    <ua>Symbian/Nokia N81</ua>
+    <ua>WindowMobile/SGH-i908</ua>
+    <ua>WindowMobile/SGH-i900</ua>
+    <ua>Symbian/Nokia 6681</ua>
+    <ua>Symbian/Nokia 6680</ua>
+    <ua>WindowMobile/PU10</ua>
+    <ua>WindowMobile/HERA10000</ua>
+    <ua>WindowMobile/Qualcomm</ua>
+    <ua>WindowMobile/MobileXP</ua>
+    <ua>WindowMobile/T2222</ua>
+    <ua>WindowMobile/ASUS P320</ua>
+    <ua>WindowMobile/HTC Touch Viva T2223</ua>
+    <ua>WindowMobile/TRIN100</ua>
+    <ua>WindowMobile/HTC</ua>
+    <ua>WindowMobile/PH20B</ua>
+    <ua>WindowMobile/HERA11000</ua>
+    <ua>WindowMobile/Motorola A3100</ua>
+    <ua>Symbian/Nokia 6630</ua>
+    <ua>Symbian/Nokia 6600</ua>
+    <ua>WindowMobile/HTC Touch Diamond2</ua>
+    <ua>WindowMobile/Pocket PC Phone</ua>
+    <ua>WindowMobile/6850</ua>
+    <ua>WindowMobile/MAINSTN</ua>
+    <ua>iPhone/iPhone2,1</ua>
+    <ua>WindowMobile/HERA*****</ua>
+    <ua>Symbian/Nokia 6788</ua>
+    <ua>WindowMobile/TI</ua>
+    <ua>WindowMobile/ELF010000</ua>
+    <ua>WindowMobile/ELF010001</ua>
+    <ua>WindowMobile/Microsoft DeviceEmulator</ua>
+    <ua>WindowMobile/ARTE40000</ua>
+    <ua>WindowMobile/NIKI100</ua>
+    <ua>Symbian/N86 8MP</ua>
+    <ua>Symbian/6110</ua>
+    <ua>WindowMobile/X1</ua>
+    <ua>Symbian/Nokia 3230</ua>
+    <ua>WindowMobile/dopod S900</ua>
+    <ua>WindowMobile/KOVS100</ua>
+    <ua>WindowMobile/HTC Touch Pro2 T7373</ua>
+    <ua>WindowMobile/ARTE11000</ua>
+    <ua>WindowMobile/T4288</ua>
+    <ua>WindowMobile/ELF010050</ua>
+    <ua>Symbian/N93i</ua>
+    <ua>Pocket PC Phone</ua>
+    <ua>WindowMobile/Xda Atom</ua>
+    <ua>Symbian/E72-1</ua>
+    <ua>Symbian/E72-2</ua>
+    <ua>Symbian/N79</ua>
+    <ua>Symbian/N76</ua>
+    <ua>Symbian/N75</ua>
+    <ua>Symbian/N78</ua>
+    <ua>Symbian/N77</ua>
+    <ua>Symbian/N71</ua>
+    <ua>Symbian/N73</ua>
+    <ua>WindowMobile/GENE10000</ua>
+    <ua>Symbian/N91</ua>
+    <ua>Symbian/N93</ua>
+    <ua>Symbian/N95</ua>
+    <ua>Symbian/N97</ua>
+    <ua>Symbian/N80</ua>
+    <ua>Symbian/N81</ua>
+    <ua>Symbian/N85</ua>
+    <ua>Symbian/N82</ua>
+    <ua>WindowMobile/SIM Technology</ua>
+    <ua>Symbian/Nokia 6122c</ua>
+    <ua>WindowMobile/V900V050</ua>
+    <ua>Symbian/I8510C</ua>
+    <ua>WindowMobile/dopod T8588</ua>
+    <ua>WindowMobile/O2 Xda Atom Life</ua>
+    <ua>Symbian/5320di</ua>
+    <ua>WindowMobile/RAPH800</ua>
+    <ua>WindowMobile/S610</ua>
+    <ua>WindowMobile/ASUS P565</ua>
+    <ua>WindowMobile/SGH-i908E</ua>
+    <ua>Symbian/6210si</ua>
+    <ua>Symbian/5730S-1</ua>
+    <ua>Symbian OS</ua>
+    <ua>WindowMobile/ASUS P527</ua>
+    <ua>WindowMobile/ASUS P526</ua>
+    <ua>WindowMobile/PA10A1</ua>
+    <ua>WindowMobile/Techfaith</ua>
+    <ua>iPhone/iPad1,1</ua>
+    <ua>WindowMobile/Techfaith S610</ua>
+    <ua>Symbian/6650d-1bH</ua>
+    <ua>iPhone2,1</ua>
+    <ua>iPhone/iPhone3G</ua>
+    <ua>Symbian/I8510</ua>
+    <ua>WindowMobile/ARTE20000</ua>
+    <ua>Symbian/SGH-i560</ua>
+    <ua>WindowMobile/K-Touch</ua>
+    <ua>Symbian/5800 XpressMusic</ua>
+    <ua>WindowMobile/HTC_P3700</ua>
+    <ua>WindowMobile/HTC Touch Pro T7272</ua>
+    <ua>WindowMobile/Touch Pro2 T7373</ua>
+    <ua>Symbian/6650 fold</ua>
+    <ua>WindowMobile/MWg Atom V</ua>
+    <ua>Symbian/C5-00</ua>
+    <ua>iPhone/iPodTouch</ua>
+    <ua>WindowMobile/GT-B7610</ua>
+    <ua>Symbian/5630</ua>
+    <ua>WindowMobile/HTC Touch Diamond P3700</ua>
+    <ua>Symbian/9999</ua>
+    <ua>Symbian/5700</ua>
+    <ua>Symbian/</ua>
+    <ua>WindowMobile/Marvell</ua>
+    <ua>Symbian/E75-1</ua>
+    <ua>Symbian/E75-2</ua>
+    <ua>WindowMobile/Iolite</ua>
+    <ua>WindowMobile/S900c</ua>
+    <ua>Symbian/5800i XpressMusic</ua>
+    <ua>WindowMobile/HTC Touch2 T3333</ua>
+    <ua>Symbian/6120ci</ua>
+    <ua>Symbian/E61i</ua>
+    <ua>WindowMobile/Amoi: 6326</ua>
+    <ua>Symbian/E52-1</ua>
+    <ua>WindowMobile/Amoi: 6327</ua>
+    <ua>WindowMobile/OPAL10000</ua>
+    <ua>Symbian/SGH-I408</ua>
+    <ua>WindowMobile/LGE-GM730e</ua>
+    <ua>Symbian/6730c</ua>
+    <ua>generic</ua>
+    <ua>Symbian/N95_8GB</ua>
+    <ua>WindowMobile/VOGU100</ua>
+    <ua>Symbian/SGH-i450</ua>
+    <ua>Symbian/Nokia 6260</ua>
+    <ua>WindowMobile/</ua>
+    <ua>MicroEmulator</ua>
+    <ua>WindowMobile/HERM100</ua>
+    <ua>WindowMobile/HTC Touch 3G T3232</ua>
+    <ua>WindowMobile/LG KT878</ua>
+    <ua>WindowMobile/PHAR10100</ua>
+    <ua>Symbian/SGH-L878</ua>
+    <ua>Symbian/5500</ua>
+    <ua>j2me</ua>
+    <ua>WindowMobile/HP iPAQ Business Navigator 600</ua>
+    <ua>Symbian/Nokia N81 8GB</ua>
+    <ua>WindowMobile/O2 Xda Zinc</ua>
+    <ua>WindowMobile/HTC HD mini T5555</ua>
+    <ua>WindowMobile/PHAR10000</ua>
+    <ua>Symbian/3250</ua>
+    <ua>Symbian/B5210U</ua>
+    <ua>WindowMobile/T7278</ua>
+    <ua>WindowMobile/ELF011000</ua>
+    <ua>Symbian/E51</ua>
+    <ua>Symbian/E50</ua>
+    <ua>WindowMobile/HERM***</ua>
+    <ua>WindowMobile/Raphael</ua>
+    <ua>WindowMobile/LGE</ua>
+    <ua>WindowMobile/O2 Xda Stealth</ua>
+    <ua>Symbian/E71x</ua>
+    <ua>Symbian/6720c</ua>
+    <ua>WindowMobile/ELF011050</ua>
+    <ua>WindowMobile/ELF011051</ua>
+    <ua>WindowMobile/ELF011052</ua>
+    <ua>Symbian/SGH-i550</ua>
+    <ua>WindowMobile/QUALCOMM</ua>
+    <ua>Symbian/E90</ua>
+    <ua>WindowMobile/Asus P535</ua>
+    <ua>SymbianJ2ME</ua>
+    <ua>Symbian/6290</ua>
+    <ua>Symbian/E70</ua>
+    <ua>Symbian/E71</ua>
+    <ua>WindowMobile/PHILIPS</ua>
+    <ua>Symbian/E72</ua>
+    <ua>WindowMobile/T3238</ua>
+    <ua>Symbian/E66</ua>
+    <ua>Symbian/E65</ua>
+    <ua>Symbian/E60</ua>
+    <ua>Symbian/E63</ua>
+    <ua>Symbian/E61</ua>
+    <ua>Symbian/E62</ua>
+    <ua>WindowMobile/HTC Magician</ua>
+    <ua>WindowMobile/HERM200</ua>
+    <ua>WindowMobile/ARTE10000</ua>
+    <ua>WindowMobile/HERA12000</ua>
+    <ua>WindowMobile/S900</ua>
+    <ua>WindowMobile/OEM</ua>
+    <ua>WindowMobile/TOSHIBA X01T</ua>
+    <ua>Symbian/Nokia 6788i</ua>
+    <ua>WindowMobile/X1i</ua>
+    <ua>Symbian/6710s</ua>
+    <ua>WindowMobile/SGH-i688</ua>
+    <ua>Symbian/6210 Navigator</ua>
+    <ua>WindowMobile/ARTE*****</ua>
+    <ua>Symbian/Nokia 5320</ua>
+    <ua>Symbian/5320</ua>
+    <ua>WindowMobile/Marvell PXA312</ua>
+    <ua>WindowMobile/Xda_Serra</ua>
+    <ua>Symbian/6220c-1</ua>
+    <ua>Symbian/5630d-1</ua>
+    <ua>WindowMobile/HERM300</ua>
+    <ua>WindowMobile/GIGABYTE gSmart</ua>
+    <ua>Symbian/6760s-1</ua>
+    <ua>WindowMobile/SGH-i718</ua>
+    <ua>SunMicrosystems_wtk</ua>
+    <ua>WindowMobile/Kaiser</ua>
+    <ua>Symbian/SGH-G818E</ua>
+    <ua>WindowMobile/Diamond</ua>
+    <ua>Symbian/6650d-1c</ua>
+    <ua>WindowMobile/Palm Treo 750</ua>
+    <ua>WindowMobile/Hisilicon</ua>
+    <ua>Symbian/N95 8GB</ua>
+    <ua>WindowMobile/NEON100</ua>
+    <ua>WindowMobile/SGH-i780</ua>
+    <ua>Symbian/6124c</ua>
+    <ua>WindowMobile/Inventec Electronics</ua>
+    <ua>Symbian/6121c</ua>
+    <ua>Symbian/6120c</ua>
+    <ua>WindowMobile/SEDN100</ua>
+    <ua>WindowMobile/SGH-i728</ua>
+    <ua>WindowMobile/Mio Technology Corporation</ua>
+    <ua>iPhone/iPhoneSimlator</ua>
+    <ua>WindowMobile/GT-B7620U</ua>
+    <ua>Symbian/6700s</ua>
+  </model>
+  <model name="Android" pattern="Android.*" config="2">
+    <ua>Android.m7002-1.5.261</ua>
+    <ua>Android.SKY IM-A600S-2.1-update1</ua>
+    <ua>Android.Samsung i7500-Galaxo V1.6.3.3 zh v1.1</ua>
+    <ua>Android.MSM-2.2</ua>
+    <ua>Android.U8230 with MCR-1.5</ua>
+    <ua>Android.CHT8000-1.5</ua>
+    <ua>Android.sdk-2.1-update1</ua>
+    <ua>Android.Desire-2.2</ua>
+    <ua>Android.Liquid-1.6</ua>
+    <ua>Android.xkkkx Phone 1.3-1.6</ua>
+    <ua>Android.Droid-2.1</ua>
+    <ua>Android.Droid-2.2</ua>
+    <ua>Android.Android Dev Phone 1-dream-android.os.Build.VERSION.SDK-1.6</ua>
+    <ua>Android.SCH-i899-1.5</ua>
+    <ua>Android.GT-I5700-1.5</ua>
+    <ua>Android.Milestone-Itfunz2.1_Eclipse_Terminator_II</ua>
+    <ua>Android.S7-2.1-update1</ua>
+    <ua>Android.apanda-A60-1.6</ua>
+    <ua>Android.SGH-T959-2.1-update1</ua>
+    <ua>Android.T-Mobile G1-1.5</ua>
+    <ua>Android.T-Mobile G1-1.6</ua>
+    <ua>Android.3GC100-1.6</ua>
+    <ua>Android.Liquid-2.1-update1</ua>
+    <ua>Android.altair-Eclair</ua>
+    <ua>Android.Q5-1.5</ua>
+    <ua>Android.XT711-2.1-update1</ua>
+    <ua>Android.Apad-iRobot-unknown</ua>
+    <ua>Android.HTC Dream-1.6</ua>
+    <ua>Android.HTC Dream-1.5</ua>
+    <ua>Android.HTC Hero-lvhai520-V3</ua>
+    <ua>Android.Dream G1 by LFD-2.1-update2</ua>
+    <ua>Android.HTC Hero-FroydVillain1.1.1</ua>
+    <ua>Android.Full Android on smartQ-2.2</ua>
+    <ua>Android.LU2300-1.6</ua>
+    <ua>Android.XT806-2.1-update1</ua>
+    <ua>Android.aPad-1.5</ua>
+    <ua>Android.HTC Legend-2.1 Legend</ua>
+    <ua>Android.HTC Hero-cxh.hero 2.1</ua>
+    <ua>Android.GT-I9000-2.1-update1</ua>
+    <ua>Android.Hero-MJZ1.2 FOR VillainROM5.3</ua>
+    <ua>Android.MoDaCo Custom ROM 1.6, SSH password: NwrfwO-1.5</ua>
+    <ua>Android.GT-I5700-2.1</ua>
+    <ua>Android.Vibo-A688-1.6</ua>
+    <ua>Android.E500-1.5</ua>
+    <ua>Android.XT702-2.1</ua>
+    <ua>Android.M1-2.1</ua>
+    <ua>Android.Hero-2.1</ua>
+    <ua>Android.HTC Hero-Hero_2.15_Hiapk</ua>
+    <ua>Android.Htc Magic-1.6</ua>
+    <ua>Android.MoDaCo Custom ROM U8230 Edition 1.1, SSH password: WPVc4m-1.5</ua>
+    <ua>Android.LiquidE-2.1-update1</ua>
+    <ua>Android.GPhone-1.5</ua>
+    <ua>Android.HTC Hero-Hero_EXv1.3</ua>
+    <ua>Android.SHW-M110S-2.1-update1</ua>
+    <ua>Android.sec_smdk6410-Eclair</ua>
+    <ua>Android.MB200-morrison-android.os.Build.VERSION.SDK-1.5</ua>
+    <ua>Android.smartqv-1.6</ua>
+    <ua>Android.HTC Hero-c-VillainROM10.0.0</ua>
+    <ua>Android.I7500-2.1-update1</ua>
+    <ua>Android.M8-2.2</ua>
+    <ua>Android.XT701-2.1</ua>
+    <ua>Android.Nexus One-2.1-update1</ua>
+    <ua>Android.Milestone-Itfunz2.1_Eclipse_NewBegin_Final</ua>
+    <ua>Android.E10i-1.6</ua>
+    <ua>Android.T-Smart-G68-1.6</ua>
+    <ua>Android.MB501-1.5</ua>
+    <ua>Android.HTC Vogue-2.1-update1</ua>
+    <ua>Android.ADR6300-2.1-update1</ua>
+    <ua>Android.HTC Hero-VillainROM7.0.0</ua>
+    <ua>Android.T-Mobile myTouch 3G-1.6</ua>
+    <ua>Android.Behold II-1.5</ua>
+    <ua>Android.SU950-2.1-update1</ua>
+    <ua>Android.ME511-2.1-update1</ua>
+    <ua>Android.S811_MDO-1.6</ua>
+    <ua>Android.SmartQ V7-2.1</ua>
+    <ua>Android.HTC Hero-Hero_2.17_Hiapk</ua>
+    <ua>Android.HTC Legend-2.1-update1</ua>
+    <ua>Android.AOSP on XDANDROID MSM-2.1-update1</ua>
+    <ua>Android.i850-Eclair</ua>
+    <ua>Android.N19.SCIPHONE.zh-1.5</ua>
+    <ua>Android.CHT8000-2.1-update1</ua>
+    <ua>Android.HTC Hero-2.1-goapk.com</ua>
+    <ua>Android.Nexus One-2.1</ua>
+    <ua>Android.Nexus One-2.2</ua>
+    <ua>Android.HERO200-1.5</ua>
+    <ua>Android.Android 2.1-2.1</ua>
+    <ua>Android.MB300-1.5</ua>
+    <ua>Android.Google Ion-2.1</ua>
+    <ua>Android.Milestone-Itfunz2.1_Eclipse_NewBegin_Final_SP1</ua>
+    <ua>Android.Milestone-Itfunz2.1_Eclipse_NewBegin_Final_SP2</ua>
+    <ua>Android.BMT-616-1.5</ua>
+    <ua>Android.w7-1.5</ua>
+    <ua>Android.HTC Hero-Yonsm.NET 2.1.4</ua>
+    <ua>Android.HTC Hero-Yonsm.NET 2.1.3</ua>
+    <ua>Android.XT800-2.1-update1</ua>
+    <ua>Android.Pulse-1.5</ua>
+    <ua>Android.m8-2.1-update1</ua>
+    <ua>Android.HTC Hero-Hero_TZ_EXv1.2</ua>
+    <ua>Android.HTC Liberty-2.1-update1</ua>
+    <ua>Android.HTC Desire-2.2</ua>
+    <ua>Android.XDANDROID-2.1</ua>
+    <ua>Android.Pulse-2.1-update1</ua>
+    <ua>Android.Droid-2.1-update1 Zy1</ua>
+    <ua>Android.HTC Dream-2.1</ua>
+    <ua>Android.HTC Dream-2.2</ua>
+    <ua>Android.MB200-Mod By qizhongping</ua>
+    <ua>Android.OMS1_5-1.5</ua>
+    <ua>Android.GT-I5700-2.1-Hiapk</ua>
+    <ua>Android.MB200-1.5</ua>
+    <ua>Android.Milestone-2.2-Sp1</ua>
+    <ua>Android.SPH-M900-1.5</ua>
+    <ua>Android.TaiwanMobileT1-1.6</ua>
+    <ua>Android.ZTE-U X876-2.1-update1</ua>
+    <ua>Android.XT702-XT702_Google_Service_Package</ua>
+    <ua>Android.HTC Desire-2.2_inandroid</ua>
+    <ua>Android.Android for Telechips TCC8900 Evaluation Board (US)-2.1-update1</ua>
+    <ua>Android.dopod A6288-1.5</ua>
+    <ua>Android.HTC Tattoo-1.6</ua>
+    <ua>Android.PC36100-2.1-update1</ua>
+    <ua>Android.Devour-1.6</ua>
+    <ua>Android.NikeyDada's morrison-1.5</ua>
+    <ua>Android.MDO_S812-1.5</ua>
+    <ua>Android.ME600-Mod by Linyaofred</ua>
+    <ua>Android.ME501-@kiss771925</ua>
+    <ua>Android.infomax_iM9815-1.5</ua>
+    <ua>Android.LG GW620-1.5</ua>
+    <ua>Android.Galaxy-1.6 - Galaxo V1.6.3.1zh</ua>
+    <ua>Android.T-Mobile G1-dream-android.os.Build.VERSION.SDK-1.6</ua>
+    <ua>Android.HTC Hero-Hero</ua>
+    <ua>Android.HTC Magic-2.1-update1</ua>
+    <ua>Android.HTC Hero-Chpoubs_4.2 Chinese</ua>
+    <ua>Android.Milestone XT720-2.1-update1</ua>
+    <ua>Android.google_sdk-2.0.1</ua>
+    <ua>Android.U8110-2.1-update1</ua>
+    <ua>Android.SmartQ V7-2.1-update1</ua>
+    <ua>Android.HTC G1-2.1-update1</ua>
+    <ua>Android.MB200-Handler 1.3</ua>
+    <ua>Android.HTC Hero-Hero_2.171_Hiapk</ua>
+    <ua>Android.MB200-MagxCN.v1.2 by qizhongping</ua>
+    <ua>Android.C8600-2.1-update1</ua>
+    <ua>Android.Milestone-2.1-update1</ua>
+    <ua>Android.sdk-2.2</ua>
+    <ua>Android.sdk-2.1</ua>
+    <ua>Android.Hero-2.1-update1</ua>
+    <ua>Android.htc_hero-2.1</ua>
+    <ua>Android.GT540-1.6</ua>
+    <ua>Android.HTC Magic-2.2</ua>
+    <ua>Android.google_sdk-2.1</ua>
+    <ua>Android.HTC Magic-2.1</ua>
+    <ua>Android.qsd8250_lephone_e-1.6</ua>
+    <ua>Android.dopod A3288-1.6</ua>
+    <ua>Android.SmartQ V5-2.1</ua>
+    <ua>Android.HTC Hero-lvhai520_V3.2</ua>
+    <ua>Android.HTC Hero-VillainROM8.9.1</ua>
+    <ua>Android.MB200-2.1-update1</ua>
+    <ua>Android.cvkk_smdk6410-1.5</ua>
+    <ua>Android.HTC Hero-Yesmo_Hero_2.1_V2.0</ua>
+    <ua>Android.qsd8250_surf-1.6</ua>
+    <ua>Android.Eris-2.1</ua>
+    <ua>Android.Galaxy-1.6 - Galaxo V1.6.3</ua>
+    <ua>Android.6900 Android China-1.6</ua>
+    <ua>Android.HTC Hero-Hero_2.16_Hiapk</ua>
+    <ua>Android.HTC Hero-Hero_2.18_Hiapk</ua>
+    <ua>Android.xkkkx Magic-1.5</ua>
+    <ua>Android.T-Mobile_G2_Touch-1.5</ua>
+    <ua>Android.LG KH5200-1.5</ua>
+    <ua>Android.LG KH5200-1.6</ua>
+    <ua>Android.XT701-2.1-update1</ua>
+    <ua>Android.Milestone-Itfunz2.1-Beta5</ua>
+    <ua>Android.imx51_p3-2.1</ua>
+    <ua>Android.T-Mobile myTouch 3G Slide-2.1-update1</ua>
+    <ua>Android.sdk-1.5</ua>
+    <ua>Android.sdk-1.6</ua>
+    <ua>Android.G268A-1.5</ua>
+    <ua>Android.msm7627_mooncake-1.6</ua>
+    <ua>Android.Droid-2.1-update1</ua>
+    <ua>Android.HTC Dream G1-1.6</ua>
+    <ua>Android.OMS1_6-Eclair</ua>
+    <ua>Android.Htcclay's SuperBad G1-2.1</ua>
+    <ua>Android.MT720-1.5</ua>
+    <ua>Android.Google Ion-1.6</ua>
+    <ua>Android.SHW-M100S-2.1-update1</ua>
+    <ua>Android.VODAFONE G2-2.1</ua>
+    <ua>Android</ua>
+    <ua>Android.SmartQ V5-2.1-update1</ua>
+    <ua>Android.ZTE-X876-1.6</ua>
+    <ua>Android.HTC Magic-1.6</ua>
+    <ua>Android.HTC Magic-1.5</ua>
+    <ua>Android.Milestone-Itfunz2.1_Eclipse_Terminator</ua>
+    <ua>Android.XT720-2.1-update1</ua>
+    <ua>Android.U20i-1.6</ua>
+    <ua>Android.HTC Legend-2.1</ua>
+    <ua>Android.HTC Legend-2.2</ua>
+    <ua>Android.Eris-1.5</ua>
+    <ua>Android.qsd8250_surf-qsd8250_surf-android.os.Build.VERSION.SDK-1.6</ua>
+    <ua>Android.ADR6300-Ctzj.taobao.com 2.1</ua>
+    <ua>Android.GT-I5700-2.1_Hiapk</ua>
+    <ua>Android.ZTE-U X850-2.1-update1</ua>
+    <ua>Android.U8220-1.5</ua>
+    <ua>Android.qsd8250_surf_qsd8250_surf-android.os.Build.VERSION.SDK-1.6</ua>
+    <ua>Android.Milestone-Itfunz2.1_Eclipse_Exotic_Sentiment_Final_SP1</ua>
+    <ua>Android.Galaxy-1.6 - Galaxo V1.6.3.3zh</ua>
+    <ua>Android.telechips_tcc92xx-1.6</ua>
+    <ua>Android.FIH-F0X-1.6</ua>
+    <ua>Android.generic-1.6</ua>
+    <ua>Android.Garmin-Asus A10-1.6</ua>
+    <ua>Android.U8230-1.5</ua>
+    <ua>Android.HTC Wildfire-2.1-update1</ua>
+    <ua>Android.Hero-VillainROM5.3 Chinese Mod by ZyGaMe</ua>
+    <ua>Android.HERO200-2.1</ua>
+    <ua>Android.Archos5-1.6</ua>
+    <ua>Android.HTC Hero-2.1-update1</ua>
+    <ua>Android.Docomo HT-03A-1.6</ua>
+    <ua>Android.Hero-SenseHero 2.1 v2_CHS</ua>
+    <ua>Android.Android Dev Phone 1-1.5</ua>
+    <ua>Android.HTC Desire-2.1-update1</ua>
+    <ua>Android.A1-1.5</ua>
+    <ua>Android.Milestone-2.1.1</ua>
+    <ua>Android.A853-2.0.1</ua>
+    <ua>Android.MT710-1.5</ua>
+    <ua>Android.HTC Hero-Hero_simple_v1.2</ua>
+    <ua>Android.Htcclay's FastTest G1-1.6</ua>
+    <ua>Android.XT800-2.0.1</ua>
+    <ua>Android.Galaxy-1.5</ua>
+    <ua>Android.Galaxy-1.6</ua>
+    <ua>Android.HERO200-2.1-update1</ua>
+    <ua>Android.rk2808sdk-1.5</ua>
+    <ua>Android.sdkDemo-1.5</ua>
+    <ua>Android.GT-I6500U-2.1-update1</ua>
+    <ua>Android.XT701-Itfunz2.1_XT701_TheFirst</ua>
+    <ua>Android.HTC Hero-c-VillainROM10.3.3</ua>
+    <ua>Android.A70HB-1.0.15</ua>
+    <ua>Android.T-Mobile G1-2.1</ua>
+    <ua>Android.peach-1.5</ua>
+    <ua>Android.ME600-1.5</ua>
+    <ua>Android.S812-1.5</ua>
+    <ua>Android.HTC Dream-2.1-update1</ua>
+    <ua>Android.Galaxy-1.6 - Galaxo V1.6.3.2zh</ua>
+    <ua>Android.XT702-2.1-update1</ua>
+    <ua>Android.S812 MDO-1.5</ua>
+    <ua>Android.sdk-2.0.1</ua>
+    <ua>Android.hero-2.1-update1</ua>
+    <ua>Android.HTC Hero-1.5</ua>
+    <ua>Android.HTC Hero-fztz.hero 1.5</ua>
+    <ua>Android.SO-01B-1.6</ua>
+    <ua>Android.Milestone-2.012</ua>
+    <ua>Android.MB200-Androidin.net CLIQ beta</ua>
+    <ua>Android.3GW100-1.6</ua>
+    <ua>Android.HTC Hero-VillainROM7.3.3</ua>
+    <ua>Android.HTC Hero-VillainROM7.3.2</ua>
+    <ua>Android.X10i-1.6</ua>
+    <ua>Android.A8188-1.6</ua>
+    <ua>Android.hp_h_sb1-1.6</ua>
+    <ua>Android.XT701-2.0.1</ua>
+    <ua>Android.Droid-2.0.1</ua>
+    <ua>Android.HTC Hero-VillainROM7.2.0</ua>
+    <ua>Android.HTC Hero-VillainROM7.2.1</ua>
+    <ua>Android.Milestone-2.0.1</ua>
+    <ua>Android.Milestone-Itfunz2.1_Eclipse_Exotic_Sentiment_Final</ua>
+    <ua>Android.DROIDX-2.1-update1</ua>
+    <ua>Android.HTC Hero-2.2</ua>
+    <ua>Android.HTC Hero-2.1</ua>
+    <ua>Android.X10a-1.6</ua>
+    <ua>Android.GT-I5700-2.1-update1</ua>
+    <ua>Android.HTC Hero-hero-android.os.Build.VERSION.SDK-1.5</ua>
+    <ua>Android.ME501-1.5</ua>
+    <ua>Android.apanda-A60-2.1-update1</ua>
+    <ua>Android.Pulse with 2.1-2.1-update1</ua>
+    <ua>Android.Dell Streak-1.6</ua>
+    <ua>Android.Milestone-2.1</ua>
+    <ua>Android.HTC Hero-Hero_2.19_Hiapk</ua>
+    <ua>Android.Milestone-2.0</ua>
+    <ua>Android.Abyzou by ikxdf-2.1-update1</ua>
+    <ua>Android.Htcclay's SuperBad G1-2.1-update1</ua>
+  </model>
+  <model name="Default" pattern=".*" config="0">
+    <ua></ua>
+    <ua>Haier-HG-U60_CMCC</ua>
+    <ua>GT-S5233W/S5233WDXIH2</ua>
+    <ua>OEM</ua>
+    <ua>KBT_E800A_A01/LU2MB11/WAP2.0</ua>
+    <ua>GT-S7350C/S7350CZCII1</ua>
+    <ua>K-Touch_A662_CMCC/TBG201512_4021_V0801</ua>
+    <ua>TIANYU-KTOUCH/C700/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>GT-S7350C/S7350CZCIF1</ua>
+    <ua>TCL-A800/1.0</ua>
+    <ua>SHARP-TQ-GX-21/1.0</ua>
+    <ua>ZTE-F600</ua>
+    <ua>TRIN100</ua>
+    <ua>GT-S7350C/S7350CZCIE1</ua>
+    <ua>Asus P535</ua>
+    <ua>W302/EH.A84.080609.1346</ua>
+    <ua>ARTE11000</ua>
+    <ua>MAINSTN</ua>
+    <ua>TIANYU-KTOUCH/A602/MIDP2.0/CLDC1.1/Screen-240X432</ua>
+    <ua>PH10B</ua>
+    <ua>GT-S8300C/S8300CZCIH2</ua>
+    <ua>zvm 1.1 ZTE Mobile P510</ua>
+    <ua>Qualcomm0001</ua>
+    <ua>M8800H/M8800ZHIC2</ua>
+    <ua>TIANYU</ua>
+    <ua>LPhone/Brew/V3.1.5</ua>
+    <ua>GIONEE-L907/SW1.0.0/WAP2.0</ua>
+    <ua>KONKA_V905_TD/1.0 RTKE_OS/01.00 TD7209/DV2 Release/12.31.2008 Browser/NF-3.5</ua>
+    <ua>GT-S8300C/S8300CZCIK1</ua>
+    <ua>i60s/(20090110)S110/wap2.0Profile/MIDP-1.0/2.0Configuration/CLDC-1.1</ua>
+    <ua>TIANYU-KTOUCH/A695/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>GT-B7300</ua>
+    <ua>GT-S8300C/S8300CZCIE2</ua>
+    <ua>YKJ-A90/SW1.0.0/WAP2.0</ua>
+    <ua>Lenovo-P609+/2008.12.09</ua>
+    <ua>GT-S8300C/S8300CZCIG1</ua>
+    <ua>GT-I8000U</ua>
+    <ua>K-Touch T260 CMCC/1.0 RTKE_OS/01.00 TD7210/DV2 Release/11.01.2009 Browser/Techsoft-01.00.00</ua>
+    <ua>Lenovo-P609+/2008.12.24</ua>
+    <ua>Lenovo-P609+/2008.12.23</ua>
+    <ua>Lenovo-S770/S139</ua>
+    <ua>(20.1.062)/20.1.062</ua>
+    <ua>(21.1.002)/21.1.002</ua>
+    <ua>GT-S7120U/S7120UZNIF1</ua>
+    <ua>Lenovo-S70/S114</ua>
+    <ua>GT-S8000U/S8000UZCIK5</ua>
+    <ua>GT-B7330</ua>
+    <ua>Haier_H-U90T_CMCC/1.0 RTKE_OS/01.00 TD7210/9.0 Release/07.28.2009 Browser/Access-01.00.00</ua>
+    <ua>M8800H/M8800ZHIK1</ua>
+    <ua>GT-S7120U/S7120UZNIH1</ua>
+    <ua>K-Touch_T590_TD CMCC/1.0 RTKE_OS/01.00 TD7210/DV2 Release/11.01.2009 Browser/NF-3.5</ua>
+    <ua>Huawei C5700</ua>
+    <ua>i60/(20081229)S115/wap2.0Profile/MIDP-1.0/2.0Configuration/CLDC-1.1</ua>
+    <ua>TIANYU-KTOUCH/A7726/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>TIANYU-KTOUCH/B832/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>GIONEE-M001/SW1.0.0/WAP2.0</ua>
+    <ua>HERA11000</ua>
+    <ua>TIANYU-KTOUCH/V958/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>PhilipsX620_CMCC/V05</ua>
+    <ua>M610/MIDP2.0/CLDC1.1/Screen-240X320</ua>
+    <ua>GT-S5560/S5560DXIL2</ua>
+    <ua>GT-S5560/S5560DXIL1</ua>
+    <ua>Xda Graphite</ua>
+    <ua>Lenovo-P609+/2009.01.15</ua>
+    <ua>Diamond</ua>
+    <ua>Lenovo-P790/2008.04.09</ua>
+    <ua>TY-D780/170030_1246_V9051</ua>
+    <ua>M7603/M7603DXIE3</ua>
+    <ua>LENOVO-A720/S017_091002/WAP2.0</ua>
+    <ua>S8300/S8300DXIB1</ua>
+    <ua>ARTE20000</ua>
+    <ua>GT-M8800/M8800DZIB1</ua>
+    <ua>Alcatel-OT-800/1.0</ua>
+    <ua>HUAWEI U120</ua>
+    <ua>Touch_Diamond</ua>
+    <ua>generic:OMS1_0_0:OMS1_0_0:/1.5:TC3:eng.cherry.20100124.001320/JBOAN_1.0.0._2009-09-24T16:37:04+08:00</ua>
+    <ua>Lenovo-P609+/2008.08.14</ua>
+    <ua>ELF010000</ua>
+    <ua>phoneOneS101</ua>
+    <ua>S8300/S8300DXIC2</ua>
+    <ua>ARTE10000</ua>
+    <ua>Sanyo_5400</ua>
+    <ua>TIANYU-KTOUCH/C218/MIDP2.0/CLDC1.1/Screen-320x430</ua>
+    <ua>Ciphone</ua>
+    <ua>PH20B</ua>
+    <ua>S8300/S8300DXIE1</ua>
+    <ua>PhilipsX800_CMCC/1.0</ua>
+    <ua>Haier-HG-V76/1.0 RTKE_OS/01.00 SS5210/8.0 Release/12.31.2007 Browser/Techsoft-01.00.00</ua>
+    <ua>ELF010050</ua>
+    <ua>ELF010052</ua>
+    <ua>ELF010051</ua>
+    <ua>Release/31.1.004</ua>
+    <ua>W302/EH.A84.290409.1604</ua>
+    <ua>MAUI</ua>
+    <ua>GT-S7120U/S7120UZCII1</ua>
+    <ua>SH9130C</ua>
+    <ua>Amoi: 6327</ua>
+    <ua>GT-S7120U/S7120UZNIK1</ua>
+    <ua>Lenovo-i320/S030</ua>
+    <ua>LenovoP768/S100</ua>
+    <ua>TIANYU-KTOUCH/A689/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>(22.1.002)/22.1.002</ua>
+    <ua>GT-S5233T/S5233TDXJB1</ua>
+    <ua>M7603/M7603DXID7</ua>
+    <ua>TIANYU-KTOUCH/A935/MIDP2.0/CLDC1.1/Screen-320x430</ua>
+    <ua>LGHB620T</ua>
+    <ua>TIANYU-KTOUCH/A927/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>GIONEE-S608/SW1.0.0/WAP2.0</ua>
+    <ua>OPPO</ua>
+    <ua>i60/(20090320)S302/wap2.0Profile/MIDP-1.0/2.0Configuration/CLDC-1.1</ua>
+    <ua>Texas Instruments Inc</ua>
+    <ua>TIANYU-KTOUCH/A630/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>M600/MIDP2.0/CLDC1.1/Screen-240X320</ua>
+    <ua>TIANYU-KTOUCH/A651/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>TIANYU-KTOUCH/A691/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>TIANYU-KTOUCH/ES65/MIDP2.0/CLDC1.1/Screen-240X432</ua>
+    <ua>MASTONE G1 CMCC/1.0 RTKE_OS/01.00 TD7210/DV2 Release/07.01.2009 Browser/Techsoft-01.00.00</ua>
+    <ua>Lenovo-X1m/S102</ua>
+    <ua>K-Touch_A608_CMCC/TYM076349_878_V0801</ua>
+    <ua>PhilipsX550/07</ua>
+    <ua>BIRD/Windows CE 5.2,Pocket PC</ua>
+    <ua>Audiovox CDM-8450</ua>
+    <ua>DeltaMIDP/2.1.0 TCL_E787</ua>
+    <ua>LENOVO-P60/(2009.11.18)</ua>
+    <ua>GIONEE-Q8/SW1.0.0/WAP2.0</ua>
+    <ua>LGGD580</ua>
+    <ua>GIONEE-A10/SW1.0.0/WAP2.0</ua>
+    <ua>i60s/(20090420)S206/wap2.0Profile/MIDP-1.0/2.0Configuration/CLDC-1.1</ua>
+    <ua>i60/(20081231)S116/wap2.0Profile/MIDP-1.0/2.0Configuration/CLDC-1.1</ua>
+    <ua>X1i</ua>
+    <ua>Lenovo-A900/S021</ua>
+    <ua>Lenovo-A900/S017</ua>
+    <ua>Touch Diamond2 T5353</ua>
+    <ua>GENE10000</ua>
+    <ua>O2 Xda Atom Exec</ua>
+    <ua>TIANYU-KTOUCH/V206/MIDP2.0/CLDC1.1/Screen-240X320</ua>
+    <ua>WELLCOM/W890/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>TIANYU-KTOUCH/A996/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>PH20B2</ua>
+    <ua>W302c/EH.A84.290409.1604</ua>
+    <ua>Polaris</ua>
+    <ua>Vibo:Vibo-A688:A688:A688/1.6:DONUT:0004_0_38J/JBOAN_1.0.0.2165_2009-11-03T13:44:26+08:00</ua>
+    <ua>Touch_Pro</ua>
+    <ua>LG F7200</ua>
+    <ua>intent JTE</ua>
+    <ua>KONKA_T6</ua>
+    <ua>No_95</ua>
+    <ua>GT-S5608U/S5608UZCJA1</ua>
+    <ua>W302c/EH.A84.080609.1346</ua>
+    <ua>qcom:qsd8250_surf:8x50:qsd8250_surf/1.6:Donut:eng.root.20100429.152645/JBOAN_1.0.0.3190_2010-04-06T14:59:58%:z</ua>
+    <ua>PhilipsX830/1.0</ua>
+    <ua>TIANYU-KTOUCH/A660/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>W302c/EH.A84.080609.1346</ua>
+    <ua>generic:OMS1_0_0:OMS1_0_0:/1.5:TC3:eng.cherry.20091211.180807/JBOAN_1.0.0._2009-10-20T12:41:12%:z</ua>
+    <ua>GT-S5608U/S5608UZCII6</ua>
+    <ua>HUAWEI T552 CMCC/1.0 RTKE_OS/01.00 TD7210/DV2 Release/12.31.2008 Browser/NF-3.5</ua>
+    <ua>GT-S5608U/S5608UZCIK2</ua>
+    <ua>SPH-i325</ua>
+    <ua>M606/MIDP2.0/CLDC1.1/Screen-240X320</ua>
+    <ua>GT-S5608U/S5608UZCIJ2</ua>
+    <ua>HOSIN_H108/SW1.0.0/WAP2.0/MIDP-2.0</ua>
+    <ua>Hisilicon</ua>
+    <ua>Mio Technology Corporation</ua>
+    <ua>(14.1.001)/14.1.001</ua>
+    <ua>TIANYU-KTOUCH/X90/MIDP2.0/CLDC1.1/Screen-320X240</ua>
+    <ua>K-Touch/Windows CE 5.2,Pocket PC</ua>
+    <ua>LGKT610/0c</ua>
+    <ua>TIANYU-KTOUCH/Q981/MIDP2.0/CLDC1.1/Screen-240X320</ua>
+    <ua>LGKT610/0g</ua>
+    <ua>i60s/(20090610)S207/wap2.0Profile/MIDP-1.0/2.0Configuration/CLDC-1.1</ua>
+    <ua>GT-S8000H/S8000HZHJA3</ua>
+    <ua>Intel MainstoneIII</ua>
+    <ua>i60/(20090117)S118/wap2.0Profile/MIDP-1.0/2.0Configuration/CLDC-1.1</ua>
+    <ua>F900V01</ua>
+    <ua>HP iPAQ Business Navigator 600</ua>
+    <ua>PhilipsX650/07</ua>
+    <ua>HuaweiC7600</ua>
+    <ua>HP</ua>
+    <ua>DELL Mini 3T1 TD/1.0 RTKE_OS/01.00 TD7209/DV2 Release/12.31.2008 Browser/NF-3.5</ua>
+    <ua>GT-S5608U/S5608UZCIL1</ua>
+    <ua>HISYS</ua>
+    <ua>SH9120C</ua>
+    <ua>Lenovo-P609+/2009.03.04</ua>
+    <ua>Lenovo-P619/2009.06.15</ua>
+    <ua>Jade</ua>
+    <ua>Lenovo-i906/S134</ua>
+    <ua>HUAWEI T550 CMCC/1.0 RTKE_OS/01.00 TD7210/DV2 Release/12.31.2008 Browser/Techsoft-01.00.00</ua>
+    <ua>GT-S8000H/S8000HZHIG5</ua>
+    <ua>GT-S8000H/S8000HZHIG6</ua>
+    <ua>Lenovo-i906/S138</ua>
+    <ua>K-Touch_N635_CMCC/TYM076343_87A_V0801</ua>
+    <ua>Lenovo-i906/S158</ua>
+    <ua>Alcatel-OT-708/1.0</ua>
+    <ua>Lenovo-P80+/S101</ua>
+    <ua>GT-S5603/S5603DXIF3</ua>
+    <ua>Lenovo-i907/CMCC_S105</ua>
+    <ua>Kaiser</ua>
+    <ua>GT-S5603/S5603DXIG1</ua>
+    <ua>PA10A1</ua>
+    <ua>Techfaith S610</ua>
+    <ua>Huawei C5900</ua>
+    <ua>LONGYU/SW1.0.0/WAP2.0</ua>
+    <ua>SHARP</ua>
+    <ua>PHAR10100</ua>
+    <ua>BENQ-E81</ua>
+    <ua>GT-S5560/S5560ZHJA4</ua>
+    <ua>GT-S8000H/S8000HZHIK1</ua>
+    <ua>Huawei C5110</ua>
+    <ua>TIANYU-KTOUCH/V918/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>W302c/EJ.A07.201108.1616</ua>
+    <ua>K-Touch_A665_CMCC/TBG201513_4022_V0801</ua>
+    <ua>generic:OMS1_0_0:OMS1_0_0:/1.5:TC3:eng.cherry.20100109.001349/JBOAN_1.0.0._2009-10-20T12:41:12%:z</ua>
+    <ua>GT-S5233A/S5233ADDIF2</ua>
+    <ua>K-Touch_N930_CMCC/TYM931048_7A4_V0801</ua>
+    <ua>XV6850</ua>
+    <ua>GT-B7300C</ua>
+    <ua>Lenovo-P719/CMCC_S100</ua>
+    <ua>Lenovo-P719/CMCC_S101</ua>
+    <ua>i60s/(20090225)S204/wap2.0Profile/MIDP-1.0/2.0Configuration/CLDC-1.1</ua>
+    <ua>Touch Diamond P3700</ua>
+    <ua>Lenovo-P790/2008.10.15</ua>
+    <ua>GIONEE-A15/SW1.0.0/WAP2.0</ua>
+    <ua>TIANYU-KTOUCH/A612/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>K-Touch_N922_CMCC/TYM931047_7A3_V0801</ua>
+    <ua>iPodTouch</ua>
+    <ua>TIANYU-KTOUCH/A995/MIDP2.0/CLDC1.1/Screen-320x430</ua>
+    <ua>Lenovo-P50/S041</ua>
+    <ua>Lenovo-P50/S045</ua>
+    <ua>TIANYU-KTOUCH/A7728/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>K-Touch_E500_CMCC/1.0 RTKE_OS/01.00 TD7210/DV2 Release/16.04.2009 Browser/Techsoft-01.00.16</ua>
+    <ua>GT-S8000C/S8000CZCJA1</ua>
+    <ua>HERA*****</ua>
+    <ua>TIANYU-KTOUCH/D770/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>moboDA</ua>
+    <ua>LG_TB200_CMCC A2000pH/2.32.00 Release/9.14.2009 Browser/Teleca/Q7.1 Profile/MIDP-2.0 Configuration/CLDC-1.1</ua>
+    <ua>qcom:qsd8250_surf:8x50:qsd8250_surf/1.6:Donut:eng.root.20100421.112330/JBOAN_1.0.0.3190_2010-04-06T14:59:58%:z</ua>
+    <ua>GT-I6330C/I6330CZMJB1</ua>
+    <ua>GIONEE-L18/SW1.0.0/WAP2.0</ua>
+    <ua>ARTE*****</ua>
+    <ua>U7300</ua>
+    <ua>GIGABYTE gSmart</ua>
+    <ua>GT-I6330C/I6330CZMJD1</ua>
+    <ua>Lenovo_S660/(2008.12.19)S018/WAP2.0Profile/MIDP-2.0</ua>
+    <ua>K-Touch_E339/Windows CE 5.2,Pocket PC</ua>
+    <ua>GT-I6330C/I6330CZMIL7</ua>
+    <ua>Lenovo-i380/S046</ua>
+    <ua>Lenovo-i380/S044</ua>
+    <ua>M8800H/M8800ZHHK4</ua>
+    <ua>LGBL40</ua>
+    <ua>M8800H/M8800ZHHL2</ua>
+    <ua>LGBL20</ua>
+    <ua>Lenovo-i910/S118</ua>
+    <ua>ASUS P750</ua>
+    <ua>PHAR10000</ua>
+    <ua>ZTE-F233</ua>
+    <ua>(31.1.016)/31.1.016</ua>
+    <ua>NEC-N600/1.0</ua>
+    <ua>GT-S5233S/S5233SDXIG6</ua>
+    <ua>PhilipsX630/07</ua>
+    <ua>Marvell</ua>
+    <ua>Lenovo-S500/S100</ua>
+    <ua>GT-S5233S/S5233SDXIF2</ua>
+    <ua>T8288</ua>
+    <ua>KPT KP800T CMCC/1.0 RTKE_OS/01.00 TD7210/DV2 Release/12.31.2008 Browser/Techsoft-01.00.00</ua>
+    <ua>GT-S5560C/S5560CZCIL4</ua>
+    <ua>Lava-A9/S020</ua>
+    <ua>Release/20.1.011</ua>
+    <ua>Topaz</ua>
+    <ua>(20.1.001)/20.1.001</ua>
+    <ua>GT-S5233S/S5233SDXIJ1</ua>
+    <ua>D60/1.0 RTKE_OS/01.00 TD7208/11.0 Release/12.31.2007 Browser/Techsoft-01.00.00</ua>
+    <ua>TIANYU-KTOUCH/V310/MIDP2.0/CLDC1.1/Screen-240X320</ua>
+    <ua>M8800C/M8800ZCIC2</ua>
+    <ua>M8800C/M8800ZCIC1</ua>
+    <ua>Lenovo-P636/S110</ua>
+    <ua>CoolPadF61_TD/1.0 RTKE_OS/01.00 TD7209/DV2 Release/12.31.2008 Browser/NF-3.5</ua>
+    <ua>Philips</ua>
+    <ua>QUALCOMM</ua>
+    <ua>Profile/I400XEGJ2</ua>
+    <ua>TIANYU-KTOUCH/V209/MIDP2.0/CLDC1.1/Screen-240X320</ua>
+    <ua>HUAQIN/WAP2.0</ua>
+    <ua>00A</ua>
+    <ua>HUAWEI U550</ua>
+    <ua>GIONEE-H904/SW1.0.0/WAP2.0</ua>
+    <ua>M700V05</ua>
+    <ua>S900</ua>
+    <ua>TIANYU-KTOUCH/A650/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>GT-S7520U/S7520UZNIE5</ua>
+    <ua>Shadow</ua>
+    <ua>GT-S5230C/S5230ZCII3</ua>
+    <ua>generic:OMS1_0_0:OMS1_0_0:/1.5:TC3:eng.cherry.20091117.120801/JBOAN_1.0.0._2009-10-20T12:41:12%:z</ua>
+    <ua>GT-S8000C/S8000CZCII3</ua>
+    <ua>M8800C/M8800ZCIK2</ua>
+    <ua>RAPH800</ua>
+    <ua>GT-S5630C/S5630CZMJA2</ua>
+    <ua>GT-S8000C/S8000CZCIK2</ua>
+    <ua>GT-S5630C/S5630CZMJB1</ua>
+    <ua>GT-S5230C/S5230ZCIH1</ua>
+    <ua>GT-S5230C/S5230ZCIH3</ua>
+    <ua>GT-S7520U/S7520UZNIH1</ua>
+    <ua>ASUS P527</ua>
+    <ua>i60/(20091014)S405/wap2.0Profile/MIDP-1.0/2.0Configuration/CLDC-1.1</ua>
+    <ua>GT-S5630C/S5630CZMJD1</ua>
+    <ua>Lenovo-P82/S103</ua>
+    <ua>GT-S5230C/S5230ZCIK3</ua>
+    <ua>PhilipsX501/1.0</ua>
+    <ua>GT-S8000C/S8000CZCIF8</ua>
+    <ua>HOSIN_A300/SW1.0.0/WAP2.0</ua>
+    <ua>PU10</ua>
+    <ua>(15.1.002)/15.1.002</ua>
+    <ua>TIANYU-KTOUCH/V760/MIDP2.0/CLDC1.1/Screen-240X400</ua>
+    <ua>Lenovo-P609+/2009.12.14</ua>
+    <ua>GT-S5230C/S5230ZCJC1</ua>
+    <ua>GIONEE-L903/SW1.0.0/WAP2.0</ua>
+    <ua>HG-U56/HG-U56-H01-S003-CHN</ua>
+    <ua>GT-S5230C/S5230ZCJB1</ua>
+    <ua>K-Touch_N612_CMCC/TYM076345_879_V0801</ua>
+    <ua>GT-S5630C/S5630CZMIJ4</ua>
+    <ua>GT-S5630C/S5630CZMIJ1</ua>
+    <ua>GT-S5630C/S5630CZMIJ2</ua>
+    <ua>BIRD</ua>
+    <ua>GT-S5630C/S5630CZMII9</ua>
+    <ua>PhilipsX620/07</ua>
+    <ua>GT-S5230C/S5230ZCJF1</ua>
+    <ua>(12.1.007)/4.0839.42.3.1</ua>
+    <ua>GT-S5630C/S5630CZMIL3</ua>
+    <ua>Lenovo-i300/S003</ua>
+    <ua>PhilipsX703/Obigo</ua>
+    <ua>GT-S5230C/S5230ZCJE1</ua>
+    <ua>TCL-Q3/1.0</ua>
+    <ua>(30.1.019)/30.1.019</ua>
+    <ua>GenericMidp2</ua>
+    <ua>GT-S5230C/S523HZCJD2</ua>
+    <ua>Videocon_V1675_Wap</ua>
+    <ua>Alcatel-OT-880/1.0</ua>
+    <ua>(10.1.046)/10.1.046</ua>
+    <ua>GT-S5560C/S5560CZCJB3</ua>
+    <ua>ZTE-F105</ua>
+    <ua>ZTE-F106</ua>
+    <ua>ZTE-F103</ua>
+    <ua>ZTE-F100</ua>
+    <ua>Lenovo-P790/2008.03.20</ua>
+    <ua>Excalibur</ua>
+    <ua>Xenium 9@9m</ua>
+    <ua>T7278</ua>
+    <ua>KBT_E800A_002/LU2MB11/WAP2.0</ua>
+    <ua>M608/MIDP2.0/CLDC1.1/Screen-240X320</ua>
+    <ua>O2 Graphite</ua>
+    <ua>S7220/S7220DXIB4</ua>
+    <ua>Lenovo-S520/S100</ua>
+    <ua>ELF030000</ua>
+    <ua>HuaweiC7300</ua>
+    <ua>O2 Xda Zinc</ua>
+    <ua>HUAWEI U636</ua>
+    <ua>i60/(20090827)S403/wap2.0Profile/MIDP-1.0/2.0Configuration/CLDC-1.1</ua>
+    <ua>S302/EK.A04.240209.1002</ua>
+    <ua>Techfaith</ua>
+    <ua>HERM300</ua>
+    <ua>HUAWEI T2211 CMCC/1.0 RTKE_OS/01.00 TD7210/DV2 Release/12.31.2008 Browser/NF-3.5</ua>
+    <ua>TIANYU-KTOUCH/V908/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>S302c/EJ.A07.201108.1616</ua>
+    <ua>U1300</ua>
+    <ua>KONKA_D266/KAB266_1.00.215</ua>
+    <ua>K-Touch T290 CMCC/1.0 RTKE_OS/01.00 TD7210/DV2 Release/11.01.2009 Browser/Techsoft-01.00.00</ua>
+    <ua>K-Touch_N650_CMCC/TYM076314_879_V0801</ua>
+    <ua>Flash/Flash</ua>
+    <ua>TCL V300/1.0 RTKE_OS/01.00 7210E/11.0 Release/12.31.2007 Browser/Techsoft-01.00.00</ua>
+    <ua>Lenovo-i50/CMCC_S618</ua>
+    <ua>KONKA_E260_CMCC/KCEE260.CMCC.1.00.407</ua>
+    <ua>i60s/(20091029)S208/wap2.0Profile/MIDP-1.0/2.0Configuration/CLDC-1.1</ua>
+    <ua>(16.1.001)/16.1.001</ua>
+    <ua>Lenovo-P707/S101</ua>
+    <ua>Newsmy</ua>
+    <ua>U1310</ua>
+    <ua>Lenovo-P609+/2009.04.24</ua>
+    <ua>TITA100</ua>
+    <ua>Lenovo-i817/CMCC_S114</ua>
+    <ua>HOSIN_M200/SW1.0.0/WAP2.0</ua>
+    <ua>Lenovo-i909/S120</ua>
+    <ua>LGE</ua>
+    <ua>Lenovo-i919/S114</ua>
+    <ua>TechFaith</ua>
+    <ua>i60s/(20090220)S114/wap2.0Profile/MIDP-1.0/2.0Configuration/CLDC-1.1</ua>
+    <ua>(21.1.002)/22.1.002</ua>
+    <ua>Maui</ua>
+    <ua>SIM Technology</ua>
+    <ua>NIKI100</ua>
+    <ua>MASTONE_G100_TD/1.0 RTKE_OS/01.00 TD7209/DV2 Release/10.12.2009 Browser/NF-3.5</ua>
+    <ua>Marvell PXA312</ua>
+    <ua>MStar platform</ua>
+    <ua>OT-S683/1.0 RTKE_OS/01.00 SS5210/8.0 Release/12.31.2007 Browser/Techsoft-01.00.00</ua>
+    <ua>Lenovo-i909/S143</ua>
+    <ua>KONKA V903+ CMCC/1.0 RTKE_OS/01.00 TD7210/DV2 Release/07.01.2009 Browser/Techsoft-01.00.00</ua>
+    <ua>Lenovo-i909/S155</ua>
+    <ua>Lenovo-i909/S154</ua>
+    <ua>O2 Xda Stealth</ua>
+    <ua>K-Touch_A192_CMCC/TYM931049_7A7_V0801</ua>
+    <ua>LENOVO-P809_CMCC/S110</ua>
+    <ua>X600V01</ua>
+    <ua>CTH_E300C_001/LU1MB16/WAP2.0</ua>
+    <ua>U5700</ua>
+    <ua>HERA10000</ua>
+    <ua>ELF030050</ua>
+    <ua>TIANYU-KTOUCH/A662/MIDP2.0/CLDC1.1/Screen-240X400</ua>
+    <ua>ZTE-T7</ua>
+    <ua>ZTE-T6</ua>
+    <ua>H2/1.0 RTKE_OS/01.00 TD7210E/11.0 Release/10.23.2008 Browser/Techsoft-01.00.00</ua>
+    <ua>Lenovo-P612/2009.08.12</ua>
+    <ua>K-Touch_V760_CMCC/TBG202211_6061_V0801 MTK/6235B Release/20.02.2009 Browser/WAP2.0</ua>
+    <ua>GT-B7610</ua>
+    <ua>SEK750</ua>
+    <ua>TIANYU-KTOUCH/C280/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>Lenovo-P609+/2009.08.18</ua>
+    <ua>Lenovo-S770/S302</ua>
+    <ua>Lenovo-S770/S304</ua>
+    <ua>i61/(20100112)S206/WAP2.0</ua>
+    <ua>SEK790</ua>
+    <ua>i61/(20091103)S019/WAP2.0</ua>
+    <ua>HERM200</ua>
+    <ua>GENE*****</ua>
+    <ua>K-Touch_M610_CMCC/TBG203312_6312_V0801</ua>
+    <ua>KONKA_R360_CMCC/KAAR360.CMCC.0.90.928</ua>
+    <ua>Lenovo-P619/2009.04.03</ua>
+    <ua>GT-M8800/M8800DZHK3</ua>
+    <ua>TIANYU-KTOUCH/A662/MIDP2.0/CLDC1.1/Screen-240X320</ua>
+    <ua>ELF011000</ua>
+    <ua>BENQ-EF81</ua>
+    <ua>GT-S7350H/S7350HZHII1</ua>
+    <ua>(12.1.007)/12.1.007</ua>
+    <ua>ELF011001</ua>
+    <ua>GIONEE-A539/SW1.0.0/WAP2.0</ua>
+    <ua>i60/(20090602)S308/wap2.0Profile/MIDP-1.0/2.0Configuration/CLDC-1.1</ua>
+    <ua>W302c/EJ.A08.021208.1608</ua>
+    <ua>S8300H/S8300HZHIE2</ua>
+    <ua>LG KT878</ua>
+    <ua>ELF011052</ua>
+    <ua>ELF011051</ua>
+    <ua>ELF011050</ua>
+    <ua>OPAL10000</ua>
+    <ua>Microsoft DeviceEmulator</ua>
+    <ua>W302c/EK.A04.240209.1002</ua>
+    <ua>W302c/EK.A04.240209.1002</ua>
+    <ua>SCH-M490</ua>
+    <ua>W302c/EK.A04.240209.1002</ua>
+    <ua>U1270</ua>
+    <ua>Audiovox CDM-8910</ua>
+    <ua>U1280</ua>
+    <ua>TIANYU-KTOUCH/S985/MIDP2.0/CLDC1.1/screen-240x320</ua>
+    <ua>O2 Xda Atom Life</ua>
+    <ua>Lenovo-i50/S006</ua>
+    <ua>S8003/S8003DXIG2</ua>
+    <ua>NIKI400</ua>
+    <ua>generic:OMS1_0_0:OMS1_0_0:/1.5:TC3:eng.cherry.20100112.001417/JBOAN_1.0.0._2009-10-20T12:41:12%:z</ua>
+    <ua>Anyka International ltd.</ua>
+    <ua>S8003/S8003DXIF7</ua>
+    <ua>W302/EK.A04.240209.1002</ua>
+    <ua>S8003/S8003DXIE8</ua>
+    <ua>TIANYU-KTOUCH/A635/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>BenQ E72</ua>
+    <ua>(11.1.117)/11.1.117</ua>
+    <ua>Lenovo-X1/S104</ua>
+    <ua>S302c/EH.A84.290409.1604</ua>
+    <ua>W302c/EH.A84.080609.1346</ua>
+    <ua>RollTech Java</ua>
+    <ua>AMOI Electronic CO.,LTD.</ua>
+    <ua>W302c/EJ.A07.201108.1616</ua>
+    <ua>W302c/EJ.A07.201108.1616</ua>
+    <ua>Lenovo-P612/2009.07.08</ua>
+    <ua>JWG_TV820A_004/LU1MB11/WAP2.0</ua>
+    <ua>KBT_N281A_B01/L3SM502A/WAP2.0</ua>
+    <ua>Huawei U9100</ua>
+    <ua>TIANYU-KTOUCH/A696/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>K-Touch_N170_CMCC/TYM076292_62R_V0801</ua>
+    <ua>K-Touch_V760_CMCC/TBG202211_6061_V0801</ua>
+    <ua>GIGABYTE_gSmart/Windows CE 5.2,Pocket PC</ua>
+    <ua>MPP</ua>
+    <ua>VOGU100</ua>
+    <ua>GT-S5230C/S5230ZHIE2</ua>
+    <ua>Lenovo-P80/CMCC_S101</ua>
+    <ua>CoolPad_F620_TD/1.0 RTKE_OS/01.00 TD7210/9.0 Release/07.28.2009 Browser/Access-01.00.00</ua>
+    <ua>Kovsky</ua>
+    <ua>K-Touch_A193_CMCC/TYM931048_7A6_V0801</ua>
+    <ua>HERM100</ua>
+    <ua>W302c/EK.A04.240209.1002</ua>
+    <ua>Toshiba G810</ua>
+    <ua>Huawei U7510</ua>
+    <ua>TIANYU-KTOUCH/C800/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>TIANYU-KTOUCH/B920/MIDP2.0/CLDC1.1/Screen-240X320</ua>
+    <ua>TIANYU-KTOUCH/V988/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>M8800C/M8800ZCHK2</ua>
+    <ua>GIONEE-L800/SW1.0.0/WAP2.0</ua>
+    <ua>Haier_H-U56T_CMCC/1.0 RTKE_OS/01.00 TD7210/9.0 Release/07.28.2009 Browser/Access-01.00.00</ua>
+    <ua>M8800C/M8800ZCHL8</ua>
+    <ua>PhilipsX800/1.0</ua>
+    <ua>TIANYU-KTOUCH/A903/MIDP2.0/CLDC1.1/Screen-240X320</ua>
+    <ua>T3238</ua>
+    <ua>Qualcomm</ua>
+    <ua>Lenovo-S770/S202</ua>
+    <ua>Xda Atom</ua>
+    <ua>U3300</ua>
+    <ua>Midp2Touch</ua>
+    <ua>gionee-A320/sw1.0.0/wap2.0</ua>
+    <ua>GT-S5230C/S5230ZCID5</ua>
+    <ua>MAUI_WAP_Browser</ua>
+    <ua>W302/EJ.A07.201108.1616</ua>
+    <ua>GT-S5230C/S5230ZCIF4</ua>
+    <ua>GT-S5230C/S5230ZCIF1</ua>
+    <ua>GT-S5230C/S5230ZCIE1</ua>
+    <ua>Lenovo-V80/S114</ua>
+    <ua>GT-S5230C/S5230ZCIE4</ua>
+    <ua>GT-S5230C/S5230ZCIE6</ua>
+    <ua>Lenovo-V80/S113</ua>
+    <ua>Lenovo-V80/S112</ua>
+    <ua>K-Touch_X90_CMCC/TRG203613_6393_V0801</ua>
+    <ua>HuaweiT5211_TD/1.0 RTKE_OS/01.00 TD7210/DV2 Release/12.31.2008 Browser/NF-3.5</ua>
+    <ua>Huawei C5600</ua>
+    <ua>i-mobile620</ua>
+    <ua>SCH-i329</ua>
+    <ua>TIANYU-KTOUCH/A608/MIDP2.0/CLDC1.1/Screen-240x320</ua>
+    <ua>GIONEE-M004/SW1.0.0/WAP2.0</ua>
+    <ua>Lenovo-P612/2009.06.01</ua>
+    <ua>LGKS500</ua>
+    <ua>GT-S7350H/S7350HZHIE1</ua>
+    <ua>GIONEE-A11/SW1.0.0/WAP2.0</ua>
+    <ua>U80/1.0 RTKE_OS/01.00 NXP7210/DV2 Release/12.31.2008 Browser/Techsoft-01.00.00</ua>
+    <ua>PhilipsX810/1.0</ua>
+    <ua>HERA12000</ua>
+    <ua>HERM***</ua>
+    <ua>Lenovo-S900/CMCC_S102</ua>
+    <ua>SCH-F809/F809ZCIF5</ua>
+    <ua>i60/(20090206)S301/wap2.0Profile/MIDP-1.0/2.0Configuration/CLDC-1.1</ua>
+    <ua>GIONEE-M002/SW1.0.0/WAP2.0</ua>
+    <ua>Lenovo-P629/S124</ua>
+    <ua>Lenovo-P629/S119</ua>
+    <ua>K-Touch</ua>
+    <ua>LGKB770</ua>
+    <ua>GT-S5230C/S5230ZHIH1</ua>
+    <ua>GT-S5230C/S5230ZHIH3</ua>
+    <ua>Lenovo-S700/CMCC_S101</ua>
+    <ua>Reach: P8242</ua>
+  </model>
+</models>

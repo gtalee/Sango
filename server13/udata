@@ -1,0 +1,2 @@
+rm -rf data
+7za x -y data.7z

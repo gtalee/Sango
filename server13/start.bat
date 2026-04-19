@@ -1,0 +1,15 @@
+@echo off
+chcp 65001
+
+set LIB_PATH=.\lib\antlr-2.7.6.jar;.\lib\backport-util-concurrent-3.0.jar;.\lib\commons-logging-1.1.1.jar;.\lib\commons-codec-1.3.jar
+set LIB_PATH=%LIB_PATH%;.\lib\hibernate-annotations.jar;.\lib\log4j-1.2.11.jar;.\lib\asm-3.1.jar;.\lib\c3p0-0.9.1.jar
+set LIB_PATH=%LIB_PATH%;.\lib\db.jar;.\lib\;.\lib\hibernate-commons-annotations.jar;.\lib\mina-core-1.1.7.jar;.\lib\commons-httpclient-3.1.jar;.\lib\servlet-api-2.5-20081211.jar
+set LIB_PATH=%LIB_PATH%;.\lib\asm-analysis-3.1.jar;.\lib\cglib-2.2.jar;.\lib\dom4j-1.6.1.jar;.\lib\javasoft-collection.jar;.\lib\commons-primitives-1.0.jar
+set LIB_PATH=%LIB_PATH%;.\lib\mysql-connector-java-5.0.8-bin.jar;.\lib\asm-commons-3.1.jar;.\lib\commons-collections-3.2.jar;.\lib\jetty-6.1.19.jar;.\lib\jetty-util-6.1.19.jar
+set LIB_PATH=%LIB_PATH%;.\lib\editor.jar;.\lib\javasoft-core.jar;.\lib\commonnet.jar;.\lib\asm-tree-3.1.jar;.\lib\commons-configuration-1.5.jar
+set LIB_PATH=%LIB_PATH%;.\lib\ejb3-persistence.jar;.\lib\jdom.jar;.\lib\paradisevm.jar;.\lib\asm-util-3.1.jar;.\lib\commons-lang-2.3.jar;.\lib\je-3.3.75.jar
+set LIB_PATH=%LIB_PATH%;.\lib\hibernate3.jar;.\lib\jta.jar;.\lib\slf4j-jdk14.jar;.\lib\xerces-2.6.2.jar;.\lib\xml-apis.jar;.\lib\workshop.jar;.\lib\commons-math-1.2.jar;.\lib\ehcache-1.5.0.jar
+set LIB_PATH=%LIB_PATH%;.\lib\promptbubble_dep.jar
+
+java -server -Xms1024m -Xmx1024m -verbose:gc -XX:PermSize=128m -XX:MaxPermSize=128m -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseFastAccessorMethods -XX:CMSInitiatingOccupancyFraction=80 -XX:+UseConcMarkSweepGC -XX:+CMSParallelRemarkEnabled -XX:+UseCMSCompactAtFullCollection -XX:+DisableExplicitGC -XX:MaxTenuringThreshold=31 -Djava.awt.headless=true -classpath .\lib\peony.jar;.;%LIB_PATH% peony.game.Server %* >> stdout.log 2>&1
+pause

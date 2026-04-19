@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="GBK" ?>
+<peony>
+	<name>青梅煮酒</name>
+	<connections>
+                <connection>
+                        <type>admin</type>
+                        <address>221.179.216.52</address>
+                        <port>7004</port>
+                </connection>
+
+
+
+		<connection>
+			<type>dispatch</type>
+			<address>221.179.216.52</address>
+			<port>28021</port>
+		</connection>
+
+	</connections>
+	<account>
+		<address>218.206.80.185</address>
+		<port>6662</port>
+		<name>sango10</name>
+		<password>sango</password>
+	</account>
+	<slaveaccount>
+		<address>221.130.10.117</address>
+		<port>28001</port>
+		<name>sango10</name>
+		<password>itimes</password>		
+	</slaveaccount>
+	<datadir>./data</datadir>
+	<trustip>trustip.txt</trustip>
+	<proxys>
+		<proxy>
+			<address>221.179.216.49</address>
+			<port>30002</port>
+			<password>proxy@pip2008</password>
+			<maxplayer>700</maxplayer>
+		</proxy>
+		<proxy>
+			<address>221.179.216.50</address>
+			<port>29999</port>
+			<password>proxy@pip2008</password>
+			<maxplayer>700</maxplayer>
+		</proxy>
+	</proxys>
+	<ipd>http://218.206.80.185:7070/sanguoipd/report,http://218.206.80.185:7070/sanguoipd_test/report</ipd>
+        <sleepycat>./db</sleepycat>
+        <gamecode>sanguo_10</gamecode>
+        <cheat>boxooofworld@@!!</cheat>
+        <jetty>
+                <ip>221.179.216.52</ip>
+                <port>7005</port>
+                <servlet>
+                        <url>chinarun</url>
+                        <class>peony.service.jetty.ChinarunServlet</class>
+                </servlet>
+        </jetty>
+	<gmpassword>pip20100524</gmpassword>
+</peony>
