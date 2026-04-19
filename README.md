@@ -1,4 +1,4 @@
-peony
+S1/peony/*.*
 
 
 
