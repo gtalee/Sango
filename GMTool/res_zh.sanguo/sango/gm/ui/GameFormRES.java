@@ -1,0 +1,44 @@
+package sango.gm.ui;
+
+public interface GameFormRES {
+	public String log = "日志";
+	public String system = "系统";
+	public String misc = "综合";
+	public String others = "其他";
+	public String whoTitle = "同步在线玩家";
+	public String whoTip = "获取当前服务器的在线玩家列表";
+	public String list = "获取历史求助";
+	public String listTip = "获取在GM登录前所有的玩家求助信息列表";
+	public String recTitle = "设置参考点";
+	public String recTip = "将当前取得的玩家列表保存起来，稍后作为基本点来查找没有移动的玩家";
+	public String loadingConfig =  "加载配置文件:{0}";
+	public String sceneSelect = "场景选取";
+	public String sceneLevelInfo = "{0}({1}级地区)";
+	String login = "登陆";
+	String close = "关闭";
+	String set = "设置";
+	String scrool = "滚屏";
+	String disDone = "显示已处理求助";
+	String disDoneTip = "显示已经被处理过的求助信息，近对之后的获取数据有效";
+	String command = "命令";
+	String syncPlayer = "同步在线玩家";
+	String syncPlayerTip = "将当前在线玩家列表同步到本地";
+	String numPlayer = "查询同时在线人数 = ";
+	String numPlayerTip = "仅查询同时在线人数，不同步玩家列表";
+	String findPlayer = "在当前玩家列表中查询";
+	String findPlayerTip = "查询范围仅限于同步到本地的玩家";
+	String recRef = "设置参考点";
+	String recRefTip = "将当前取得的玩家列表保存起来，稍后作为基本点来查找没有移动的玩家";
+	String idle = "查询静止不动的玩家";
+	String idleTip = "在先前设立的参考点的基础上查询当前取得的玩家列表中一直没有移动过的玩家";
+	String history = "获取历史求助";
+	String historyTip = "获取上线前所有的求助信息";
+	String save = "保存求助信息";
+	String saveTip = "将当前的求助信息保存到Excel表格中";
+	String timer = "定时公告制定";
+	String gmAccount = "GM账号:";
+	String gmPass = "GM密码:";
+	String cancel = "取消";
+	String playerList = "玩家列表";
+	String todoList = "求助信息";
+}

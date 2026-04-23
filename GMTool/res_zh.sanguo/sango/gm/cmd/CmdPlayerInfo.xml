@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Resource>
+	<message key="AddSign">|+</message>
+	<message key="Careers">武将|刺客|术士|方士</message>
+	<message key="Factions">|魏|蜀|吴</message>
+	<message key="Class-Constrain">所有职业|武将|刺客|谋士|方士</message>
+	<message key="propNames">力量|敏捷|体力|智力|生命|精力|暴击|命中|物闪|法闪|物攻|法攻|护甲|法防|回血|回气|速度|免暴</message>
+	<message key="Gender">男|女</message>
+
+	<message key="reviveTitle">侦听本地图</message>
+	<message key="pos">位置</message>
+	<message key="monthpay_state"> |已开通</message>
+
+	<message key="playerInfo">{baseinfo:base}
+  本周战功:{weekCredit}{bag-info:bag?}{depot-info:depot?}
+  技能:{skill-info:skills.skill[]}{skill-info:skills.bookskill[]}
+  {horseBag-info:horseBag?}
+  随从: {attendant:attendantBag.grid[]}
+</message>
+	<message key="skills-info"></message>
+	<message key="baseinfo">
+&lt;param value="{id};{name}"&gt;{id}[{name}]&lt;/param&gt; {Factions[faction]} {level}级{Gender[sex]}{Careers[clazz]}{skillPointInfo:skillPoint?skillPoint}{propertyPointInfo:propertyPoint?propertyPoint} 经验:{exp}/{upLevelExp} 财富:{money} {getListenMapInfo()} 方向:{direct} 状态:{state} 战功:{creditString}({credit}) 声望:{title}({honor}) 帮派:{getGuildNameWithoutTag()} 
+  HP:{hp}/{maxhp} MP:{mp}/{maxmp} 力:{strength} 敏:{agility} 精:{stamina} 智:{intellect}
+  攻击力:{attackpowerdown}-{attackpowerup} 法攻:{spellpower} 物防:{defense} 法防:{spelldefense} 物暴:{critical} 法暴:{spellcritical} 物命中:{hit} 法命中:{spellhit} 物闪:{dodge} 法闪:{spelldodge} 免暴:{anticrit}% 防御:{defensePercent}% 治疗:{spellheal} 回血:{healthrestore} 回蓝:{manarestore}
+  聊天配置：   {chatOp.genInfo()}
+  传送包月：    {monthpay_state[monthpay_teleport_state]} 
+  装备：{equip5Info:equip5.count?equip5}{equip4Info:equip4.count?equip4}{equip1Info:equip1.count?equip1}{equip2Info:equip2.count?equip2}{equip0Info:equip0.count?equip0}{equip3Info:equip3.count?equip3}{equip6Info:equip6.count?equip6}{equip7Info:equip7.count?equip7}{equip8Info:equip8.count?equip8}{equip9Info:equip9.count?equip9}
+  工资 : {salary}
+  人的卡片 : {cardInfo:cardsData.equipCards[]}
+  坐骑卡片 : {cardInfo:cardsData.horseEquipCards[]}
+</message>
+
+<message key = "cardInfo">.
+    - : {cardId} {cardTitle} {cardLevel}级 {cardEnhanceDesc}
+</message>
+
+	<message key="attendant">.
+    - {name} {qulityName}({qulity}品) 忠诚度:{loyal}/{maxLoyal} HP:{hp}/{maxHp} MP:{mp}/{maxMp} 力:{strength} 敏:{agility} 智:{intellect} 体:{stamina} 攻:{weaponAP1}-{weaponAP2} 
+         护甲:{armor} 法防:{magicArmor} 暴击:{critical} 法暴:{spellcritical} 法功:{spellpower} 闪避:{dodge} 法闪:{spelldodge} 免爆:{decritical} 命中:{hit} 法术命中:{spellhit}
+      技能：{attendantSkill:skills[]} 
+      装备：{attendantEquip:equips[]} 
+</message>
+	<message key="equip5Info">.
+    - 主手:{equipInfo:this}</message>
+	<message key="equip4Info">.
+    - 副手:{equipInfo:this}</message>
+	<message key="equip1Info">.
+    - 头:{equipInfo:this}</message>
+	<message key="equip2Info">.
+    - 脖子:{equipInfo:this}</message>
+	<message key="equip0Info">.
+    - 胸:{equipInfo:this}</message>
+	<message key="equip3Info">.
+    - 背:{equipInfo:this}</message>
+	<message key="equip6Info">.
+    - 指:{equipInfo:this}</message>
+	<message key="equip7Info">.
+    - 腕:{equipInfo:this}</message>
+	<message key="equip8Info">.
+    - 腿:{equipInfo:this}</message>
+	<message key="equip9Info">.
+    - 脚:{equipInfo:this}</message>
+    
+	<message key="equipInfo">{getTagedName()}({id}){gameItem-count-info:multipleNumber()?this} {useLevel}级 类型:{type} 价格:{price}{class-type:isEquip()?equip}{durationInfo:equip.duration?this}{itemEnhanceInfo:itemEnhance?}{primaryEnhanceInfo:primaryEnhance?}{starEnhanceInfo:starEnhance?}{naturalEnhanceInfo2:naturalEnhance?}{jewelsEnhanceInfo:jewelsEnhance?}{produceAreaInfo:produceArea?}</message>
+	<message key="class-type">. 职业限制:{Class-Constrain[clazz]0,1,2,3}</message>
+	<message key="itemEnhanceInfo">. 增加孔位:{addHole}/{addMaxHole}{holeInfo:holes[]} 星级:{star}{naturalEnhanceInfo:enhances[]}{markStrInfo:markString?}{cards-info:this}</message>
+	<message key="naturalEnhanceInfo">. {getRealLevel()}级({propNames[attType]}{getEffResult()})</message>
+	<message key="primaryEnhanceInfo">. 基础强化{this}阶</message>
+	<message key="starEnhanceInfo">. 星级强化{this}阶</message>
+	<message key="naturalEnhanceInfo2">. 资质强化{this}阶</message>
+	<message key="jewelsEnhanceInfo">. 宝石强化{this}阶</message>
+	<message key="produceAreaInfo">. 原产地:{this}</message>
+	<message key="markStrInfo">. 刻字:{this}</message>
+	<message key="holeInfo">. 第{holeId}孔嵌"{name}"({propNames[attType]}+{getEnhanceValue()}),升级宝石数:{jewelUpgrade} </message>
+	<message key="durationInfo">. {redFont:!duration?this}耐久:{duration}/{equip.duration}{fontEnd:!duration?this}</message>
+	<message key="propertyPointInfo">. {!redFont}属性点[{this}]{!fontEnd}</message>
+	<message key="skillPointInfo">. {!redFont}技能点[{this}]{!fontEnd}</message>
+	<message key="attendantSkill">{skill:skill}</message>
+	<message key="skill-info">{skill:level?this}</message>
+	<message key="skill">. {level}级[{name}]</message>
+	<message key="attendantEquip">. {getFormatName()}</message>
+	
+	<message key="cards-info">. 卡片{addCardHole}+{addMaxCardHole}{card-info:cards[]}</message>
+	<message key="card-info">. {redFont:!validTime?}{name}({cardId}):{description}{card-expiredate:validTime?getExpireDate()}{card-expiredated:!validTime?}{fontEnd:!validTime?}</message>
+	<message key="card-expiredate">(将于{this}过期)</message>
+	<message key="card-expiredated">(已过期)</message>
+	
+	<message key="bag-info">.
+  背包:{bagGrid-info:grid[]}</message>
+	<message key="depot-info">.
+  仓库:{bagGrid-info:grid[]}</message>
+	<message key="bagGrid-info">{gameItem-info:item?}</message>
+	<message key="gameItem-info">{gameItem-list-info:count?this}</message>
+	<message key="gameItem-list-info">.
+      -  {equipInfo:this}</message>
+      
+	<message key="gameItem-count-info">. x {count}</message>
+	
+	<message key="horseBag-info">.
+  豢养坐骑:{maxSize}/{cSize}{HorseData-info:grid[]}</message>
+	<message key="HorseData-info">.
+   - 坐骑:{redFont:isNotActivated()?}{showName}{fontEnd:isNotActivated()?}-{name}:{level}级{agent-horse:isAgentHorse()?}{skill-info:horseskillData.skill[]}{gameItem-info:equips.equip[]}</message>
+ 	<message key="agent-horse">(代理饲养中)</message>
+ 	
+	<!-- 下面为控制字符，请勿翻译 -->
+	<message key="redFont">&lt;style name="红"&gt;</message>
+	<message key="fontEnd">&lt;/style&gt;</message>
+</Resource>

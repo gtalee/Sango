@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by ccc (ORiON) -->
+<!--  权限
+	0x0001: shutdown 关闭服务器的权限
+	0x0002: addip 增加信任IP的权限,已经过期.由于开放IP并且增加代理,此功能不再有效
+	0x0004: reload 重载诸如关卡数据的权限
+	0x0008: delete 删除
+	0x0010: modifyaccount 修改帐号信息
+	0x0020: modify 修改数值
+	0x0040: add 增加虚拟物品
+	0x0080: move 移动玩家坐标
+	0x0100: public long forbidaccount  = 1L << 8;
+	0x0200: public long forbid         = 1L << 9;
+	0x0400: kick           = 1L << 10;
+	0x0800: mute           = 1L << 11;
+	0x1000: releaseaccount = 1L << 12;
+	0x2000: accountinfo    = 1L << 13;
+	0x4000: show           = 1L << 14;
+	0x8000: who            = 1L << 15;
+	0x00010000: maxplayer      = 1L << 16;
+	0x00020000: netbattle      = 1L << 17; // 
+	0x00040000: overhear       = 1L << 18; // 侦听帮派,小队等聊天频道的权限
+	0x00080000: chat           = 1L << 19; // 聊天的权限
+	0x00100000: brocast        = 1L << 20; // 广播的权限
+	0x00200000: root        = 1L << 21; // 根权限,创建GM帐号,修改GM权限的权限
+	0x00400000: tongbattle        = 1L << 22; // 调整帮派战斗的权限
+	0x00800000: loginmsg    = 1L << 23;  // 修改登录消息的权限
+	0x01000000: deleteGmMail         = 1L << 24; // 是否有权限通过GM借口删除玩家呼叫GM的内容
+	0x02000000: regulateExp = 1L << 25;// 调整全服打怪经验倍数的权力。（幻想中暂时没实现）
+	0x04000000: traceAdmin         = 1L << 26; // 是否有权限跟踪其他ＧＭ活动
+ -->
+<GmFunction>
+	<consts name="country">
+		<map key="1">魏</map>
+		<map key="2">蜀</map>
+		<map key="3">吴</map>
+	</consts>
+	<consts name="gender">
+		<map key="0">男</map>
+		<map key="1">女</map>
+	</consts>
+	<consts name="career">
+		<map key="0">武将</map>
+		<map key="1">刺客</map>
+		<map key="2">谋士</map>
+		<map key="3">方士</map>
+	</consts>
+	<Function command="who" valid="1" title="查询在线玩家" protocol="1003" auth="0x8000">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="-1" type="int" name="场景ID"/>
+		<tutorial>查询当前所有在线玩家</tutorial>
+	</Function>
+	<Function command="whoin" valid="1" title="查询某场景在线玩家" protocol="1003" auth="0x8000">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="int" name="场景ID" tip="场景编辑器中对应的场景ID"/>
+		<tutorial>查询指定场景在线玩家</tutorial>
+	</Function>
+	<Function command="showid" valid="1" title="查询玩家信息" protocol="1005" auth="0x4000">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="int" name="玩家ID" tip="玩家角色ID"/>
+		<Param value="" type="String" name="玩家名称"/>
+		<tutorial>查询玩家的详细信息</tutorial>
+	</Function>
+	<Function command="show" valid="1" title="查询玩家信息" protocol="1005" auth="0x4000">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="0" type="int" name="玩家ID"/>
+		<Param value="$0" type="String" name="玩家名称" tip="玩家的角色名"/>
+		<tutorial>查询玩家的详细信息</tutorial>
+	</Function>
+	<Function command="showaccount" valid="1" title="查询玩家帐号信息" protocol="1007" auth="0x2000">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="int" name="角色ID" tip="玩家的角色ID"/>
+		<tutorial>查询玩家的帐号信息： /showaccount 角色ID</tutorial>
+	</Function>
+	<Function command="showplayers" valid="1" title="查询帐号的玩家列表" protocol="1009" auth="0x2000">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="int" name="帐号Id" tip="账号ID，非玩家角色ID"/>
+		<tutorial>查询帐号的玩家列表： /showplayers 帐号ID</tutorial>
+	</Function>
+	<Function command="forbid" valid="1" title="封号" protocol="1011" auth="0x200">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="int" name="帐号Id" tip="账号ID，非玩家角色ID"/>
+		<Param value="0" type="int" name="方式"/>
+		<Param value="$1" type="String" name="原因"/>
+		<tutorial>封玩家帐号： /forbid 帐号ID 原因</tutorial>
+		<log type="3" target="${0}" ref="封号">${1}</log>
+	</Function>
+	<Function command="forbidoff" valid="1" title="解封" protocol="1011" auth="0x200">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="int" name="帐号Id"/>
+		<Param value="1" type="int" name="方式"/>
+		<Param value="$1" type="String" name="原因"/>
+		<tutorial>解封玩家帐号： /forbidoff 帐号ID 原因</tutorial>
+		<log type="3" target="${0}" ref="解封">${1}</log>
+	</Function>
+	<Function command="sendmoney" valid="1" title="发钱" protocol="1029" auth="0x40">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="int" name="角色Id"/>
+		<Param value="$1" type="String" name="标题" tip="玩家收到的邮件的标题"/>
+		<Param value="$2" type="String" name="正文" tip="玩家收到的邮件正文"/>
+		<Param value="-1" type="int" name="金钱标识"/>
+		<Param value="$3" type="int" name="金额"/>
+		<Param value="0" type="byte" name="强制绑定"/>
+		<Param value="0" type="byte" name="星级"/>
+		<Param value="0" type="byte" name="孔数"/>
+		<tutorial>通过飞鸽给玩家发游戏币： /sendmoney 角色ID 标题 正文 金额</tutorial>
+		<log type="2" target="${0}" ref="发钱">${3}:《${1}》${2}</log>
+	</Function>
+	<Function command="senditem" valid="1" title="发物品" protocol="1029" auth="0x40">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="int" name="角色Id"/>
+		<Param value="$1" type="String" name="标题" tip="玩家收到的邮件的标题"/>
+		<Param value="$2" type="String" name="正文" tip="玩家收到的邮件的正文"/>
+		<Param value="$3" type="int" name="物品id" tip="关卡编辑器中的物品id"/>
+		<Param value="$4" type="int" name="数量"/>
+		<Param value="1" type="byte" name="强制绑定"/>
+		<Param value="0" type="byte" name="星级"/>
+		<Param value="0" type="byte" name="孔数"/>
+		<tutorial>通过飞鸽给玩家发物品： /senditem 帐号ID 标题 正文 物品id 数量</tutorial>
+		<log type="2" target="${0}" ref="发物品">${3}x${4}:《${1}》${2}</log>
+	</Function>
+	<Function command="sendequip" valid="1" title="发装备" protocol="1029" auth="0x40">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="int" name="角色Id"/>
+		<Param value="$1" type="String" name="标题" tip="玩家收到的邮件的标题"/>
+		<Param value="$2" type="String" name="正文" tip="玩家收到的邮件的正文"/>
+		<Param value="$3" type="int" name="物品id" tip="关卡编辑器中的物品id"/>
+		<Param value="$4" type="int" name="数量"/>
+		<Param value="$5" type="byte" name="是否强制绑定"/>
+		<Param value="$6" type="byte" name="星级"/>
+		<Param value="$7" type="byte" name="孔数"/>
+		<tutorial>通过飞鸽给玩家发指定星级和附加孔位的装备： /sendequip 帐号ID 标题 正文 装备id 数量 绑定标记 星级 孔数</tutorial>
+		<log type="2" target="${0}" ref="发物品">${3}x${4}(${6}星${7}孔):《${1}》${2}</log>
+	</Function>
+	<Function command="removeitem" valid="1" title="删除物品" protocol="1112" auth="0x40">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="int" name="角色Id"/>
+		<Param value="$1" type="int" name="物品Id"/>
+		<Param value="$2" type="int" name="数量或实例Id"/>
+		<tutorial>从玩家背包、装备、仓库中删除指定物品：/removeitem 角色ID 物品ID 数量或实例ID</tutorial>
+		<log type="2" target="${0}" ref="删除物品">${0}: ${1}x${2}</log>
+	</Function>
+	<Function command="droptest" valid="1" title="测试掉落组" protocol="1030" auth="0x40">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="int" name="掉落组id"/>
+		<Param value="$1" type="int" name="虚拟玩家级别"/>
+		<Param value="$2" type="int" name="测试次数"/>
+		<tutorial>测试掉落组： /droptest 掉落组id  虚拟玩家级别 测试次数</tutorial>
+	</Function>
+	<Function command="showrelations" valid="1" title="玩家关系" protocol="1031" auth="0x4000">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="int" name="玩家id"/>
+		<tutorial>玩家关系： /droptest 玩家id</tutorial>
+	</Function>
+	<Function command="load" valid="1" title="动态加载类" protocol="1032" auth="0x40">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="String" name="类名"/>
+		<tutorial>动态加载类： /load 动态加载的类的全名</tutorial>
+	</Function>
+	<Function command="exp-rate" valid="1" title="指定经验倍数" protocol="1034" auth="0x02000000">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="String" name="经验倍数" tip="浮点数，如2.0代表双倍经验"/>
+		<tutorial>指定获得经验倍数： /exp-rate ＜倍数＞ // 双倍经验用“2.0”</tutorial>
+	</Function>
+	<Function command="chg-pos" valid="1" title="改变玩家位置" protocol="1036" auth="0x20">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="int" name="角色id"/>
+		<Param value="$1" type="int" name="地图id"/>
+		<Param value="$2" type="int" name="x"/>
+		<Param value="$3" type="int" name="y"/>
+		<tutorial>瞬移玩家： /chg-pos ＜玩家角色id＞  ＜地图id＞  ＜x＞  ＜y＞</tutorial>
+	</Function>
+	<Function command="revive" valid="1" title="解脱卡死玩家" protocol="1036" auth="0x80">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="int" name="角色id"/>
+		<Param value="-1" type="int" name="地图id"/>
+		<Param value="-1" type="int" name="x"/>
+		<Param value="-1" type="int" name="y"/>
+		<tutorial>解脱卡死玩家： /revive ＜玩家id＞</tutorial>
+	</Function>
+	<Function command="reload" valid="1" title="重载数据" protocol="1038" auth="0x200000">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="String" name="参数"/>
+		<tutorial>重载数据： /reload ＜参数＞</tutorial>
+	</Function>
+	<Function command="bindinfo" valid="1" title="账号绑定信息" protocol="1040" auth="0x4000">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="int" name="账号id"/>
+		<tutorial>查询账号绑定信息： /bindinfo ＜账号id＞</tutorial>
+	</Function>
+	<Function command="bbsadd" valid="1" title="添加BBS条目" protocol="1042" auth="0x4000">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="int" name="Order"/>
+		<Param value="$1" type="String" name="title"/>
+		<Param value="$2" type="String" name="message"/>
+		<tutorial>添加BBS条目： /bbsadd ＜优先级＞ ＜标题＞ ＜内容＞</tutorial>
+	</Function>
+	<Function command="bbsdel" valid="1" title="删除BBS条目" protocol="1044" auth="0x4000">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="int" name="BBS ID"/>
+		<tutorial>删除BBS条目： /bbsdel ＜公告ID＞</tutorial>
+	</Function>
+	<Function command="bbsls" valid="1" title="获取公告列表" protocol="1046" auth="0x4000">
+		<Param value="1" type="int" name="序列号"/>
+		<tutorial>获取公告列表： /bbsls</tutorial>
+	</Function>
+	<Function command="sendequip2" valid="1" title="发装备2" protocol="1048" auth="0x40">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="int" name="角色Id"/>
+		<Param value="$1" type="String" name="标题"/>
+		<Param value="$2" type="String" name="正文"/>
+		<Param value="$3" type="String" name="物品描述"/>
+		<tutorial>通过飞鸽给玩家发指定星级和附加孔位的装备： /sendequip2 帐号ID 标题 正文 装备描述</tutorial>
+		<log type="2" target="${0}" ref="发物品">${3}:《${1}》${2}</log>
+	</Function>
+	<Function command="addimoney" valid="1" title="添加元宝" protocol="1100" auth="0x10000000">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="int" name="帐号ID"/>
+		<Param value="$1" type="int" name="金额(分)"/>
+		<tutorial>添加元宝： /addimoney 帐号ID 金额(分)</tutorial>
+	</Function>
+	<Function command="listact" valid="1" title="查询运营活动" protocol="1102" auth="0x40">
+		<Param value="1" type="int" name="序列号"/>
+		<tutorial>查询运营活动： /listact</tutorial>
+	</Function>
+	<Function command="showact" valid="1" title="显示运营活动详情" protocol="1104" auth="0x40">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="int" name="活动ID"/>
+		<tutorial>显示运营活动详情： /showact 活动ID</tutorial>
+	</Function>
+	<Function command="newact" valid="1" title="创建运营活动" protocol="1106" auth="0x40">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="String" name="活动名称"/>
+		<Param value="$1" type="String" name="活动标题"/>
+		<Param value="$2" type="String" name="活动说明"/>
+		<Param value="$3" type="String" name="时间安排" tip="包括参数starttime，stoptime，weekdays，timeperiods；时间格式为：yyyy-MM-dd HH:mm:ss。如：starttime=2010-7-20 09:00:00;stoptime=2011-7-20 09:00:00;timeperiods=12,14,16,18,20,22"/>
+		<Param value="$4" type="String" name="实现类"/>
+		<Param value="$5" type="String" name="配置信息" tip="在实现类中所需要的额外配置信息，因类不同而不同"/>
+		<Param value="$6" type="byte" name="玩家是否可见" tip="可见填1，不可见填0"/>
+		<tutorial>创建运营活动： /newact 活动名称 活动标题 活动说明 时间安排 实现类 配置信息 玩家是否可见(1可见 0不可见)</tutorial>
+	</Function>
+	<Function command="enableact" valid="1" title="激活/禁止运营活动" protocol="1108" auth="0x40">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="String" name="活动名称"/>
+		<Param value="$1" type="byte" name="激活标志" tip="激活填1，禁止填0"/>
+		<tutorial>激活/禁止运营活动： /enableact 活动名称 激活标志(1激活 0禁止)</tutorial>
+	</Function>
+	<Function command="deleteact" valid="1" title="删除运营活动" protocol="1110" auth="0x40">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="String" name="活动名称"/>
+		<tutorial>删除运营活动： /deleteact 活动名称</tutorial>
+	</Function>
+	<Function command="del-player" valid="1" title="删除角色" protocol="1114" auth="0x08">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="int" name="角色Id"/>
+		<tutorial>删除玩家角色： /del-player 角色ID</tutorial>
+		<log type="2" target="${0}" ref="删除角色">《${0}》被删除</log>
+	</Function>
+	<Function command="renew-player" valid="1" title="恢复被删除角色" protocol="1120" auth="0x08">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="int" name="角色Id"/>
+		<tutorial>恢复被删除玩家角色： /renew-player 角色ID</tutorial>
+		<log type="2" target="${0}" ref="恢复被删除角色">恢复被删除角色《${0}》</log>
+	</Function>
+	<Function command="add-act-leader" valid="1" title="添加新的活动指引项" protocol="1122" auth="0x40">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="String" name="名称"/>
+		<Param value="$1" type="String" name="类型" tip="数字1活动 2、任务 3、怪物 4、商品,多选用逗号分开"/>
+		<Param value="$2" type="String" name="创建时间" tip="日期格式，如2011-11-29"/>
+		<Param value="$3" type="String" name="地图名称" tip="使用服务器缺省值填“-”"/>
+		<Param value="$4" type="int" name="地图ID"/>
+		<Param value="$5-0" type="int" name="x"/>
+		<Param value="$5-1" type="int" name="y"/>
+		<Param value="$6" type="String" name="奖励类型" tip="1、金钱 2、珍珠 3、声望 4、战功,多选用逗号分开"/>
+		<Param value="$7" type="int" name="最小级别"/>
+		<Param value="$8" type="int" name="最大级别"/>
+		<Param value="$9" type="String" name="适合阵营" tip="1魏2蜀3吴，多选用逗号分开"/>
+		<Param value="$10" type="String" name="说明"/>
+		<tutorial>添加新的活动指引项： /add-act-leader 活动名称 类型(1活动 2、任务 3、怪物 4、商品) 创建时间 地图名称（“-”用缺省） 地图id x,y 奖励类型(1、金钱 2、珍珠 3、声望 4、战功) 最小级别 最大级别 适合阵营（1，2,3） 说明（无填“-”）</tutorial>
+		<log type="2" target="0" ref="添加新的活动指引项">添加新的活动指引项《${0}》</log>
+	</Function>
+	<Function command="del-act-leader" valid="1" title="删除活动指引项" protocol="1124" auth="0x40">
+		<Param value="1" type="int" name="序列号"/>
+		<Param value="$0" type="String" name="名称"/>
+		<tutorial>删除活动指引项： /del-act-leader 活动名称</tutorial>
+		<log type="2" target="0" ref="删除活动指引项">删除活动指引项 《${0}》</log>
+	</Function>
+	
+	<Function command="score-show" valid="1" title="查看服务器端校验外挂加速违规评分规则" protocol="1135" auth="0x40">
+        <Param value="1" type="int" name="序列号"/>
+        <tutorial>查看服务器端校验外挂加速违规评分规则： /score-show</tutorial>
+        <log type="2" target="0" ref="查看服务器端校验外挂加速违规评分规则">查看服务器端校验外挂加速违规评分规则</log>
+    </Function>
+    <Function command="score-modify" valid="1" title="修改服务器端校验外挂加速违规评分规则" protocol="1133" auth="0x40">
+        <Param value="1" type="int" name="序列号"/>
+        <Param value="$0" type="byte" name="参数序号"/>
+        <Param value="$1" type="String" name="参数值"/>
+        <tutorial>修改服务器端校验外挂加速违规评分规则： /score-modify 参数序号 参数值</tutorial>
+        <log type="2" target="0" ref="修改服务器端校验外挂加速违规评分规则">修改服务器端校验外挂加速违规评分规则 参数序号： 《${0}》 参数值： 《${1}》 </log>
+    </Function>
+	
+	
+	<ReceiveData protocolId="1000" valid="1" name="Admin错误" version="-1">
+		<Param type="int" title="序列号"/>
+		<Param type="short" title="类型"/>
+		<Param type="String" title="信息"/>
+		<format>请求[${1}]报错：${2}</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1000" valid="1" name="Admin错误" version="-1">
+		<Param type="int" title="序列号"/>
+		<Param type="short" title="类型"/>
+		<Param type="String" title="信息"/>
+		<format>请求[${1}]报错：${2}</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1004" valid="0" name="玩家列表(无用，特殊处理)" version="-1">
+		<Param type="int" title="序列号"/>
+		<Param type="sub" title="角色">
+			<sub>
+				<deli>
+    </deli>
+				<Param type="int" title="角色id"/>
+				<Param type="String" title="角色名"/>
+				<Param type="byte" title="性别"/>
+				<Param type="int" title="级别"/>
+				<Param type="byte" title="faction"/>
+				<Param type="int" title="mapId"/>
+				<Param type="short" title="x"/>
+				<Param type="short" title="y"/>
+				<format>&lt;param value="${0};${1}"&gt;${0}[${1}]&lt;/param&gt;性别:${2} ${3}级 阵营:$[country:${4}] 位置:${5}(${6},${7})</format>
+			</sub>
+		</Param>
+		<format>玩家列表：${0} ${1}</format>
+	</ReceiveData>
+	<!--  
+	<ReceiveData protocolId="1008" valid="1" name="玩家帐号信息" version="-1">
+		<Param type="int" title="序列号"/>
+		<Param type="int" title="帐号Id"/>
+		<Param type="String" title="帐号名"/>
+		<Param type="String" title="帐号密码"/>
+		<Param type="String" title="电话"/>
+		<format>帐号: &lt;action title="查看本帐号角色信息" command="showplayers ${1}"&gt;&lt;action title="查看本帐号密保信息" command="bindinfo ${1}"&gt;${1}[${2}]&lt;/action&gt;&lt;/action&gt; 密码:[${3}] 电话:[${4}]</format>
+	</ReceiveData>
+	 -->
+	<ReceiveData protocolId="1010" valid="1" name="玩家角色列表" version="-1">
+		<Param type="int" title="序列号"/>
+		<Param type="sub" title="角色">
+			<sub>
+				<deli>
+    </deli>
+				<Param type="int" title="角色id"/>
+				<Param type="String" title="角色名"/>
+				<Param type="byte" title="性别"/>
+				<Param type="byte" title="级别"/>
+				<Param type="byte" title="职业"/>
+				<Param type="byte" title="阵营"/>
+				<Param type="short" title="地图Id"/>
+				<format>$[country:${5}] &lt;param value="${0};${1}"&gt;${0}[${1}]&lt;/param&gt;  ${3}级$[gender:${2}]$[career:${4}] &lt;action title="侦听此地" command="m l 区 ${6}"&gt;地图:${6}&lt;/action&gt;</format>
+			</sub>
+		</Param>
+		<format>玩家角色列表 : ${1}</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1012" valid="1" name="封账号成功" version="-1">
+		<Param type="int" title="序列号"/>
+		<format>封解帐号请求已经发出</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1014" valid="1" name="禁言成功" version="-1">
+		<Param type="int" title="序列号"/>
+		<format>禁言解禁已经成功</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1016" valid="1" name="禁飞鸽成功" version="-1">
+		<Param type="int" title="序列号"/>
+		<format>禁飞鸽解禁已经成功</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1017" valid="1" name="进入聊天频道成功" version="-1">
+		<Param type="int" title="序列号"/>
+		<format>进入聊天频道成功</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1030" valid="1" name="测试掉落组" version="-1">
+		<Param type="int" title="序列号"/>
+		<Param type="sub" title="物品">
+			<sub>
+				<deli>
+    </deli>
+				<Param type="int" title="物品id"/>
+				<Param type="String" title="物品"/>
+				<Param type="int" title="数量"/>
+				<format>${0}[${1}] x ${2}</format>
+			</sub>
+		</Param>
+		<format>物品:${1}</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1031" valid="1" name="玩家关系" version="-1">
+		<Param type="int" title="序列号"/>
+		<Param type="int" title="玩家id"/>
+		<Param type="sub" title="好友">
+			<sub>
+				<deli>
+    好友</deli>
+				<Param type="int" title="玩家id"/>
+				<Param type="String" title="玩家名称"/>
+				<Param type="int" title="友好度"/>
+				<format> &lt;param value="${0};${1}"&gt;${0}[${1}]&lt;/param&gt; 友好度 ${2}</format>
+			</sub>
+		</Param>
+		<Param type="sub" title="黑名单">
+			<sub>
+				<deli>
+    阻止</deli>
+				<Param type="int" title="玩家id"/>
+				<Param type="String" title="玩家名称"/>
+				<Param type="int" title="友好度"/>
+				<format> &lt;param value="${0};${1}"&gt;${0}[${1}]&lt;/param&gt; </format>
+			</sub>
+		</Param>
+		<Param type="sub" title="仇人">
+			<sub>
+				<deli>
+    仇人</deli>
+				<Param type="int" title="玩家id"/>
+				<Param type="String" title="玩家名称"/>
+				<Param type="int" title="友好度"/>
+				<format> &lt;param value="${0};${1}"&gt;${0}[${1}]&lt;/param&gt; 仇视度 ${2}</format>
+			</sub>
+		</Param>
+		<Param type="sub" title="临时">
+			<sub>
+				<deli>
+    临时</deli>
+				<Param type="int" title="玩家id"/>
+				<Param type="String" title="玩家名称"/>
+				<Param type="int" title="友好度"/>
+				<format> &lt;param value="${0};${1}"&gt;${0}[${1}]&lt;/param&gt; 友好度 ${2}</format>
+			</sub>
+		</Param>
+		<format>玩家:${1} 的社会关系：${2}${3}${4}${5}</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1033" valid="1" name="动态加载类成功" version="-1">
+		<Param type="int" title="序列号"/>
+		<format>动态类已经被成功加载</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1035" valid="1" name="设定经验倍数成功" version="-1">
+		<format>经验已经被成功设定</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1037" valid="1" name="移动玩家成功" version="-1">
+		<Param type="int" title="序列号"/>
+		<format>玩家角色已经被成功移动</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1039" valid="1" name="重载数据成功" version="-1">
+		<Param type="int" title="序列号"/>
+		<format>数据重载成功</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1043" valid="1" name="添加BBS成功" version="-1">
+		<Param type="int" title="序列号"/>
+		<format>BBS添加成功</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1045" valid="1" name="删除BBS成功" version="-1">
+		<Param type="int" title="序列号"/>
+		<format>BBS删除成功</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1047" valid="1" name="公告板内容" version="-1">
+		<Param type="int" title="序列号"/>
+		<Param type="sub" title="帖子列表">
+			<sub>
+				<deli>
+    帖子</deli>
+				<Param type="int" title="帖子id"/>
+				<Param type="int" title="优先级"/>
+				<Param type="String" title="帖子标题"/>
+				<Param type="String" title="帖子内容"/>
+				<Param type="String" title="时间"/>
+				<format> ${0}《${2}》${4}(${1}):【${3}】</format>
+			</sub>
+		</Param>
+		<format>论坛:${1}</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1049" valid="1" name="发送装备成功" version="-1">
+		<Param type="int" title="序列号"/>
+		<Param type="string" title="装备名字"/>
+		<format>发送装备成功:${1}</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1101" valid="1" name="添加元宝成功" version="-1">
+		<Param type="int" title="序列号"/>
+		<Param type="int" title="金额(分)"/>
+		<format>添加元宝成功，余额:${1}分</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1103" valid="1" name="运营活动列表" version="-1">
+		<Param type="int" title="序列号"/>
+		<Param type="sub" title="活动">
+			<sub>
+				<deli>
+    </deli>
+				<Param type="int" title="活动ID"/>
+				<Param type="String" title="活动名称"/>
+				<Param type="String" title="活动标题"/>
+				<Param type="byte" title="是否激活"/>
+				<Param type="byte" title="是否启动"/>
+				<format>ID:${0} Name:${1} Title:${2} 激活:${3} 启动:${4}</format>
+			</sub>
+		</Param>
+		<format>活动列表: ${1}</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1105" valid="1" name="运营活动详情" version="-1">
+		<Param type="int" title="序列号"/>
+		<Param type="int" title="活动ID"/>
+		<Param type="String" title="活动名称"/>
+		<Param type="String" title="活动标题"/>
+		<Param type="String" title="活动说明"/>
+		<Param type="String" title="时间安排"/>
+		<Param type="String" title="实现类"/>
+		<Param type="String" title="配置信息"/>
+		<Param type="byte" title="是否激活"/>
+		<Param type="byte" title="玩家是否可见"/>
+		<Param type="byte" title="是否启动"/>
+		<format>活动ID：${1}
+活动名称：${2}
+活动标题：${3}
+活动说明：${4}
+时间安排：${5}
+实现类：${6}
+配置信息：${7}
+激活：${8}
+玩家可见：${9}
+启动：${10}
+</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1107" valid="1" name="创建活动成功" version="-1">
+		<Param type="int" title="序列号"/>
+		<Param type="int" title="活动ID"/>
+		<format>创建活动成功，ID: ${1}</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1109" valid="1" name="活动状态修改成功" version="-1">
+		<Param type="int" title="序列号"/>
+		<Param type="int" title="活动ID"/>
+		<Param type="byte" title="激活标志"/>
+		<format>活动状态修改成功，ID: ${1}，激活：${2}</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1111" valid="1" name="删除活动成功" version="-1">
+		<Param type="int" title="序列号"/>
+		<Param type="int" title="活动ID"/>
+		<format>删除活动成功，ID: ${1}</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1113" valid="1" name="删除物品成功" version="-1">
+		<Param type="int" title="序列号"/>
+		<format>删除物品成功。</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1115" valid="1" name="删除角色成功" version="-1">
+		<Param type="int" title="序列号"/>
+		<format>删除角色成功。</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1117" valid="1" name="保存客服公告到xml文件成功" version="-1">
+		<Param type="int" title="序列号"/>
+		<format>保存客服公告到xml文件成功。</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1121" valid="1" name="删除角色成功" version="-1">
+		<Param type="int" title="序列号"/>
+		<format>删除角色成功。</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1123" valid="1" name="添加活动指引成功" version="-1">
+		<Param type="int" title="序列号"/>
+		<format>添加活动指引成功</format>
+	</ReceiveData>
+	<ReceiveData protocolId="1125" valid="1" name="删除活动指引成功" version="-1">
+		<Param type="int" title="序列号"/>
+		<format>删除活动指引成功</format>
+	</ReceiveData>
+	<ReceiveData protocolId="65535" valid="1" name="错误提示" version="-1">
+		<Param type="int" title="序列号"/>
+		<Param type="short" title="OpCode"/>
+		<Param type="String" title="错误信息"/>
+		<format>请求错误：${2}。</format>
+	</ReceiveData>
+	
+	<ReceiveData protocolId="1125" valid="1" name="删除活动指引成功" version="-1">
+        <Param type="int" title="序列号"/>
+        <format>删除活动指引成功</format>
+    </ReceiveData>
+    
+    <ReceiveData protocolId="1136" valid="1" name="查看服务器端校验外挂加速违规评分规则返回" version="-1">
+        <Param type="int" title="序列号"/>
+        
+        <Param type="String" title="参数名1"/>
+        <Param type="String" title="参数值1"/>
+        <Param type="byte" title="参数序号1"/>
+        <Param type="String" title="参数名2"/>
+        <Param type="String" title="参数值2"/>
+        <Param type="byte" title="参数序号2"/>
+        <Param type="String" title="参数名3"/>
+        <Param type="String" title="参数值3"/>
+        <Param type="byte" title="参数序号3"/>
+        <Param type="String" title="参数名4"/>
+        <Param type="String" title="参数值4"/>
+        <Param type="byte" title="参数序号4"/>
+        <Param type="String" title="参数名5"/>
+        <Param type="String" title="参数值5"/>
+        <Param type="byte" title="参数序号5"/>
+        <Param type="String" title="参数名6"/>
+        <Param type="String" title="参数值6"/>
+        <Param type="byte" title="参数序号6"/>
+        <Param type="String" title="参数名7"/>
+        <Param type="String" title="参数值7"/>
+        <Param type="byte" title="参数序号7"/>
+        <Param type="String" title="参数名8"/>
+        <Param type="String" title="参数值8"/>
+        <Param type="byte" title="参数序号8"/>
+        <Param type="String" title="参数名9"/>
+        <Param type="String" title="参数值9"/>
+        <Param type="byte" title="参数序号9"/>
+        <Param type="String" title="参数名10"/>
+        <Param type="String" title="参数值10"/>
+        <Param type="byte" title="参数序号10"/>
+        <Param type="String" title="参数名11"/>
+        <Param type="String" title="参数值11"/>
+        <Param type="byte" title="参数序号11"/>
+        <Param type="String" title="参数名12"/>
+        <Param type="String" title="参数值12"/>
+        <Param type="byte" title="参数序号12"/>
+        <Param type="String" title="参数名13"/>
+        <Param type="String" title="参数值13"/>
+        <Param type="byte" title="参数序号13"/>
+        <format>服务器端校验外挂加速违规评分规则:
+${1}:${2}(参数序号:${3})
+${4}:${5}(参数序号:${6})
+${7}:${8}(参数序号:${9})
+${10}:${11}(参数序号:${12})
+${13}:${14}(参数序号:${15})
+${16}:${17}(参数序号:${18})
+${19}:${20}(参数序号:${21})
+${22}:${23}(参数序号:${24})
+${25}:${26}(参数序号:${27})
+${28}:${29}(参数序号:${30})
+${31}:${32}(参数序号:${33})
+${34}:${35}(参数序号:${36})
+${37}:${38}(参数序号:${39})</format>
+    </ReceiveData>
+    
+    <ReceiveData protocolId="1134" valid="1" name="修改服务器端校验外挂加速违规评分规则成功" version="-1">
+        <Param type="int" title="序列号"/>
+        <format>修改服务器端校验外挂加速违规评分规则成功</format>
+    </ReceiveData>
+	
+	<!-- 
+	<ReceiveData protocolId="550" valid="1" name="返回账号绑定信息" version="-1">
+		<Param type="int" title="序列号"/>
+		<Param type="String" title="电话"/>
+		<Param type="String" title="身份证"/>
+		<Param type="String" title="问题"/>
+		<Param type="String" title="邮箱"/>
+		<format>账号绑定信息： 电话[${1}] 身份证[${2}] 问题[${3}] 邮箱[${4}]</format>
+	</ReceiveData>
+ <Function command="gmlogin" title="GM登录" protocol="1001" auth="" >
+<Param value="1" type="int" name="序列号"/>
+<Param value="$0" type="String" name="帐户名"/>
+<Param value="$1" type="String" name="密码"/>
+  <tutorial>登录GM帐号：gmlogin 帐户名 密码</tutorial>
+</Function>
+ -->
+</GmFunction>
